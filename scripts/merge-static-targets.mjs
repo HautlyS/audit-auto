@@ -60,7 +60,9 @@ function main() {
   console.log(`📋 Static targets merged: ${merged} (total known: ${known.length})`);
 }
 
-main().catch(error => {
+try {
+  main();
+} catch (error) {
   console.error('Fatal error:', error);
   process.exit(1);
-});
+}

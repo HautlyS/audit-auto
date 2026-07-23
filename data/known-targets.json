@@ -1,0 +1,492 @@
+[
+  {
+    "name": "Apple",
+    "url": "https://www.apple.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Microsoft",
+    "url": "https://www.microsoft.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Amazon",
+    "url": "https://www.amazon.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Google",
+    "url": "https://about.google",
+    "type": "enterprise",
+    "region": "us",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Tesla",
+    "url": "https://www.tesla.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "automotive",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "JPMorgan Chase",
+    "url": "https://www.jpmorganchase.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "finance",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Visa",
+    "url": "https://www.visa.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "finance",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Walmart",
+    "url": "https://www.walmart.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "retail",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "UnitedHealth",
+    "url": "https://www.unitedhealthgroup.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "healthcare",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "ExxonMobil",
+    "url": "https://www.exxonmobil.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "energy",
+    "discoveredAt": "2026-07-23T14:23:45.521Z",
+    "lastSeenAt": "2026-07-23T14:23:45.521Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Meta",
+    "url": "https://about.meta.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.522Z",
+    "lastSeenAt": "2026-07-23T14:23:45.522Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Netflix",
+    "url": "https://www.netflix.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "entertainment",
+    "discoveredAt": "2026-07-23T14:23:45.522Z",
+    "lastSeenAt": "2026-07-23T14:23:45.522Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Adobe",
+    "url": "https://www.adobe.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.522Z",
+    "lastSeenAt": "2026-07-23T14:23:45.522Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Salesforce",
+    "url": "https://www.salesforce.com",
+    "type": "enterprise",
+    "region": "us",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.522Z",
+    "lastSeenAt": "2026-07-23T14:23:45.522Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "SAP",
+    "url": "https://www.sap.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Siemens",
+    "url": "https://www.siemens.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "industrial",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Allianz",
+    "url": "https://www.allianz.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "finance",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "BMW",
+    "url": "https://www.bmw.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "automotive",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Mercedes-Benz",
+    "url": "https://www.mercedes-benz.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "automotive",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Volkswagen",
+    "url": "https://www.volkswagen.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "automotive",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "ASML",
+    "url": "https://www.asml.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "technology",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Nestle",
+    "url": "https://www.nestle.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "food",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Novartis",
+    "url": "https://www.novartis.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "healthcare",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Unilever",
+    "url": "https://www.unilever.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "consumer",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "HSBC",
+    "url": "https://www.hsbc.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "finance",
+    "discoveredAt": "2026-07-23T14:23:45.523Z",
+    "lastSeenAt": "2026-07-23T14:23:45.523Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Barclays",
+    "url": "https://www.barclays.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "finance",
+    "discoveredAt": "2026-07-23T14:23:45.524Z",
+    "lastSeenAt": "2026-07-23T14:23:45.524Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "TotalEnergies",
+    "url": "https://www.totalenergies.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "energy",
+    "discoveredAt": "2026-07-23T14:23:45.524Z",
+    "lastSeenAt": "2026-07-23T14:23:45.524Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "LVMH",
+    "url": "https://www.lvmh.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "luxury",
+    "discoveredAt": "2026-07-23T14:23:45.524Z",
+    "lastSeenAt": "2026-07-23T14:23:45.524Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Airbus",
+    "url": "https://www.airbus.com",
+    "type": "enterprise",
+    "region": "eu",
+    "category": "aerospace",
+    "discoveredAt": "2026-07-23T14:23:45.524Z",
+    "lastSeenAt": "2026-07-23T14:23:45.524Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Earth Guardians",
+    "url": "https://www.earthguardians.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Greenpeace",
+    "url": "https://www.greenpeace.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "WWF",
+    "url": "https://www.worldwildlife.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Red Cross",
+    "url": "https://www.redcross.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "humanitarian",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Doctors Without Borders",
+    "url": "https://www.doctorswithoutborders.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "healthcare",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Amnesty International",
+    "url": "https://www.amnesty.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "human_rights",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Human Rights Watch",
+    "url": "https://www.hrw.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "human_rights",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Oxfam",
+    "url": "https://www.oxfam.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "poverty",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "UNICEF",
+    "url": "https://www.unicef.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "children",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "World Food Programme",
+    "url": "https://www.wfp.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "food",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Sierra Club",
+    "url": "https://www.sierraclub.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "NRDC",
+    "url": "https://www.nrdc.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "The Nature Conservancy",
+    "url": "https://www.nature.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Conservation International",
+    "url": "https://www.conservation.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Environmental Defense Fund",
+    "url": "https://www.edf.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Rainforest Alliance",
+    "url": "https://www.rainforest-alliance.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Ocean Conservancy",
+    "url": "https://www.oceanconservancy.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "ocean",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "350.org",
+    "url": "https://350.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "climate",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Green America",
+    "url": "https://www.greenamerica.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  },
+  {
+    "name": "Earth Day Network",
+    "url": "https://www.earthday.org",
+    "type": "ngo",
+    "region": "international",
+    "category": "environment",
+    "discoveredAt": "2026-07-23T14:23:45.526Z",
+    "lastSeenAt": "2026-07-23T14:23:45.526Z",
+    "discoveredBy": "static:toml"
+  }
+]
