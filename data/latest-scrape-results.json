@@ -1,0 +1,899 @@
+{
+  "timestamp": "2026-07-22T18:20:16.230Z",
+  "totalScraped": 19,
+  "results": [
+    {
+      "url": "https://about.google",
+      "name": "Google",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "About Google: Our products, technology and company information - About Google",
+      "description": "Learn more about Google. Explore our innovative AI products and services, and how we're using technology to help improve lives around the world.",
+      "seo": {
+        "title": "About Google: Our products, technology and company information - About Google",
+        "metaDescription": "Learn more about Google. Explore our innovative AI products and services, and how we're using technology to help improve lives around the world.",
+        "h1Count": 1,
+        "h2Count": 3,
+        "images": 10,
+        "imagesWithoutAlt": 0,
+        "links": 47,
+        "canonical": "https://about.google/",
+        "ogTitle": "About Google: Our products, technology and company information",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 12,
+        "stylesheets": 3,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 261,
+        "headings": 9
+      },
+      "scrapedAt": "2026-07-22T18:19:37.765Z",
+      "scores": {
+        "accessibility": 80,
+        "seo": 100,
+        "performance": 100,
+        "security": 100,
+        "overall": 95
+      }
+    },
+    {
+      "url": "https://www.apple.com",
+      "name": "Apple",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "Apple",
+      "description": "",
+      "seo": {
+        "title": "Apple",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 37,
+        "images": 47,
+        "imagesWithoutAlt": 0,
+        "links": 338,
+        "canonical": "https://www.apple.com/",
+        "ogTitle": "Apple",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 18,
+        "stylesheets": 9,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 4631,
+        "headings": 55
+      },
+      "scrapedAt": "2026-07-22T18:19:40.135Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 96
+      }
+    },
+    {
+      "url": "https://www.tesla.com",
+      "name": "Tesla",
+      "type": "enterprise",
+      "region": "us",
+      "category": "automotive",
+      "title": "Access Denied",
+      "description": "",
+      "seo": {
+        "title": "Access Denied",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 15,
+        "headings": 1
+      },
+      "scrapedAt": "2026-07-22T18:19:42.915Z",
+      "scores": {
+        "accessibility": 70,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://www.amazon.com",
+      "name": "Amazon",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "Amazon.com. Spend less. Smile more.",
+      "description": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
+      "seo": {
+        "title": "Amazon.com. Spend less. Smile more.",
+        "metaDescription": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
+        "h1Count": 0,
+        "h2Count": 3,
+        "images": 45,
+        "imagesWithoutAlt": 0,
+        "links": 202,
+        "canonical": "https://www.amazon.com/",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 2,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 131,
+        "stylesheets": 8,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 14358,
+        "headings": 47
+      },
+      "scrapedAt": "2026-07-22T18:19:45.022Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 80,
+        "performance": 80,
+        "security": 100,
+        "overall": 90
+      }
+    },
+    {
+      "url": "https://www.microsoft.com",
+      "name": "Microsoft",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
+      "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+      "seo": {
+        "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+        "h1Count": 1,
+        "h2Count": 26,
+        "images": 38,
+        "imagesWithoutAlt": 0,
+        "links": 135,
+        "canonical": "https://www.microsoft.com/en-us",
+        "ogTitle": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 252,
+        "stylesheets": 12,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 2807,
+        "headings": 30
+      },
+      "scrapedAt": "2026-07-22T18:19:45.472Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://www.salesforce.com",
+      "name": "Salesforce",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "Access Denied",
+      "description": "",
+      "seo": {
+        "title": "Access Denied",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 15,
+        "headings": 1
+      },
+      "scrapedAt": "2026-07-22T18:19:49.386Z",
+      "scores": {
+        "accessibility": 70,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://about.meta.com",
+      "name": "Meta",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "About Meta | Social Technology, VR, AR, and Innovation",
+      "description": "Learn more about Meta and stay updated on our role in social technology, virtual reality, augmented reality, and the future of human connection.",
+      "seo": {
+        "title": "About Meta | Social Technology, VR, AR, and Innovation",
+        "metaDescription": "Learn more about Meta and stay updated on our role in social technology, virtual reality, augmented reality, and the future of human connection.",
+        "h1Count": 0,
+        "h2Count": 7,
+        "images": 11,
+        "imagesWithoutAlt": 0,
+        "links": 26,
+        "canonical": "https://www.meta.com/about/",
+        "ogTitle": "About Meta | Social Technology, VR, AR, and Innovation",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 81,
+        "stylesheets": 12,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1144,
+        "headings": 10
+      },
+      "scrapedAt": "2026-07-22T18:19:50.779Z",
+      "scores": {
+        "accessibility": 80,
+        "seo": 85,
+        "performance": 65,
+        "security": 100,
+        "overall": 83
+      }
+    },
+    {
+      "url": "https://www.intel.com",
+      "name": "Intel",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "Intel Inside - Built for AICalifornia Consumer Privacy Act (CCPA) Opt-Out IconBack ButtonFilter Button",
+      "description": "Deliver AI at scale across cloud, data center, edge, and client with comprehensive hardware and software solutions.",
+      "seo": {
+        "title": "Intel Inside - Built for AICalifornia Consumer Privacy Act (CCPA) Opt-Out IconBack ButtonFilter Button",
+        "metaDescription": "Deliver AI at scale across cloud, data center, edge, and client with comprehensive hardware and software solutions.",
+        "h1Count": 0,
+        "h2Count": 9,
+        "images": 6,
+        "imagesWithoutAlt": 0,
+        "links": 148,
+        "canonical": "https://www.intel.com/content/www/us/en/homepage.html",
+        "ogTitle": "Intel Inside - Built for AI",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 10,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 82,
+        "stylesheets": 12,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 7301,
+        "headings": 26
+      },
+      "scrapedAt": "2026-07-22T18:19:54.565Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 65,
+        "security": 100,
+        "overall": 88
+      }
+    },
+    {
+      "url": "https://www.sap.com",
+      "name": "SAP",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "technology",
+      "title": "Access Denied",
+      "description": "",
+      "seo": {
+        "title": "Access Denied",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 15,
+        "headings": 1
+      },
+      "scrapedAt": "2026-07-22T18:19:54.626Z",
+      "scores": {
+        "accessibility": 70,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://www.netflix.com",
+      "name": "Netflix",
+      "type": "enterprise",
+      "region": "us",
+      "category": "entertainment",
+      "title": "Netflix - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
+      "description": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
+      "seo": {
+        "title": "Netflix - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
+        "metaDescription": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
+        "h1Count": 1,
+        "h2Count": 5,
+        "images": 4,
+        "imagesWithoutAlt": 1,
+        "links": 30,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 10,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 15,
+        "stylesheets": 1,
+        "iframes": 4
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1550,
+        "headings": 30
+      },
+      "scrapedAt": "2026-07-22T18:19:56.774Z",
+      "scores": {
+        "accessibility": 95,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 95
+      }
+    },
+    {
+      "url": "https://www.nestle.com",
+      "name": "Nestle",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "food",
+      "title": "Just a moment...Nestlé logo",
+      "description": "",
+      "seo": {
+        "title": "Just a moment...Nestlé logo",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 1,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 13,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 108,
+        "headings": 2
+      },
+      "scrapedAt": "2026-07-22T18:20:00.565Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 93
+      }
+    },
+    {
+      "url": "https://www.siemens.com",
+      "name": "Siemens",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "industrial",
+      "title": "Siemens home | Siemensactive integrationadaptive governanceaerospaceA.I. iconappsarrow rightarrow downarrow leftarrow rightarrow uparrow attacharrow back atomautomotivebar chartbatterybidirectional exchangebookmarkbox checkbuilding enterprisebuilding smbcalendarchatcheckcheckclockcloseclosecloudcloud transformationcommunitycomponentconfigurationconnectivity enginecopycutdata managementdeletedevelopment implementationdriving innovationease of useenvironmental solutionsFaviconFavicon-no-bg  digital twindocumentdocument successdocumentdownloaddropdowneditelectronicsemailend to end scenariosequipmenterrorFacebookFacebookfavoritefilterfirstnew folderopen folderfolderexit full screenfull screengearinggear upgridhardwareGoogleGoogleGooglehidehistoryhomehomehourglassidea-innovationimageinformationInstagramInstagramlanguagelastlicensesline chartlink externallink externallinkLinkedinLinkedinlinkedinlistloading spinnerlocationlockloginlower cost of ownershipmachinerymanufacturingmarinemarket analysismaximizemedalmedicalmenuminimizeminusnotificationoff the shelf productoffer consultingoptimizeoptionspastepathpausepharmaceuticalphoneplantplayplusplusprocess integrationproven solutionperformancequalityquotequestionreading timeredorefreshresetretailsaveseal of approvalsearch smallsearchsemiconductorssettingsshareSheerIdSheerIdshopping cartshowsort ascendingsort descendingsortstopstrategic partnershipsuccesssupportsustainabilitytagstext documenttime lapseTwitterTwitterundouseruploadutilitiesvoicewarningWeiboWeiboXXYammerYammerYoukuYoukuYouTubeYouTubezoom inzoom outblogbuildbullseye cloud lockcollaborate bulbcollaborationcommunityconsulting servicesdigital-exchangedigital twin screenengageextendflexibilityinnovationinstantintegratemacronewspaperownership culturepdfpersonalizedpredictableprinted circuit boardrespectscalableseamlesstraining",
+      "description": "Siemens: A global technology leader driving innovation in industry, infrastructure and mobility through digital transformation.",
+      "seo": {
+        "title": "Siemens home | Siemensactive integrationadaptive governanceaerospaceA.I. iconappsarrow rightarrow downarrow leftarrow rightarrow uparrow attacharrow back atomautomotivebar chartbatterybidirectional exchangebookmarkbox checkbuilding enterprisebuilding smbcalendarchatcheckcheckclockcloseclosecloudcloud transformationcommunitycomponentconfigurationconnectivity enginecopycutdata managementdeletedevelopment implementationdriving innovationease of useenvironmental solutionsFaviconFavicon-no-bg  digital twindocumentdocument successdocumentdownloaddropdowneditelectronicsemailend to end scenariosequipmenterrorFacebookFacebookfavoritefilterfirstnew folderopen folderfolderexit full screenfull screengearinggear upgridhardwareGoogleGoogleGooglehidehistoryhomehomehourglassidea-innovationimageinformationInstagramInstagramlanguagelastlicensesline chartlink externallink externallinkLinkedinLinkedinlinkedinlistloading spinnerlocationlockloginlower cost of ownershipmachinerymanufacturingmarinemarket analysismaximizemedalmedicalmenuminimizeminusnotificationoff the shelf productoffer consultingoptimizeoptionspastepathpausepharmaceuticalphoneplantplayplusplusprocess integrationproven solutionperformancequalityquotequestionreading timeredorefreshresetretailsaveseal of approvalsearch smallsearchsemiconductorssettingsshareSheerIdSheerIdshopping cartshowsort ascendingsort descendingsortstopstrategic partnershipsuccesssupportsustainabilitytagstext documenttime lapseTwitterTwitterundouseruploadutilitiesvoicewarningWeiboWeiboXXYammerYammerYoukuYoukuYouTubeYouTubezoom inzoom outblogbuildbullseye cloud lockcollaborate bulbcollaborationcommunityconsulting servicesdigital-exchangedigital twin screenengageextendflexibilityinnovationinstantintegratemacronewspaperownership culturepdfpersonalizedpredictableprinted circuit boardrespectscalableseamlesstraining",
+        "metaDescription": "Siemens: A global technology leader driving innovation in industry, infrastructure and mobility through digital transformation.",
+        "h1Count": 1,
+        "h2Count": 9,
+        "images": 52,
+        "imagesWithoutAlt": 15,
+        "links": 74,
+        "canonical": "https://www.siemens.com/en-us/",
+        "ogTitle": "Siemens home",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 7,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 21,
+        "stylesheets": 3,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 3888,
+        "headings": 38
+      },
+      "scrapedAt": "2026-07-22T18:20:01.707Z",
+      "scores": {
+        "accessibility": 70,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 88
+      }
+    },
+    {
+      "url": "https://www.bmw.com",
+      "name": "BMW",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "automotive",
+      "title": "Luxury SUVs, Sedans, Coupes, Convertibles, and Crossovers | BMW USA",
+      "description": "Explore models, build your own, find financing and leasing offers, and browse local inventory from a nearby BMW Center. Experience the performance, luxury, and innovation of the Ultimate Driving Machine today.",
+      "seo": {
+        "title": "Luxury SUVs, Sedans, Coupes, Convertibles, and Crossovers | BMW USA",
+        "metaDescription": "Explore models, build your own, find financing and leasing offers, and browse local inventory from a nearby BMW Center. Experience the performance, luxury, and innovation of the Ultimate Driving Machine today.",
+        "h1Count": 3,
+        "h2Count": 5,
+        "images": 108,
+        "imagesWithoutAlt": 0,
+        "links": 258,
+        "canonical": "https://www.bmwusa.com/",
+        "ogTitle": "",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 3,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 75,
+        "stylesheets": 28,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 4211,
+        "headings": 13
+      },
+      "scrapedAt": "2026-07-22T18:20:06.190Z",
+      "scores": {
+        "accessibility": 80,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 86
+      }
+    },
+    {
+      "url": "https://www.hsbc.com",
+      "name": "HSBC",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "finance",
+      "title": "HSBC Group corporate website | HSBC Holdings plc",
+      "description": "HSBC, one of the largest banking and financial services institutions in the world, serves millions of customers through its four global businesses.",
+      "seo": {
+        "title": "HSBC Group corporate website | HSBC Holdings plc",
+        "metaDescription": "HSBC, one of the largest banking and financial services institutions in the world, serves millions of customers through its four global businesses.",
+        "h1Count": 2,
+        "h2Count": 19,
+        "images": 12,
+        "imagesWithoutAlt": 0,
+        "links": 257,
+        "canonical": "https://www.hsbc.com/",
+        "ogTitle": "HSBC Group corporate website | HSBC Holdings plc",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 23,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 18,
+        "stylesheets": 2,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1754,
+        "headings": 23
+      },
+      "scrapedAt": "2026-07-22T18:20:07.407Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 100,
+        "security": 100,
+        "overall": 100
+      }
+    },
+    {
+      "url": "https://www.greenpeace.org",
+      "name": "Greenpeace",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "Greenpeace",
+      "description": "Greenpeace",
+      "seo": {
+        "title": "Greenpeace",
+        "metaDescription": "Greenpeace",
+        "h1Count": 1,
+        "h2Count": 1,
+        "images": 2,
+        "imagesWithoutAlt": 0,
+        "links": 68,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 10,
+        "stylesheets": 1,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 266,
+        "headings": 2
+      },
+      "scrapedAt": "2026-07-22T18:20:10.741Z",
+      "scores": {
+        "accessibility": 80,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://www.worldwildlife.org",
+      "name": "WWF",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "WWF | (WWF) Endangered Species ConservationBack ButtonSearch IconFilter Icon",
+      "description": "World Wildlife Fund - The leading organization in wildlife conservation and endangered species. Learn how you can help WWF make a difference.",
+      "seo": {
+        "title": "WWF | (WWF) Endangered Species ConservationBack ButtonSearch IconFilter Icon",
+        "metaDescription": "World Wildlife Fund - The leading organization in wildlife conservation and endangered species. Learn how you can help WWF make a difference.",
+        "h1Count": 0,
+        "h2Count": 13,
+        "images": 13,
+        "imagesWithoutAlt": 0,
+        "links": 140,
+        "canonical": "https://www.worldwildlife.org/",
+        "ogTitle": "WWF - Endangered Species Conservation | World Wildlife Fund",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 8,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 13,
+        "stylesheets": 1,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1354,
+        "headings": 30
+      },
+      "scrapedAt": "2026-07-22T18:20:11.920Z",
+      "scores": {
+        "accessibility": 80,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://www.redcross.org",
+      "name": "Red Cross",
+      "type": "ngo",
+      "region": "us",
+      "category": "humanitarian",
+      "title": "Access Denied",
+      "description": "",
+      "seo": {
+        "title": "Access Denied",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 15,
+        "headings": 1
+      },
+      "scrapedAt": "2026-07-22T18:20:13.709Z",
+      "scores": {
+        "accessibility": 70,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://www.earthguardians.org",
+      "name": "Earth Guardians",
+      "type": "ngo",
+      "region": "us",
+      "category": "environment",
+      "title": "Earth Guardians",
+      "description": "",
+      "seo": {
+        "title": "Earth Guardians",
+        "metaDescription": "",
+        "h1Count": 9,
+        "h2Count": 4,
+        "images": 10,
+        "imagesWithoutAlt": 0,
+        "links": 82,
+        "canonical": "https://www.earthguardians.org",
+        "ogTitle": "Earth Guardians",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 69,
+        "stylesheets": 13,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 1
+      },
+      "content": {
+        "wordCount": 5817,
+        "headings": 16
+      },
+      "scrapedAt": "2026-07-22T18:20:13.623Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 65,
+        "security": 80,
+        "overall": 83
+      }
+    },
+    {
+      "url": "https://www.amnesty.org",
+      "name": "Amnesty International",
+      "type": "ngo",
+      "region": "international",
+      "category": "human_rights",
+      "title": "Amnesty InternationalAmnesty International",
+      "description": "We are a global movement of more than 10 million people in over 150 countries who campaign campaign for a world where human rights are enjoyed by all.",
+      "seo": {
+        "title": "Amnesty InternationalAmnesty International",
+        "metaDescription": "We are a global movement of more than 10 million people in over 150 countries who campaign campaign for a world where human rights are enjoyed by all.",
+        "h1Count": 2,
+        "h2Count": 8,
+        "images": 9,
+        "imagesWithoutAlt": 0,
+        "links": 108,
+        "canonical": "https://www.amnesty.org/en/",
+        "ogTitle": "Amnesty International",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 28,
+        "stylesheets": 8,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1121,
+        "headings": 27
+      },
+      "scrapedAt": "2026-07-22T18:20:16.133Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 95
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+# Autit-Auto Configuration
+# Automated Website Audit System
+
+[project]
+name = "Autit-Auto"
+version = "2.0.0"
+description = "Full Scraper & AI Audit System for US/EU Enterprises & NGOs"
+
+[schedule]
+# Cron expression: every 2 hours
+cron = "0 */2 * * *"
+# Maximum sites to audit per cycle
+max_sites = 50
+
+[audit]
+# Categories to audit
+categories = ["accessibility", "seo", "performance", "security"]
+# WCAG level to check
+wcag_level = "AA"
+# Timeout per site (seconds)
+timeout = 120
+
+[scraper]
+# Browser concurrency
+concurrency = 5
+# Retry attempts
+retries = 3
+# Enable screenshots
+screenshots = true
+# Block resources for speed
+block_resources = true
+
+[storage]
+# Storage format
+format = "toml"
+# Data directory
+data_dir = "data"
+# Audit results directory
+audits_dir = "audits"
+
+[opencode]
+# Model to use (free tier)
+model = "opencode/mimo-v2.5-free"
+# Headless mode
+headless = true
+
+[regions]
+us = true
+eu = true
+international = true
+
+[dashboard]
+# Deploy to GitHub Pages
+deploy = true
+# Base URL
+base_url = "https://hautlys.github.io/autit-auto"
+
+[discovery]
+# Enable Reddit scraping for target discovery
+reddit = true
+# Enable forum scraping
+forums = true
+# Enable NGO list scraping
+ngo_lists = true

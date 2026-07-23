@@ -1,0 +1,297 @@
+name: Autit-Auto Full Audit Pipeline
+
+on:
+  schedule:
+    # Every 2 hours
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Pipeline mode'
+        required: false
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - discover
+          - scrape
+          - audit
+      region:
+        description: 'Target region'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - us
+          - eu
+      max_sites:
+        description: 'Maximum sites to process'
+        required: false
+        default: '50'
+
+# Cancel in-progress runs for the same branch
+concurrency:
+  group: audit-pipeline-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: '22'
+  OPENCODE_MODEL: 'opencode/mimo-v2.5-free'
+
+jobs:
+  # Job 1: Discover and scrape targets
+  scrape:
+    name: 🔍 Scrape Targets
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    outputs:
+      target_count: ${{ steps.scrape.outputs.target_count }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: ~/.cache/ms-playwright
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Run scraper
+        id: scrape
+        run: |
+          echo "🔍 Starting scrape at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          
+          MODE="${{ github.event.inputs.mode || 'full' }}"
+          REGION="${{ github.event.inputs.region || 'all' }}"
+          MAX_SITES="${{ github.event.inputs.max_sites || '50' }}"
+          
+          # Run full scraper
+          node scripts/full-scraper.mjs --audit
+          
+          # Count results
+          if [ -f "data/latest-scrape-results.json" ]; then
+            TARGET_COUNT=$(node -e "const d=require('./data/latest-scrape-results.json');console.log(d.totalScraped||0)")
+            echo "target_count=$TARGET_COUNT" >> $GITHUB_OUTPUT
+            echo "✅ Scraped $TARGET_COUNT targets"
+          else
+            echo "target_count=0" >> $GITHUB_OUTPUT
+            echo "⚠️  No scrape results found"
+          fi
+
+      - name: Upload scrape results
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-results-${{ github.run_number }}
+          path: data/latest-scrape-results.json
+          retention-days: 7
+
+      - name: Commit scrape results
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ -A
+          git diff --staged --quiet || git commit -m "chore: scrape results [skip ci]"
+          git push || echo "Push failed, continuing..."
+
+  # Job 2: AI-powered audit
+  audit:
+    name: 🤖 AI Audit
+    runs-on: ubuntu-latest
+    needs: scrape
+    timeout-minutes: 45
+    
+    outputs:
+      audit_count: ${{ steps.audit.outputs.audit_count }}
+      avg_score: ${{ steps.audit.outputs.avg_score }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Download scrape results
+        uses: actions/download-artifact@v4
+        with:
+          name: scrape-results-${{ github.run_number }}
+          path: data/
+
+      - name: Install OpenCode CLI
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/opencode-ai/opencode/refs/heads/main/install | bash
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Verify OpenCode installation
+        run: opencode --version
+
+      - name: Run AI audits
+        id: audit
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_MODEL: ${{ env.OPENCODE_MODEL }}
+        run: |
+          echo "🤖 Starting AI audits at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          
+          # Run AI auditor
+          node scripts/ai-auditor.mjs --all
+          
+          # Count results and calculate average
+          if [ -f "data/latest-audit-summary.json" ]; then
+            AUDIT_COUNT=$(node -e "const d=require('./data/latest-audit-summary.json');console.log(d.completedAudits||0)")
+            AVG_SCORE=$(node -e "const d=require('./data/latest-audit-summary.json');console.log(d.averageScores?.overall||0)")
+            echo "audit_count=$AUDIT_COUNT" >> $GITHUB_OUTPUT
+            echo "avg_score=$AVG_SCORE" >> $GITHUB_OUTPUT
+            echo "✅ Audited $AUDIT_COUNT sites (avg score: $AVG_SCORE)"
+          else
+            echo "audit_count=0" >> $GITHUB_OUTPUT
+            echo "avg_score=0" >> $GITHUB_OUTPUT
+            echo "⚠️  No audit results found"
+          fi
+
+      - name: Upload audit results
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-results-${{ github.run_number }}
+          path: |
+            audits/
+            data/latest-audit-summary.json
+          retention-days: 30
+
+      - name: Commit audit results
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add audits/ data/ -A
+          git diff --staged --quiet || git commit -m "chore: audit results [skip ci]"
+          git push || echo "Push failed, continuing..."
+
+  # Job 3: Build and deploy dashboard
+  deploy:
+    name: 🚀 Deploy Dashboard
+    runs-on: ubuntu-latest
+    needs: [scrape, audit]
+    timeout-minutes: 15
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Download scrape results
+        uses: actions/download-artifact@v4
+        with:
+          name: scrape-results-${{ github.run_number }}
+          path: data/
+
+      - name: Download audit results
+        uses: actions/download-artifact@v4
+        with:
+          name: audit-results-${{ github.run_number }}
+          path: |
+            audits/
+            data/
+
+      - name: Generate dashboard data
+        run: node scripts/generate-dashboard-data.mjs
+
+      - name: Build Nuxt dashboard
+        run: npm run generate
+
+      - name: Deploy to GitHub Pages
+        if: success() && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: ./
+          keep_files: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+
+  # Job 4: Generate report
+  report:
+    name: 📊 Generate Report
+    runs-on: ubuntu-latest
+    needs: [scrape, audit, deploy]
+    if: always()
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Generate run summary
+        run: |
+          echo "## 🚀 Autit-Auto Pipeline Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Run Number** | #${{ github.run_number }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Mode** | ${{ github.event.inputs.mode || 'full' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Region** | ${{ github.event.inputs.region || 'all' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Targets Scraped** | ${{ needs.scrape.outputs.target_count || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Sites Audited** | ${{ needs.audit.outputs.audit_count || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Average Score** | ${{ needs.audit.outputs.avg_score || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Timestamp** | $(date -u +%Y-%m-%dT%H:%M:%SZ) |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🔗 Links" >> $GITHUB_STEP_SUMMARY
+          echo "- [Dashboard](https://hautlys.github.io/autit-auto)" >> $GITHUB_STEP_SUMMARY
+          echo "- [Repository](https://github.com/hautlys/autit-auto)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📋 Next Scheduled Run" >> $GITHUB_STEP_SUMMARY
+          echo "The next scheduled run will occur in approximately 2 hours." >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload run summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-summary-${{ github.run_number }}
+          path: |
+            data/latest-audit-summary.json
+            data/pipeline-stats.json
+          retention-days: 90

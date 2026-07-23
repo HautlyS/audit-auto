@@ -1,0 +1,961 @@
+{
+  "generatedAt": "2026-07-22T18:49:57.718Z",
+  "summary": {
+    "totalAudits": 32,
+    "averageScores": {
+      "accessibility": 0,
+      "seo": 0,
+      "performance": 0,
+      "security": 0,
+      "overall": 0
+    },
+    "criticalIssues": 0,
+    "highIssues": 0
+  },
+  "byType": {
+    "enterprise": [
+      {
+        "url": "https://www.amazon.com",
+        "name": "Amazon",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:45.022Z"
+      },
+      {
+        "url": "https://www.amazon.com",
+        "name": "Amazon",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:45.022Z"
+      },
+      {
+        "url": "https://www.apple.com",
+        "name": "Apple",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:40.135Z"
+      },
+      {
+        "url": "https://www.apple.com",
+        "name": "Apple",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:40.135Z"
+      },
+      {
+        "url": "https://www.bmw.com",
+        "name": "BMW",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "automotive",
+        "timestamp": "2026-07-22T18:20:06.190Z"
+      },
+      {
+        "url": "https://about.google",
+        "name": "Google",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:37.765Z"
+      },
+      {
+        "url": "https://about.google",
+        "name": "Google",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:37.765Z"
+      },
+      {
+        "url": "https://www.hsbc.com",
+        "name": "HSBC",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "finance",
+        "timestamp": "2026-07-22T18:20:07.407Z"
+      },
+      {
+        "url": "https://www.intel.com",
+        "name": "Intel",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:54.565Z"
+      },
+      {
+        "url": "https://www.intel.com",
+        "name": "Intel",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:54.565Z"
+      },
+      {
+        "url": "https://about.meta.com",
+        "name": "Meta",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:50.779Z"
+      },
+      {
+        "url": "https://about.meta.com",
+        "name": "Meta",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:50.779Z"
+      },
+      {
+        "url": "https://www.microsoft.com",
+        "name": "Microsoft",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:45.472Z"
+      },
+      {
+        "url": "https://www.microsoft.com",
+        "name": "Microsoft",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:45.472Z"
+      },
+      {
+        "url": "https://www.nestle.com",
+        "name": "Nestle",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "food",
+        "timestamp": "2026-07-22T18:20:00.565Z"
+      },
+      {
+        "url": "https://www.nestle.com",
+        "name": "Nestle",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "food",
+        "timestamp": "2026-07-22T18:20:00.565Z"
+      },
+      {
+        "url": "https://www.netflix.com",
+        "name": "Netflix",
+        "type": "enterprise",
+        "region": "us",
+        "category": "entertainment",
+        "timestamp": "2026-07-22T18:19:56.774Z"
+      },
+      {
+        "url": "https://www.netflix.com",
+        "name": "Netflix",
+        "type": "enterprise",
+        "region": "us",
+        "category": "entertainment",
+        "timestamp": "2026-07-22T18:19:56.774Z"
+      },
+      {
+        "url": "https://www.salesforce.com",
+        "name": "Salesforce",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:49.386Z"
+      },
+      {
+        "url": "https://www.salesforce.com",
+        "name": "Salesforce",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:49.386Z"
+      },
+      {
+        "url": "https://www.sap.com",
+        "name": "SAP",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:54.626Z"
+      },
+      {
+        "url": "https://www.sap.com",
+        "name": "SAP",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:54.626Z"
+      },
+      {
+        "url": "https://www.siemens.com",
+        "name": "Siemens",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "industrial",
+        "timestamp": "2026-07-22T18:20:01.707Z"
+      },
+      {
+        "url": "https://www.siemens.com",
+        "name": "Siemens",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "industrial",
+        "timestamp": "2026-07-22T18:20:01.707Z"
+      },
+      {
+        "url": "https://www.tesla.com",
+        "name": "Tesla",
+        "type": "enterprise",
+        "region": "us",
+        "category": "automotive",
+        "timestamp": "2026-07-22T18:19:42.915Z"
+      },
+      {
+        "url": "https://www.tesla.com",
+        "name": "Tesla",
+        "type": "enterprise",
+        "region": "us",
+        "category": "automotive",
+        "timestamp": "2026-07-22T18:19:42.915Z"
+      }
+    ],
+    "ngo": [
+      {
+        "url": "https://www.amnesty.org",
+        "name": "Amnesty International",
+        "type": "ngo",
+        "region": "international",
+        "category": "human_rights",
+        "timestamp": "2026-07-22T18:20:16.133Z"
+      },
+      {
+        "url": "https://www.earthguardians.org",
+        "name": "Earth Guardians",
+        "type": "ngo",
+        "region": "us",
+        "category": "environment",
+        "timestamp": "2026-07-22T18:20:13.623Z"
+      },
+      {
+        "url": "https://www.earthguardians.org",
+        "name": "Earth Guardians",
+        "type": "ngo",
+        "region": "us",
+        "category": "environment",
+        "timestamp": "2026-07-22T10:00:00Z"
+      },
+      {
+        "url": "https://www.greenpeace.org",
+        "name": "Greenpeace",
+        "type": "ngo",
+        "region": "international",
+        "category": "environment",
+        "timestamp": "2026-07-22T18:20:10.741Z"
+      },
+      {
+        "url": "https://www.redcross.org",
+        "name": "Red Cross",
+        "type": "ngo",
+        "region": "us",
+        "category": "humanitarian",
+        "timestamp": "2026-07-22T18:20:13.709Z"
+      },
+      {
+        "url": "https://www.worldwildlife.org",
+        "name": "WWF",
+        "type": "ngo",
+        "region": "international",
+        "category": "environment",
+        "timestamp": "2026-07-22T18:20:11.920Z"
+      }
+    ]
+  },
+  "byRegion": {
+    "us": [
+      {
+        "url": "https://www.amazon.com",
+        "name": "Amazon",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:45.022Z"
+      },
+      {
+        "url": "https://www.amazon.com",
+        "name": "Amazon",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:45.022Z"
+      },
+      {
+        "url": "https://www.apple.com",
+        "name": "Apple",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:40.135Z"
+      },
+      {
+        "url": "https://www.apple.com",
+        "name": "Apple",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:40.135Z"
+      },
+      {
+        "url": "https://about.google",
+        "name": "Google",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:37.765Z"
+      },
+      {
+        "url": "https://about.google",
+        "name": "Google",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:37.765Z"
+      },
+      {
+        "url": "https://www.intel.com",
+        "name": "Intel",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:54.565Z"
+      },
+      {
+        "url": "https://www.intel.com",
+        "name": "Intel",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:54.565Z"
+      },
+      {
+        "url": "https://about.meta.com",
+        "name": "Meta",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:50.779Z"
+      },
+      {
+        "url": "https://about.meta.com",
+        "name": "Meta",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:50.779Z"
+      },
+      {
+        "url": "https://www.microsoft.com",
+        "name": "Microsoft",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:45.472Z"
+      },
+      {
+        "url": "https://www.microsoft.com",
+        "name": "Microsoft",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:45.472Z"
+      },
+      {
+        "url": "https://www.netflix.com",
+        "name": "Netflix",
+        "type": "enterprise",
+        "region": "us",
+        "category": "entertainment",
+        "timestamp": "2026-07-22T18:19:56.774Z"
+      },
+      {
+        "url": "https://www.netflix.com",
+        "name": "Netflix",
+        "type": "enterprise",
+        "region": "us",
+        "category": "entertainment",
+        "timestamp": "2026-07-22T18:19:56.774Z"
+      },
+      {
+        "url": "https://www.salesforce.com",
+        "name": "Salesforce",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:49.386Z"
+      },
+      {
+        "url": "https://www.salesforce.com",
+        "name": "Salesforce",
+        "type": "enterprise",
+        "region": "us",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:49.386Z"
+      },
+      {
+        "url": "https://www.tesla.com",
+        "name": "Tesla",
+        "type": "enterprise",
+        "region": "us",
+        "category": "automotive",
+        "timestamp": "2026-07-22T18:19:42.915Z"
+      },
+      {
+        "url": "https://www.tesla.com",
+        "name": "Tesla",
+        "type": "enterprise",
+        "region": "us",
+        "category": "automotive",
+        "timestamp": "2026-07-22T18:19:42.915Z"
+      },
+      {
+        "url": "https://www.earthguardians.org",
+        "name": "Earth Guardians",
+        "type": "ngo",
+        "region": "us",
+        "category": "environment",
+        "timestamp": "2026-07-22T18:20:13.623Z"
+      },
+      {
+        "url": "https://www.earthguardians.org",
+        "name": "Earth Guardians",
+        "type": "ngo",
+        "region": "us",
+        "category": "environment",
+        "timestamp": "2026-07-22T10:00:00Z"
+      },
+      {
+        "url": "https://www.redcross.org",
+        "name": "Red Cross",
+        "type": "ngo",
+        "region": "us",
+        "category": "humanitarian",
+        "timestamp": "2026-07-22T18:20:13.709Z"
+      }
+    ],
+    "eu": [
+      {
+        "url": "https://www.bmw.com",
+        "name": "BMW",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "automotive",
+        "timestamp": "2026-07-22T18:20:06.190Z"
+      },
+      {
+        "url": "https://www.hsbc.com",
+        "name": "HSBC",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "finance",
+        "timestamp": "2026-07-22T18:20:07.407Z"
+      },
+      {
+        "url": "https://www.nestle.com",
+        "name": "Nestle",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "food",
+        "timestamp": "2026-07-22T18:20:00.565Z"
+      },
+      {
+        "url": "https://www.nestle.com",
+        "name": "Nestle",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "food",
+        "timestamp": "2026-07-22T18:20:00.565Z"
+      },
+      {
+        "url": "https://www.sap.com",
+        "name": "SAP",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:54.626Z"
+      },
+      {
+        "url": "https://www.sap.com",
+        "name": "SAP",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "technology",
+        "timestamp": "2026-07-22T18:19:54.626Z"
+      },
+      {
+        "url": "https://www.siemens.com",
+        "name": "Siemens",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "industrial",
+        "timestamp": "2026-07-22T18:20:01.707Z"
+      },
+      {
+        "url": "https://www.siemens.com",
+        "name": "Siemens",
+        "type": "enterprise",
+        "region": "eu",
+        "category": "industrial",
+        "timestamp": "2026-07-22T18:20:01.707Z"
+      }
+    ],
+    "international": [
+      {
+        "url": "https://www.amnesty.org",
+        "name": "Amnesty International",
+        "type": "ngo",
+        "region": "international",
+        "category": "human_rights",
+        "timestamp": "2026-07-22T18:20:16.133Z"
+      },
+      {
+        "url": "https://www.greenpeace.org",
+        "name": "Greenpeace",
+        "type": "ngo",
+        "region": "international",
+        "category": "environment",
+        "timestamp": "2026-07-22T18:20:10.741Z"
+      },
+      {
+        "url": "https://www.worldwildlife.org",
+        "name": "WWF",
+        "type": "ngo",
+        "region": "international",
+        "category": "environment",
+        "timestamp": "2026-07-22T18:20:11.920Z"
+      }
+    ]
+  },
+  "recentAudits": [
+    {
+      "url": "https://www.microsoft.com",
+      "name": "Microsoft",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:45.472Z"
+    },
+    {
+      "url": "https://www.microsoft.com",
+      "name": "Microsoft",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:45.472Z"
+    },
+    {
+      "url": "https://www.nestle.com",
+      "name": "Nestle",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "food",
+      "timestamp": "2026-07-22T18:20:00.565Z"
+    },
+    {
+      "url": "https://www.nestle.com",
+      "name": "Nestle",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "food",
+      "timestamp": "2026-07-22T18:20:00.565Z"
+    },
+    {
+      "url": "https://www.netflix.com",
+      "name": "Netflix",
+      "type": "enterprise",
+      "region": "us",
+      "category": "entertainment",
+      "timestamp": "2026-07-22T18:19:56.774Z"
+    },
+    {
+      "url": "https://www.netflix.com",
+      "name": "Netflix",
+      "type": "enterprise",
+      "region": "us",
+      "category": "entertainment",
+      "timestamp": "2026-07-22T18:19:56.774Z"
+    },
+    {
+      "url": "https://www.salesforce.com",
+      "name": "Salesforce",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:49.386Z"
+    },
+    {
+      "url": "https://www.salesforce.com",
+      "name": "Salesforce",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:49.386Z"
+    },
+    {
+      "url": "https://www.sap.com",
+      "name": "SAP",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:54.626Z"
+    },
+    {
+      "url": "https://www.sap.com",
+      "name": "SAP",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:54.626Z"
+    },
+    {
+      "url": "https://www.siemens.com",
+      "name": "Siemens",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "industrial",
+      "timestamp": "2026-07-22T18:20:01.707Z"
+    },
+    {
+      "url": "https://www.siemens.com",
+      "name": "Siemens",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "industrial",
+      "timestamp": "2026-07-22T18:20:01.707Z"
+    },
+    {
+      "url": "https://www.tesla.com",
+      "name": "Tesla",
+      "type": "enterprise",
+      "region": "us",
+      "category": "automotive",
+      "timestamp": "2026-07-22T18:19:42.915Z"
+    },
+    {
+      "url": "https://www.tesla.com",
+      "name": "Tesla",
+      "type": "enterprise",
+      "region": "us",
+      "category": "automotive",
+      "timestamp": "2026-07-22T18:19:42.915Z"
+    },
+    {
+      "url": "https://www.amnesty.org",
+      "name": "Amnesty International",
+      "type": "ngo",
+      "region": "international",
+      "category": "human_rights",
+      "timestamp": "2026-07-22T18:20:16.133Z"
+    },
+    {
+      "url": "https://www.earthguardians.org",
+      "name": "Earth Guardians",
+      "type": "ngo",
+      "region": "us",
+      "category": "environment",
+      "timestamp": "2026-07-22T18:20:13.623Z"
+    },
+    {
+      "url": "https://www.earthguardians.org",
+      "name": "Earth Guardians",
+      "type": "ngo",
+      "region": "us",
+      "category": "environment",
+      "timestamp": "2026-07-22T10:00:00Z"
+    },
+    {
+      "url": "https://www.greenpeace.org",
+      "name": "Greenpeace",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "timestamp": "2026-07-22T18:20:10.741Z"
+    },
+    {
+      "url": "https://www.redcross.org",
+      "name": "Red Cross",
+      "type": "ngo",
+      "region": "us",
+      "category": "humanitarian",
+      "timestamp": "2026-07-22T18:20:13.709Z"
+    },
+    {
+      "url": "https://www.worldwildlife.org",
+      "name": "WWF",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "timestamp": "2026-07-22T18:20:11.920Z"
+    }
+  ],
+  "allAudits": [
+    {
+      "url": "https://www.amazon.com",
+      "name": "Amazon",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:45.022Z"
+    },
+    {
+      "url": "https://www.amazon.com",
+      "name": "Amazon",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:45.022Z"
+    },
+    {
+      "url": "https://www.apple.com",
+      "name": "Apple",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:40.135Z"
+    },
+    {
+      "url": "https://www.apple.com",
+      "name": "Apple",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:40.135Z"
+    },
+    {
+      "url": "https://www.bmw.com",
+      "name": "BMW",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "automotive",
+      "timestamp": "2026-07-22T18:20:06.190Z"
+    },
+    {
+      "url": "https://about.google",
+      "name": "Google",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:37.765Z"
+    },
+    {
+      "url": "https://about.google",
+      "name": "Google",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:37.765Z"
+    },
+    {
+      "url": "https://www.hsbc.com",
+      "name": "HSBC",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "finance",
+      "timestamp": "2026-07-22T18:20:07.407Z"
+    },
+    {
+      "url": "https://www.intel.com",
+      "name": "Intel",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:54.565Z"
+    },
+    {
+      "url": "https://www.intel.com",
+      "name": "Intel",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:54.565Z"
+    },
+    {
+      "url": "https://about.meta.com",
+      "name": "Meta",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:50.779Z"
+    },
+    {
+      "url": "https://about.meta.com",
+      "name": "Meta",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:50.779Z"
+    },
+    {
+      "url": "https://www.microsoft.com",
+      "name": "Microsoft",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:45.472Z"
+    },
+    {
+      "url": "https://www.microsoft.com",
+      "name": "Microsoft",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:45.472Z"
+    },
+    {
+      "url": "https://www.nestle.com",
+      "name": "Nestle",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "food",
+      "timestamp": "2026-07-22T18:20:00.565Z"
+    },
+    {
+      "url": "https://www.nestle.com",
+      "name": "Nestle",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "food",
+      "timestamp": "2026-07-22T18:20:00.565Z"
+    },
+    {
+      "url": "https://www.netflix.com",
+      "name": "Netflix",
+      "type": "enterprise",
+      "region": "us",
+      "category": "entertainment",
+      "timestamp": "2026-07-22T18:19:56.774Z"
+    },
+    {
+      "url": "https://www.netflix.com",
+      "name": "Netflix",
+      "type": "enterprise",
+      "region": "us",
+      "category": "entertainment",
+      "timestamp": "2026-07-22T18:19:56.774Z"
+    },
+    {
+      "url": "https://www.salesforce.com",
+      "name": "Salesforce",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:49.386Z"
+    },
+    {
+      "url": "https://www.salesforce.com",
+      "name": "Salesforce",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:49.386Z"
+    },
+    {
+      "url": "https://www.sap.com",
+      "name": "SAP",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:54.626Z"
+    },
+    {
+      "url": "https://www.sap.com",
+      "name": "SAP",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "technology",
+      "timestamp": "2026-07-22T18:19:54.626Z"
+    },
+    {
+      "url": "https://www.siemens.com",
+      "name": "Siemens",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "industrial",
+      "timestamp": "2026-07-22T18:20:01.707Z"
+    },
+    {
+      "url": "https://www.siemens.com",
+      "name": "Siemens",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "industrial",
+      "timestamp": "2026-07-22T18:20:01.707Z"
+    },
+    {
+      "url": "https://www.tesla.com",
+      "name": "Tesla",
+      "type": "enterprise",
+      "region": "us",
+      "category": "automotive",
+      "timestamp": "2026-07-22T18:19:42.915Z"
+    },
+    {
+      "url": "https://www.tesla.com",
+      "name": "Tesla",
+      "type": "enterprise",
+      "region": "us",
+      "category": "automotive",
+      "timestamp": "2026-07-22T18:19:42.915Z"
+    },
+    {
+      "url": "https://www.amnesty.org",
+      "name": "Amnesty International",
+      "type": "ngo",
+      "region": "international",
+      "category": "human_rights",
+      "timestamp": "2026-07-22T18:20:16.133Z"
+    },
+    {
+      "url": "https://www.earthguardians.org",
+      "name": "Earth Guardians",
+      "type": "ngo",
+      "region": "us",
+      "category": "environment",
+      "timestamp": "2026-07-22T18:20:13.623Z"
+    },
+    {
+      "url": "https://www.earthguardians.org",
+      "name": "Earth Guardians",
+      "type": "ngo",
+      "region": "us",
+      "category": "environment",
+      "timestamp": "2026-07-22T10:00:00Z"
+    },
+    {
+      "url": "https://www.greenpeace.org",
+      "name": "Greenpeace",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "timestamp": "2026-07-22T18:20:10.741Z"
+    },
+    {
+      "url": "https://www.redcross.org",
+      "name": "Red Cross",
+      "type": "ngo",
+      "region": "us",
+      "category": "humanitarian",
+      "timestamp": "2026-07-22T18:20:13.709Z"
+    },
+    {
+      "url": "https://www.worldwildlife.org",
+      "name": "WWF",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "timestamp": "2026-07-22T18:20:11.920Z"
+    }
+  ]
+}
