@@ -1,6 +1,8 @@
 {
-  "timestamp": "2026-07-23T13:58:01.555Z",
-  "totalScraped": 19,
+  "timestamp": "2026-07-23T14:27:58.008Z",
+  "totalScraped": 77,
+  "totalTargets": 79,
+  "changedCount": 77,
   "results": [
     {
       "url": "https://www.apple.com",
@@ -40,7 +42,8 @@
         "wordCount": 4637,
         "headings": 55
       },
-      "scrapedAt": "2026-07-23T13:57:15.672Z",
+      "scrapedAt": "2026-07-23T14:24:56.473Z",
+      "hash": "db0c370ad3b718a4ad88980264da4e1a",
       "scores": {
         "accessibility": 100,
         "seo": 85,
@@ -84,63 +87,17 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 5038,
+        "wordCount": 5213,
         "headings": 31
       },
-      "scrapedAt": "2026-07-23T13:57:18.975Z",
+      "scrapedAt": "2026-07-23T14:24:59.823Z",
+      "hash": "155d7e144b8ccc8eadc1dd07ced5e448",
       "scores": {
         "accessibility": 100,
         "seo": 100,
         "performance": 65,
         "security": 100,
         "overall": 91
-      }
-    },
-    {
-      "url": "https://about.google",
-      "name": "Google",
-      "type": "enterprise",
-      "region": "us",
-      "category": "technology",
-      "title": "About Google: Our products, technology and company information - About Google",
-      "description": "Learn more about Google. Explore our innovative AI products and services, and how we're using technology to help improve lives around the world.",
-      "seo": {
-        "title": "About Google: Our products, technology and company information - About Google",
-        "metaDescription": "Learn more about Google. Explore our innovative AI products and services, and how we're using technology to help improve lives around the world.",
-        "h1Count": 1,
-        "h2Count": 3,
-        "images": 10,
-        "imagesWithoutAlt": 0,
-        "links": 47,
-        "canonical": "https://about.google/",
-        "ogTitle": "About Google: Our products, technology and company information",
-        "schemaOrg": true
-      },
-      "accessibility": {
-        "hasLangAttr": true,
-        "formLabels": 0,
-        "ariaLandmarks": 0
-      },
-      "performance": {
-        "scripts": 12,
-        "stylesheets": 3,
-        "iframes": 1
-      },
-      "security": {
-        "isHttps": true,
-        "mixedContent": 0
-      },
-      "content": {
-        "wordCount": 261,
-        "headings": 9
-      },
-      "scrapedAt": "2026-07-23T13:57:21.127Z",
-      "scores": {
-        "accessibility": 80,
-        "seo": 100,
-        "performance": 100,
-        "security": 100,
-        "overall": 95
       }
     },
     {
@@ -181,13 +138,62 @@
         "wordCount": 21,
         "headings": 1
       },
-      "scrapedAt": "2026-07-23T13:57:22.837Z",
+      "scrapedAt": "2026-07-23T14:25:01.584Z",
+      "hash": "6b5a20f1a15801788b834d996e50ef6d",
       "scores": {
         "accessibility": 80,
         "seo": 55,
         "performance": 100,
         "security": 100,
         "overall": 84
+      }
+    },
+    {
+      "url": "https://about.google",
+      "name": "Google",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "About Google: Our products, technology and company information - About Google",
+      "description": "Learn more about Google. Explore our innovative AI products and services, and how we're using technology to help improve lives around the world.",
+      "seo": {
+        "title": "About Google: Our products, technology and company information - About Google",
+        "metaDescription": "Learn more about Google. Explore our innovative AI products and services, and how we're using technology to help improve lives around the world.",
+        "h1Count": 1,
+        "h2Count": 3,
+        "images": 10,
+        "imagesWithoutAlt": 0,
+        "links": 47,
+        "canonical": "https://about.google/",
+        "ogTitle": "About Google: Our products, technology and company information",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 12,
+        "stylesheets": 3,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 261,
+        "headings": 9
+      },
+      "scrapedAt": "2026-07-23T14:25:03.271Z",
+      "hash": "72d51c6d62595f1942069560dcff5520",
+      "scores": {
+        "accessibility": 80,
+        "seo": 100,
+        "performance": 100,
+        "security": 100,
+        "overall": 95
       }
     },
     {
@@ -228,7 +234,248 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-07-23T13:57:24.549Z",
+      "scrapedAt": "2026-07-23T14:25:04.870Z",
+      "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
+      "scores": {
+        "accessibility": 70,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://www.jpmorganchase.com",
+      "name": "JPMorgan Chase",
+      "type": "enterprise",
+      "region": "us",
+      "category": "finance",
+      "title": "Home | JPMorganChaseBack ButtonSearch IconFilter Icon",
+      "description": "",
+      "seo": {
+        "title": "Home | JPMorganChaseBack ButtonSearch IconFilter Icon",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 13,
+        "images": 18,
+        "imagesWithoutAlt": 5,
+        "links": 108,
+        "canonical": "https://www.jpmorganchase.com/",
+        "ogTitle": "Home | JPMorganChase",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 12,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 26,
+        "stylesheets": 3,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1332,
+        "headings": 60
+      },
+      "scrapedAt": "2026-07-23T14:25:07.038Z",
+      "hash": "7188cd329a1291db4aa4ddd8e2b2e262",
+      "scores": {
+        "accessibility": 55,
+        "seo": 80,
+        "performance": 80,
+        "security": 100,
+        "overall": 79
+      }
+    },
+    {
+      "url": "https://www.visa.com",
+      "name": "Visa",
+      "type": "enterprise",
+      "region": "us",
+      "category": "finance",
+      "title": "Access payment solutions, security, and card benefits | VisapausesearchAccess payment solutions, security, and card benefits | Visa",
+      "description": "Discover Visa personal payment solutions, secure transactions, travel support, cards and rewards designed to bring more value to your everyday experiences.\n",
+      "seo": {
+        "title": "Access payment solutions, security, and card benefits | VisapausesearchAccess payment solutions, security, and card benefits | Visa",
+        "metaDescription": "Discover Visa personal payment solutions, secure transactions, travel support, cards and rewards designed to bring more value to your everyday experiences.\n",
+        "h1Count": 1,
+        "h2Count": 15,
+        "images": 15,
+        "imagesWithoutAlt": 0,
+        "links": 46,
+        "canonical": "https://www.visa.com/en-us",
+        "ogTitle": "Visa, a trusted leader in digital payments",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 5,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 50,
+        "stylesheets": 23,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 4605,
+        "headings": 20
+      },
+      "scrapedAt": "2026-07-23T14:25:09.021Z",
+      "hash": "8451ea0cff03b87748f3ab0d9c6f3d26",
+      "scores": {
+        "accessibility": 90,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 89
+      }
+    },
+    {
+      "url": "https://www.walmart.com",
+      "name": "Walmart",
+      "type": "enterprise",
+      "region": "us",
+      "category": "retail",
+      "title": "Walmart | Save Money. Live better.",
+      "description": "Shop Walmart.com today for Every Day Low Prices. Join Walmart+ for unlimited free delivery from your store & free shipping with no order minimum. Start your free 30-day trial now!",
+      "seo": {
+        "title": "Walmart | Save Money. Live better.",
+        "metaDescription": "Shop Walmart.com today for Every Day Low Prices. Join Walmart+ for unlimited free delivery from your store & free shipping with no order minimum. Start your free 30-day trial now!",
+        "h1Count": 1,
+        "h2Count": 3,
+        "images": 28,
+        "imagesWithoutAlt": 0,
+        "links": 79,
+        "canonical": "https://www.walmart.com/",
+        "ogTitle": "Walmart | Save Money. Live better.",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 199,
+        "stylesheets": 1,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1819,
+        "headings": 29
+      },
+      "scrapedAt": "2026-07-23T14:25:11.417Z",
+      "hash": "b388ff7da42fa6daae9e1599760016a8",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 95
+      }
+    },
+    {
+      "url": "https://www.unitedhealthgroup.com",
+      "name": "UnitedHealth",
+      "type": "enterprise",
+      "region": "us",
+      "category": "healthcare",
+      "title": "Built for Better Health - UnitedHealth GroupMobile MenuClose MenuClose\n                                    SearchSearchSearchClearSearchLoadingSubmit SearchSubmit SearchClose SearchCloseClearSearchLoadingSubmit SearchSubmit SearchClosePage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchBack ButtonSearch IconFilter Icon",
+      "description": "UnitedHealth Group helps people live healthier lives and helps make the health system work better for everyone.",
+      "seo": {
+        "title": "Built for Better Health - UnitedHealth GroupMobile MenuClose MenuClose\n                                    SearchSearchSearchClearSearchLoadingSubmit SearchSubmit SearchClose SearchCloseClearSearchLoadingSubmit SearchSubmit SearchClosePage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchBack ButtonSearch IconFilter Icon",
+        "metaDescription": "UnitedHealth Group helps people live healthier lives and helps make the health system work better for everyone.",
+        "h1Count": 8,
+        "h2Count": 1,
+        "images": 91,
+        "imagesWithoutAlt": 10,
+        "links": 435,
+        "canonical": "https://www.unitedhealthgroup.com",
+        "ogTitle": "Welcome to UnitedHealth Group",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 21,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 124,
+        "stylesheets": 26,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 10526,
+        "headings": 48
+      },
+      "scrapedAt": "2026-07-23T14:25:14.207Z",
+      "hash": "ad9ec99b681edfd01ad8700f91f85774",
+      "scores": {
+        "accessibility": 70,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 84
+      }
+    },
+    {
+      "url": "https://www.exxonmobil.com",
+      "name": "ExxonMobil",
+      "type": "enterprise",
+      "region": "us",
+      "category": "energy",
+      "title": "Access Denied",
+      "description": "",
+      "seo": {
+        "title": "Access Denied",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 15,
+        "headings": 1
+      },
+      "scrapedAt": "2026-07-23T14:25:15.867Z",
+      "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
         "seo": 70,
@@ -275,7 +522,8 @@
         "wordCount": 1535,
         "headings": 10
       },
-      "scrapedAt": "2026-07-23T13:57:27.699Z",
+      "scrapedAt": "2026-07-23T14:25:18.757Z",
+      "hash": "34144ca7e2f2b812b548331f006682d3",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -319,10 +567,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1558,
+        "wordCount": 1553,
         "headings": 30
       },
-      "scrapedAt": "2026-07-23T13:57:30.749Z",
+      "scrapedAt": "2026-07-23T14:25:21.619Z",
+      "hash": "a8f5bb0d4754479bc80d8e5f903f9e29",
       "scores": {
         "accessibility": 95,
         "seo": 85,
@@ -369,60 +618,14 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-07-23T13:57:32.697Z",
+      "scrapedAt": "2026-07-23T14:25:23.358Z",
+      "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
         "seo": 70,
         "performance": 100,
         "security": 100,
         "overall": 85
-      }
-    },
-    {
-      "url": "https://www.intel.com",
-      "name": "Intel",
-      "type": "enterprise",
-      "region": "us",
-      "category": "technology",
-      "title": "Intel Inside - Built for AICalifornia Consumer Privacy Act (CCPA) Opt-Out IconBack ButtonFilter Button",
-      "description": "Deliver AI at scale across cloud, data center, edge, and client with comprehensive hardware and software solutions.",
-      "seo": {
-        "title": "Intel Inside - Built for AICalifornia Consumer Privacy Act (CCPA) Opt-Out IconBack ButtonFilter Button",
-        "metaDescription": "Deliver AI at scale across cloud, data center, edge, and client with comprehensive hardware and software solutions.",
-        "h1Count": 0,
-        "h2Count": 9,
-        "images": 6,
-        "imagesWithoutAlt": 0,
-        "links": 148,
-        "canonical": "https://www.intel.com/content/www/us/en/homepage.html",
-        "ogTitle": "Intel Inside - Built for AI",
-        "schemaOrg": true
-      },
-      "accessibility": {
-        "hasLangAttr": true,
-        "formLabels": 10,
-        "ariaLandmarks": 2
-      },
-      "performance": {
-        "scripts": 98,
-        "stylesheets": 12,
-        "iframes": 2
-      },
-      "security": {
-        "isHttps": true,
-        "mixedContent": 0
-      },
-      "content": {
-        "wordCount": 7455,
-        "headings": 26
-      },
-      "scrapedAt": "2026-07-23T13:57:35.809Z",
-      "scores": {
-        "accessibility": 100,
-        "seo": 85,
-        "performance": 65,
-        "security": 100,
-        "overall": 88
       }
     },
     {
@@ -463,7 +666,8 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-07-23T13:57:37.546Z",
+      "scrapedAt": "2026-07-23T14:25:24.951Z",
+      "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
         "seo": 70,
@@ -498,7 +702,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 21,
+        "scripts": 38,
         "stylesheets": 3,
         "iframes": 0
       },
@@ -507,16 +711,65 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 4263,
+        "wordCount": 6062,
         "headings": 38
       },
-      "scrapedAt": "2026-07-23T13:57:41.096Z",
+      "scrapedAt": "2026-07-23T14:25:28.057Z",
+      "hash": "27b228a66d806978df190ac5fcefe24d",
       "scores": {
         "accessibility": 70,
         "seo": 100,
         "performance": 80,
         "security": 100,
         "overall": 88
+      }
+    },
+    {
+      "url": "https://www.allianz.com",
+      "name": "Allianz",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "finance",
+      "title": "Just a moment...",
+      "description": "",
+      "seo": {
+        "title": "Just a moment...",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 2,
+        "images": 1,
+        "imagesWithoutAlt": 0,
+        "links": 2,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 3,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 110,
+        "headings": 3
+      },
+      "scrapedAt": "2026-07-23T14:25:29.720Z",
+      "hash": "220f4b0a44fd1dc4256aa29cf6230e42",
+      "scores": {
+        "accessibility": 100,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 93
       }
     },
     {
@@ -545,7 +798,7 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 146,
+        "scripts": 157,
         "stylesheets": 28,
         "iframes": 5
       },
@@ -554,16 +807,161 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 9299,
+        "wordCount": 9316,
         "headings": 17
       },
-      "scrapedAt": "2026-07-23T13:57:45.625Z",
+      "scrapedAt": "2026-07-23T14:25:33.421Z",
+      "hash": "b1981d34baef49461b0d854d55d962c5",
       "scores": {
         "accessibility": 80,
         "seo": 100,
         "performance": 65,
         "security": 100,
         "overall": 86
+      }
+    },
+    {
+      "url": "https://www.mercedes-benz.com",
+      "name": "Mercedes-Benz",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "automotive",
+      "title": "Access Denied",
+      "description": "",
+      "seo": {
+        "title": "Access Denied",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 15,
+        "headings": 1
+      },
+      "scrapedAt": "2026-07-23T14:25:35.124Z",
+      "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
+      "scores": {
+        "accessibility": 70,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://www.volkswagen.com",
+      "name": "Volkswagen",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "automotive",
+      "title": "Startseite | Volkswagen DeutschlandZur Volkswagen StartseiteÖffnet einen externen Link",
+      "description": "Willkommen bei Volkswagen. Erfahren Sie alles über die Marke, Modelle, Angebote, allgemeine Infos, bis zum Trendthema Elektromobilität.\n",
+      "seo": {
+        "title": "Startseite | Volkswagen DeutschlandZur Volkswagen StartseiteÖffnet einen externen Link",
+        "metaDescription": "Willkommen bei Volkswagen. Erfahren Sie alles über die Marke, Modelle, Angebote, allgemeine Infos, bis zum Trendthema Elektromobilität.\n",
+        "h1Count": 5,
+        "h2Count": 6,
+        "images": 11,
+        "imagesWithoutAlt": 0,
+        "links": 194,
+        "canonical": "https://www.volkswagen.de/de.html",
+        "ogTitle": "Startseite | Volkswagen Deutschland",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 3,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 25,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 5601,
+        "headings": 21
+      },
+      "scrapedAt": "2026-07-23T14:25:37.582Z",
+      "hash": "df37f327c3be80daf0e919ea86c44975",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 95
+      }
+    },
+    {
+      "url": "https://www.asml.com",
+      "name": "ASML",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "technology",
+      "title": "ASML | The world's supplier to the semiconductor industryASML LogoBack ButtonSearch IconFilter Icon",
+      "description": "ASML gives the world's leading chipmakers the power to mass produce patterns on silicon, helping to make computer chips smaller, faster and greener.",
+      "seo": {
+        "title": "ASML | The world's supplier to the semiconductor industryASML LogoBack ButtonSearch IconFilter Icon",
+        "metaDescription": "ASML gives the world's leading chipmakers the power to mass produce patterns on silicon, helping to make computer chips smaller, faster and greener.",
+        "h1Count": 1,
+        "h2Count": 10,
+        "images": 15,
+        "imagesWithoutAlt": 1,
+        "links": 150,
+        "canonical": "https://www.asml.com",
+        "ogTitle": "ASML | The world's supplier to the semiconductor industry",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 8,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 50,
+        "stylesheets": 2,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 5689,
+        "headings": 27
+      },
+      "scrapedAt": "2026-07-23T14:25:39.831Z",
+      "hash": "82de15756a2bbdd6bf63bea741742efb",
+      "scores": {
+        "accessibility": 95,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 94
       }
     },
     {
@@ -604,13 +1002,110 @@
         "wordCount": 562,
         "headings": 8
       },
-      "scrapedAt": "2026-07-23T13:57:47.605Z",
+      "scrapedAt": "2026-07-23T14:25:41.514Z",
+      "hash": "03ec71aa3b44db08ee6c47c1cc8f2dba",
       "scores": {
         "accessibility": 100,
         "seo": 70,
         "performance": 100,
         "security": 100,
         "overall": 93
+      }
+    },
+    {
+      "url": "https://www.novartis.com",
+      "name": "Novartis",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "healthcare",
+      "title": "Novartis(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)Back ButtonSearch IconFilter Icon",
+      "description": "For more than 250 years–and 30 years as Novartis–we’ve pursued scientific breakthroughs for one purpose: people. Today, we take on the toughest challenges in healthcare and turn innovations into medicines that redefine the future for patients.",
+      "seo": {
+        "title": "Novartis(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)Back ButtonSearch IconFilter Icon",
+        "metaDescription": "For more than 250 years–and 30 years as Novartis–we’ve pursued scientific breakthroughs for one purpose: people. Today, we take on the toughest challenges in healthcare and turn innovations into medicines that redefine the future for patients.",
+        "h1Count": 1,
+        "h2Count": 13,
+        "images": 25,
+        "imagesWithoutAlt": 0,
+        "links": 360,
+        "canonical": "https://www.novartis.com/",
+        "ogTitle": "Novartis",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 9,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 95,
+        "stylesheets": 77,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1887,
+        "headings": 23
+      },
+      "scrapedAt": "2026-07-23T14:25:43.766Z",
+      "hash": "d3da361757a8372c98c180c1bf9debc4",
+      "scores": {
+        "accessibility": 80,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 86
+      }
+    },
+    {
+      "url": "https://www.unilever.com",
+      "name": "Unilever",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "consumer",
+      "title": "Access Denied",
+      "description": "",
+      "seo": {
+        "title": "Access Denied",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 15,
+        "headings": 1
+      },
+      "scrapedAt": "2026-07-23T14:25:45.429Z",
+      "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
+      "scores": {
+        "accessibility": 70,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 85
       }
     },
     {
@@ -651,7 +1146,8 @@
         "wordCount": 1816,
         "headings": 23
       },
-      "scrapedAt": "2026-07-23T13:57:50.195Z",
+      "scrapedAt": "2026-07-23T14:25:47.671Z",
+      "hash": "b47b9fd02cddce529a2a1351ad868dab",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -661,10 +1157,154 @@
       }
     },
     {
+      "url": "https://www.barclays.com",
+      "name": "Barclays",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "finance",
+      "title": "Barclays Group corporate website | BarclaysBack ButtonSearch IconFilter Icon",
+      "description": "Barclays is a British universal bank. Our businesses include consumer banking, as well as a top-tier, global corporate and investment bank.",
+      "seo": {
+        "title": "Barclays Group corporate website | BarclaysBack ButtonSearch IconFilter Icon",
+        "metaDescription": "Barclays is a British universal bank. Our businesses include consumer banking, as well as a top-tier, global corporate and investment bank.",
+        "h1Count": 1,
+        "h2Count": 16,
+        "images": 18,
+        "imagesWithoutAlt": 0,
+        "links": 110,
+        "canonical": "https://home.barclays/",
+        "ogTitle": "Barclays Group corporate website | Barclays",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 7,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 25,
+        "stylesheets": 36,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1450,
+        "headings": 49
+      },
+      "scrapedAt": "2026-07-23T14:25:49.836Z",
+      "hash": "7afaf8c674727263b58f4764b21fa587",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://www.totalenergies.com",
+      "name": "TotalEnergies",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "energy",
+      "title": "TotalEnergies - integrated multi-energy company | TotalEnergies.com",
+      "description": "TotalEnergies is a global integrated energy company that produces and markets energies: oil and biofuels, natural gas and green gases, renewables and electricity.",
+      "seo": {
+        "title": "TotalEnergies - integrated multi-energy company | TotalEnergies.com",
+        "metaDescription": "TotalEnergies is a global integrated energy company that produces and markets energies: oil and biofuels, natural gas and green gases, renewables and electricity.",
+        "h1Count": 2,
+        "h2Count": 9,
+        "images": 40,
+        "imagesWithoutAlt": 0,
+        "links": 146,
+        "canonical": "https://totalenergies.com/",
+        "ogTitle": "TotalEnergies - integrated multi-energy company | TotalEnergies.com",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 2,
+        "ariaLandmarks": 8
+      },
+      "performance": {
+        "scripts": 11,
+        "stylesheets": 2,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1078,
+        "headings": 19
+      },
+      "scrapedAt": "2026-07-23T14:25:52.072Z",
+      "hash": "fe37eda8e536380df6a8933391b564b9",
+      "scores": {
+        "accessibility": 100,
+        "seo": 95,
+        "performance": 100,
+        "security": 100,
+        "overall": 99
+      }
+    },
+    {
+      "url": "https://www.airbus.com",
+      "name": "Airbus",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "aerospace",
+      "title": "Pioneering sustainable aerospace | AirbusLinkedInXFacebookInstagramYouTubeTikTokBack ButtonSearch IconFilter Icon",
+      "description": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+      "seo": {
+        "title": "Pioneering sustainable aerospace | AirbusLinkedInXFacebookInstagramYouTubeTikTokBack ButtonSearch IconFilter Icon",
+        "metaDescription": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+        "h1Count": 1,
+        "h2Count": 15,
+        "images": 33,
+        "imagesWithoutAlt": 23,
+        "links": 253,
+        "canonical": "https://www.airbus.com/en/node/51851",
+        "ogTitle": "Pioneering sustainable aerospace for a safe and united world",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 53,
+        "ariaLandmarks": 9
+      },
+      "performance": {
+        "scripts": 20,
+        "stylesheets": 3,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1856,
+        "headings": 65
+      },
+      "scrapedAt": "2026-07-23T14:25:54.575Z",
+      "hash": "d3b0cf947bd1bca0a182afbc99cbf70b",
+      "scores": {
+        "accessibility": 70,
+        "seo": 100,
+        "performance": 100,
+        "security": 100,
+        "overall": 93
+      }
+    },
+    {
       "url": "https://www.earthguardians.org",
       "name": "Earth Guardians",
       "type": "ngo",
-      "region": "us",
+      "region": "international",
       "category": "environment",
       "title": "Earth Guardians",
       "description": "",
@@ -698,7 +1338,8 @@
         "wordCount": 5817,
         "headings": 16
       },
-      "scrapedAt": "2026-07-23T13:57:52.901Z",
+      "scrapedAt": "2026-07-23T14:25:57.267Z",
+      "hash": "e1f4d2fa3c5be875fe630f04f5a6eaf4",
       "scores": {
         "accessibility": 100,
         "seo": 85,
@@ -745,7 +1386,8 @@
         "wordCount": 266,
         "headings": 2
       },
-      "scrapedAt": "2026-07-23T13:57:54.919Z",
+      "scrapedAt": "2026-07-23T14:25:59.091Z",
+      "hash": "32d32b694c828f98bd98c3303467d243",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -792,7 +1434,8 @@
         "wordCount": 1354,
         "headings": 30
       },
-      "scrapedAt": "2026-07-23T13:57:57.044Z",
+      "scrapedAt": "2026-07-23T14:26:01.147Z",
+      "hash": "41192aa6fed5e629a78cb9ec8d1767c3",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -805,7 +1448,7 @@
       "url": "https://www.redcross.org",
       "name": "Red Cross",
       "type": "ngo",
-      "region": "us",
+      "region": "international",
       "category": "humanitarian",
       "title": "Access Denied",
       "description": "",
@@ -839,13 +1482,62 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-07-23T13:57:58.879Z",
+      "scrapedAt": "2026-07-23T14:26:02.869Z",
+      "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
         "seo": 70,
         "performance": 100,
         "security": 100,
         "overall": 85
+      }
+    },
+    {
+      "url": "https://www.doctorswithoutborders.org",
+      "name": "Doctors Without Borders",
+      "type": "ngo",
+      "region": "international",
+      "category": "healthcare",
+      "title": "Home | Doctors Without Borders - USA",
+      "description": "Médecins Sans Frontières/Doctors Without Borders (MSF) treats people where the need is greatest. We are an international medical humanitarian organisation. We",
+      "seo": {
+        "title": "Home | Doctors Without Borders - USA",
+        "metaDescription": "Médecins Sans Frontières/Doctors Without Borders (MSF) treats people where the need is greatest. We are an international medical humanitarian organisation. We",
+        "h1Count": 1,
+        "h2Count": 7,
+        "images": 25,
+        "imagesWithoutAlt": 1,
+        "links": 164,
+        "canonical": "https://www.doctorswithoutborders.org/",
+        "ogTitle": "Home | Doctors Without Borders - USA",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 2,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 107,
+        "stylesheets": 8,
+        "iframes": 4
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1441,
+        "headings": 15
+      },
+      "scrapedAt": "2026-07-23T14:26:04.786Z",
+      "hash": "198d51be58292772525f2777fdff36fa",
+      "scores": {
+        "accessibility": 95,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 94
       }
     },
     {
@@ -886,11 +1578,2124 @@
         "wordCount": 1121,
         "headings": 27
       },
-      "scrapedAt": "2026-07-23T13:58:01.510Z",
+      "scrapedAt": "2026-07-23T14:26:07.052Z",
+      "hash": "53596624c2477bf5db59fb828ced7698",
       "scores": {
         "accessibility": 100,
         "seo": 100,
         "performance": 80,
+        "security": 100,
+        "overall": 95
+      }
+    },
+    {
+      "url": "https://www.hrw.org",
+      "name": "Human Rights Watch",
+      "type": "ngo",
+      "region": "international",
+      "category": "human_rights",
+      "title": "Human Rights Watch | Defending Human Rights WorldwideHuman Rights WatchHuman Rights Watch",
+      "description": "Human Rights Watch defends the rights of people in 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice",
+      "seo": {
+        "title": "Human Rights Watch | Defending Human Rights WorldwideHuman Rights WatchHuman Rights Watch",
+        "metaDescription": "Human Rights Watch defends the rights of people in 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice",
+        "h1Count": 0,
+        "h2Count": 18,
+        "images": 67,
+        "imagesWithoutAlt": 0,
+        "links": 455,
+        "canonical": "https://www.hrw.org/",
+        "ogTitle": "Human Rights Watch defends the rights of people in 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 14,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 33,
+        "stylesheets": 3,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 5774,
+        "headings": 143
+      },
+      "scrapedAt": "2026-07-23T14:26:09.096Z",
+      "hash": "69c503dfad7d8b3e7092836fe7be6848",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 80,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://www.oxfam.org",
+      "name": "Oxfam",
+      "type": "ngo",
+      "region": "international",
+      "category": "poverty",
+      "title": "Oxfam - Fighting Inequality to End Poverty & Injustice | OxfamOxfamOxfam",
+      "description": "Oxfam is a global organization that fights inequality to end poverty and injustice. Join us and let’s build a more equal future—together.",
+      "seo": {
+        "title": "Oxfam - Fighting Inequality to End Poverty & Injustice | OxfamOxfamOxfam",
+        "metaDescription": "Oxfam is a global organization that fights inequality to end poverty and injustice. Join us and let’s build a more equal future—together.",
+        "h1Count": 1,
+        "h2Count": 8,
+        "images": 23,
+        "imagesWithoutAlt": 1,
+        "links": 248,
+        "canonical": "https://www.oxfamamerica.org/",
+        "ogTitle": "Oxfam America",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 6,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 70,
+        "stylesheets": 2,
+        "iframes": 4
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1773,
+        "headings": 26
+      },
+      "scrapedAt": "2026-07-23T14:26:12.206Z",
+      "hash": "a490948acf6b95f361cfac0c7455a324",
+      "scores": {
+        "accessibility": 95,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 94
+      }
+    },
+    {
+      "url": "https://www.unicef.org",
+      "name": "UNICEF",
+      "type": "ngo",
+      "region": "international",
+      "category": "children",
+      "title": "Just a moment...",
+      "description": "",
+      "seo": {
+        "title": "Just a moment...",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 2,
+        "images": 1,
+        "imagesWithoutAlt": 0,
+        "links": 2,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 3,
+        "stylesheets": 0,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 110,
+        "headings": 3
+      },
+      "scrapedAt": "2026-07-23T14:26:13.974Z",
+      "hash": "220f4b0a44fd1dc4256aa29cf6230e42",
+      "scores": {
+        "accessibility": 100,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 93
+      }
+    },
+    {
+      "url": "https://www.wfp.org",
+      "name": "World Food Programme",
+      "type": "ngo",
+      "region": "international",
+      "category": "food",
+      "title": "UN World Food Programme (WFP)",
+      "description": "We are the world’s largest humanitarian organization, saving lives in emergencies and using food assistance to build a pathway to peace, stability and prosperity for people recovering from conflict, disasters and the impact of climate change.",
+      "seo": {
+        "title": "UN World Food Programme (WFP)",
+        "metaDescription": "We are the world’s largest humanitarian organization, saving lives in emergencies and using food assistance to build a pathway to peace, stability and prosperity for people recovering from conflict, disasters and the impact of climate change.",
+        "h1Count": 3,
+        "h2Count": 19,
+        "images": 15,
+        "imagesWithoutAlt": 0,
+        "links": 375,
+        "canonical": "https://www.wfp.org/",
+        "ogTitle": "UN World Food Programme (WFP)",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 27,
+        "stylesheets": 4,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1389,
+        "headings": 48
+      },
+      "scrapedAt": "2026-07-23T14:26:17.211Z",
+      "hash": "b3453cc5a364a3b97b743efee97612b5",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 95
+      }
+    },
+    {
+      "url": "https://www.sierraclub.org",
+      "name": "Sierra Club",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "No title",
+      "description": "",
+      "seo": {
+        "title": "",
+        "metaDescription": "",
+        "h1Count": 0,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": false,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 1,
+        "stylesheets": 0,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 6,
+        "headings": 0
+      },
+      "scrapedAt": "2026-07-23T14:26:19.104Z",
+      "hash": "e55b5be1dcd75d655f4e505583cda116",
+      "scores": {
+        "accessibility": 70,
+        "seo": 35,
+        "performance": 100,
+        "security": 100,
+        "overall": 76
+      }
+    },
+    {
+      "url": "https://www.nrdc.org",
+      "name": "NRDC",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "Be a Force for the Future | NRDCPopup May/June 2026 (2 buttons)Close searchSearchNRDCNRDCNRDCNRDCSearchNRDC LogoBack to topBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
+      "description": "",
+      "seo": {
+        "title": "Be a Force for the Future | NRDCPopup May/June 2026 (2 buttons)Close searchSearchNRDCNRDCNRDCNRDCSearchNRDC LogoBack to topBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 11,
+        "images": 26,
+        "imagesWithoutAlt": 0,
+        "links": 149,
+        "canonical": "https://www.nrdc.org/",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 37,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 90,
+        "stylesheets": 14,
+        "iframes": 5
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 2382,
+        "headings": 39
+      },
+      "scrapedAt": "2026-07-23T14:26:21.136Z",
+      "hash": "011791cdeafa5012b8f85ca4afda6da7",
+      "scores": {
+        "accessibility": 100,
+        "seo": 80,
+        "performance": 65,
+        "security": 100,
+        "overall": 86
+      }
+    },
+    {
+      "url": "https://www.nature.org",
+      "name": "The Nature Conservancy",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "The Nature Conservancy: A World Where People & Nature ThriveBack ButtonSearch IconFilter Icon",
+      "description": "We're working around the world to protect the lands and waters on which all life depends and fight climate change. Join us.",
+      "seo": {
+        "title": "The Nature Conservancy: A World Where People & Nature ThriveBack ButtonSearch IconFilter Icon",
+        "metaDescription": "We're working around the world to protect the lands and waters on which all life depends and fight climate change. Join us.",
+        "h1Count": 1,
+        "h2Count": 14,
+        "images": 35,
+        "imagesWithoutAlt": 0,
+        "links": 141,
+        "canonical": "https://www.nature.org/en-us/",
+        "ogTitle": "The Nature Conservancy",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 15,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 64,
+        "stylesheets": 7,
+        "iframes": 4
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 2095,
+        "headings": 41
+      },
+      "scrapedAt": "2026-07-23T14:26:23.427Z",
+      "hash": "852147378ad7a5b8e98beb4fc693fa5e",
+      "scores": {
+        "accessibility": 100,
+        "seo": 95,
+        "performance": 80,
+        "security": 100,
+        "overall": 94
+      }
+    },
+    {
+      "url": "https://www.conservation.org",
+      "name": "Conservation International",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "Home | Conservation InternationalBack ButtonSearch IconFilter Icon",
+      "description": "Since 1987, Conservation International has worked to improve the lives of people everywhere by protecting oceans, forests and other living ecosystems.",
+      "seo": {
+        "title": "Home | Conservation InternationalBack ButtonSearch IconFilter Icon",
+        "metaDescription": "Since 1987, Conservation International has worked to improve the lives of people everywhere by protecting oceans, forests and other living ecosystems.",
+        "h1Count": 1,
+        "h2Count": 4,
+        "images": 20,
+        "imagesWithoutAlt": 0,
+        "links": 58,
+        "canonical": "https://www.conservation.org/home",
+        "ogTitle": "Home | Conservation International",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 8,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 105,
+        "stylesheets": 5,
+        "iframes": 3
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 3208,
+        "headings": 26
+      },
+      "scrapedAt": "2026-07-23T14:26:26.027Z",
+      "hash": "b3db3338f85d42e75d6c36b6ed5cd1a8",
+      "scores": {
+        "accessibility": 80,
+        "seo": 95,
+        "performance": 80,
+        "security": 100,
+        "overall": 89
+      }
+    },
+    {
+      "url": "https://www.edf.org",
+      "name": "Environmental Defense Fund",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "Environmental Defense Fund - Finding the ways that work | EDFMagnifying GlassTwitterLinkedInInstagramFacebookTikTok",
+      "description": "We're a global environmental organization driving game-changing solutions to our biggest environmental issues like climate change, air pollution and more.",
+      "seo": {
+        "title": "Environmental Defense Fund - Finding the ways that work | EDFMagnifying GlassTwitterLinkedInInstagramFacebookTikTok",
+        "metaDescription": "We're a global environmental organization driving game-changing solutions to our biggest environmental issues like climate change, air pollution and more.",
+        "h1Count": 1,
+        "h2Count": 8,
+        "images": 29,
+        "imagesWithoutAlt": 0,
+        "links": 126,
+        "canonical": "https://www.edf.org/",
+        "ogTitle": "Environmental Defense Fund - Finding the ways that work",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 1,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 27,
+        "stylesheets": 7,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 2133,
+        "headings": 28
+      },
+      "scrapedAt": "2026-07-23T14:26:28.042Z",
+      "hash": "c90794c90e3cd21f0fd9bedb0c898e1c",
+      "scores": {
+        "accessibility": 100,
+        "seo": 95,
+        "performance": 80,
+        "security": 100,
+        "overall": 94
+      }
+    },
+    {
+      "url": "https://www.rainforest-alliance.org",
+      "name": "Rainforest Alliance",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "Rainforest Alliance | Creating a Better World for People and Nature",
+      "description": "When you choose products with the Rainforest Alliance little green frog, you’re supporting a better world for people and nature.",
+      "seo": {
+        "title": "Rainforest Alliance | Creating a Better World for People and Nature",
+        "metaDescription": "When you choose products with the Rainforest Alliance little green frog, you’re supporting a better world for people and nature.",
+        "h1Count": 1,
+        "h2Count": 10,
+        "images": 25,
+        "imagesWithoutAlt": 5,
+        "links": 224,
+        "canonical": "https://www.rainforest-alliance.org/",
+        "ogTitle": "Rainforest Alliance",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 70,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 110,
+        "stylesheets": 17,
+        "iframes": 3
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 12305,
+        "headings": 22
+      },
+      "scrapedAt": "2026-07-23T14:26:31.413Z",
+      "hash": "f56a683ef94475fbd87c5664a6317e5e",
+      "scores": {
+        "accessibility": 75,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://www.oceanconservancy.org",
+      "name": "Ocean Conservancy",
+      "type": "ngo",
+      "region": "international",
+      "category": "ocean",
+      "title": "Homepage - Ocean ConservancyHomepage - Ocean Conservancy",
+      "description": "Ocean Conservancy is a US.-based organization that works globally to protect the ocean. Together, we are securing a healthy ocean and a thriving planet, forever and for everyone.",
+      "seo": {
+        "title": "Homepage - Ocean ConservancyHomepage - Ocean Conservancy",
+        "metaDescription": "Ocean Conservancy is a US.-based organization that works globally to protect the ocean. Together, we are securing a healthy ocean and a thriving planet, forever and for everyone.",
+        "h1Count": 1,
+        "h2Count": 7,
+        "images": 58,
+        "imagesWithoutAlt": 9,
+        "links": 89,
+        "canonical": "https://oceanconservancy.org/",
+        "ogTitle": "Homepage",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 16,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 79,
+        "stylesheets": 11,
+        "iframes": 4
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 2088,
+        "headings": 24
+      },
+      "scrapedAt": "2026-07-23T14:26:33.499Z",
+      "hash": "2a80859c83bd900f13ecf501cbf4ac36",
+      "scores": {
+        "accessibility": 50,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 79
+      }
+    },
+    {
+      "url": "https://350.org",
+      "name": "350.org",
+      "type": "ngo",
+      "region": "international",
+      "category": "climate",
+      "title": "350",
+      "description": "350.org is turning the page on the fossil fuel industry and building a clean, just future by connecting powerful grassroots climate movements around the world.",
+      "seo": {
+        "title": "350",
+        "metaDescription": "350.org is turning the page on the fossil fuel industry and building a clean, just future by connecting powerful grassroots climate movements around the world.",
+        "h1Count": 2,
+        "h2Count": 4,
+        "images": 16,
+        "imagesWithoutAlt": 7,
+        "links": 131,
+        "canonical": "https://350.org/",
+        "ogTitle": "350.org: A global campaign to confront the climate crisis",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 6,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 80,
+        "stylesheets": 10,
+        "iframes": 7
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 4561,
+        "headings": 17
+      },
+      "scrapedAt": "2026-07-23T14:26:36.106Z",
+      "hash": "ade72c8fe950abc639b5227aa3e2f528",
+      "scores": {
+        "accessibility": 50,
+        "seo": 100,
+        "performance": 80,
+        "security": 100,
+        "overall": 83
+      }
+    },
+    {
+      "url": "https://www.greenamerica.org",
+      "name": "Green America",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "Welcome to Green America | www.greenamerica.orgsearch",
+      "description": "Green America's mission is to harness economic power—the strength of consumers, investors, businesses, and the marketplace—to create a socially just and environmentally sustainable society. Green America is a national, 501(c)(3) not-for-profit, membership organization founded in 1982.",
+      "seo": {
+        "title": "Welcome to Green America | www.greenamerica.orgsearch",
+        "metaDescription": "Green America's mission is to harness economic power—the strength of consumers, investors, businesses, and the marketplace—to create a socially just and environmentally sustainable society. Green America is a national, 501(c)(3) not-for-profit, membership organization founded in 1982.",
+        "h1Count": 1,
+        "h2Count": 5,
+        "images": 27,
+        "imagesWithoutAlt": 2,
+        "links": 84,
+        "canonical": "https://greenamerica.org/",
+        "ogTitle": "Welcome to Green America",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 47,
+        "stylesheets": 8,
+        "iframes": 3
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 362,
+        "headings": 6
+      },
+      "scrapedAt": "2026-07-23T14:26:38.184Z",
+      "hash": "b83d421ba9bfc39c35defc8ba8ed2138",
+      "scores": {
+        "accessibility": 90,
+        "seo": 95,
+        "performance": 80,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://www.earthday.org",
+      "name": "Earth Day Network",
+      "type": "ngo",
+      "region": "international",
+      "category": "environment",
+      "title": "Earth Day: The Official Site | EARTHDAY.ORG",
+      "description": "Visit the official Earth Day site to learn about the world's largest environmental movement and what you can do to make every day Earth Day.",
+      "seo": {
+        "title": "Earth Day: The Official Site | EARTHDAY.ORG",
+        "metaDescription": "Visit the official Earth Day site to learn about the world's largest environmental movement and what you can do to make every day Earth Day.",
+        "h1Count": 0,
+        "h2Count": 23,
+        "images": 77,
+        "imagesWithoutAlt": 1,
+        "links": 180,
+        "canonical": "https://www.earthday.org/",
+        "ogTitle": "Earth Day: The Official Site | EARTHDAY.ORG",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 15,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 63,
+        "stylesheets": 38,
+        "iframes": 3
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 7050,
+        "headings": 35
+      },
+      "scrapedAt": "2026-07-23T14:26:40.446Z",
+      "hash": "5cd560e441b7f0faaeccf66538209f37",
+      "scores": {
+        "accessibility": 95,
+        "seo": 85,
+        "performance": 65,
+        "security": 100,
+        "overall": 86
+      }
+    },
+    {
+      "url": "https://support.apple.com",
+      "name": "Mac Support",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Official Apple Support",
+      "description": "Learn more about popular features and topics, and find resources that will help you with all of your Apple products. ",
+      "seo": {
+        "title": "Official Apple Support",
+        "metaDescription": "Learn more about popular features and topics, and find resources that will help you with all of your Apple products. ",
+        "h1Count": 1,
+        "h2Count": 41,
+        "images": 15,
+        "imagesWithoutAlt": 0,
+        "links": 272,
+        "canonical": "https://support.apple.com",
+        "ogTitle": "",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 5,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 8,
+        "stylesheets": 5,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 2851,
+        "headings": 48
+      },
+      "scrapedAt": "2026-07-23T14:26:42.254Z",
+      "hash": "7b9725a763e2c551be82327ba9118e42",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 100,
+        "security": 100,
+        "overall": 100
+      }
+    },
+    {
+      "url": "https://discussions.apple.com",
+      "name": "Community",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Official Apple Support Community",
+      "description": "Find answers with millions of other Apple users in our vibrant community. Search discussions or ask a question about your product.",
+      "seo": {
+        "title": "Official Apple Support Community",
+        "metaDescription": "Find answers with millions of other Apple users in our vibrant community. Search discussions or ask a question about your product.",
+        "h1Count": 1,
+        "h2Count": 36,
+        "images": 22,
+        "imagesWithoutAlt": 0,
+        "links": 274,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 4,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 9,
+        "stylesheets": 5,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 4061,
+        "headings": 46
+      },
+      "scrapedAt": "2026-07-23T14:26:44.510Z",
+      "hash": "0a17a87017729fe30394f0eb8c040e70",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 96
+      }
+    },
+    {
+      "url": "https://checkcoverage.apple.com",
+      "name": "Check Coverage",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Support",
+      "description": "",
+      "seo": {
+        "title": "Support",
+        "metaDescription": "",
+        "h1Count": 0,
+        "h2Count": 0,
+        "images": 1,
+        "imagesWithoutAlt": 0,
+        "links": 18,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 1,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 4,
+        "stylesheets": 2,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 80,
+        "headings": 0
+      },
+      "scrapedAt": "2026-07-23T14:26:46.455Z",
+      "hash": "0490682407a7227517ed737dba4f284d",
+      "scores": {
+        "accessibility": 100,
+        "seo": 55,
+        "performance": 100,
+        "security": 100,
+        "overall": 89
+      }
+    },
+    {
+      "url": "https://card.apple.com",
+      "name": "Apply now",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Apple Card",
+      "description": "Sign in to view your Apple Card balances, Apple Card Monthly Installments, make payments, and download your monthly statements.",
+      "seo": {
+        "title": "Apple Card",
+        "metaDescription": "Sign in to view your Apple Card balances, Apple Card Monthly Installments, make payments, and download your monthly statements.",
+        "h1Count": 0,
+        "h2Count": 0,
+        "images": 3,
+        "imagesWithoutAlt": 0,
+        "links": 4,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 3,
+        "stylesheets": 2,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 30,
+        "headings": 0
+      },
+      "scrapedAt": "2026-07-23T14:26:48.512Z",
+      "hash": "f2ae39e984c5a90d0d0e06b32ab92c32",
+      "scores": {
+        "accessibility": 100,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 93
+      }
+    },
+    {
+      "url": "https://tv.apple.com",
+      "name": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "‎Apple TV",
+      "description": "",
+      "seo": {
+        "title": "‎Apple TV",
+        "metaDescription": "",
+        "h1Count": 2,
+        "h2Count": 20,
+        "images": 119,
+        "imagesWithoutAlt": 0,
+        "links": 302,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 1,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 11,
+        "stylesheets": 3,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1809,
+        "headings": 31
+      },
+      "scrapedAt": "2026-07-23T14:26:50.505Z",
+      "hash": "a47e3db43c8d00241981e22439ecec61",
+      "scores": {
+        "accessibility": 80,
+        "seo": 75,
+        "performance": 100,
+        "security": 100,
+        "overall": 89
+      }
+    },
+    {
+      "url": "https://music.apple.com",
+      "name": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "‎Apple Music - Web Player",
+      "description": "",
+      "seo": {
+        "title": "‎Apple Music - Web Player",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 28,
+        "images": 123,
+        "imagesWithoutAlt": 0,
+        "links": 679,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 9,
+        "stylesheets": 2,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1783,
+        "headings": 47
+      },
+      "scrapedAt": "2026-07-23T14:26:55.539Z",
+      "hash": "03810a444aab7473173399d69f9238ae",
+      "scores": {
+        "accessibility": 80,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 88
+      }
+    },
+    {
+      "url": "https://fitness.apple.com",
+      "name": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Apple Fitness+ - Apple",
+      "description": "",
+      "seo": {
+        "title": "Apple Fitness+ - Apple",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 53,
+        "images": 198,
+        "imagesWithoutAlt": 0,
+        "links": 466,
+        "canonical": "https://www.apple.com/apple-fitness-plus/",
+        "ogTitle": "Apple Fitness+",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 2,
+        "ariaLandmarks": 5
+      },
+      "performance": {
+        "scripts": 18,
+        "stylesheets": 7,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 10180,
+        "headings": 90
+      },
+      "scrapedAt": "2026-07-23T14:26:58.098Z",
+      "hash": "b82db46fc1ee524517116e2e11e0ece0",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 96
+      }
+    },
+    {
+      "url": "https://apps.apple.com",
+      "name": "<picture>\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "‎Today for iPhone - App Store",
+      "description": "",
+      "seo": {
+        "title": "‎Today for iPhone - App Store",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 15,
+        "images": 120,
+        "imagesWithoutAlt": 0,
+        "links": 326,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 1,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 8,
+        "stylesheets": 2,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1415,
+        "headings": 80
+      },
+      "scrapedAt": "2026-07-23T14:26:59.983Z",
+      "hash": "57d21a244de70c6fb9e0a8b2183609e8",
+      "scores": {
+        "accessibility": 80,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 88
+      }
+    },
+    {
+      "url": "https://account.apple.com",
+      "name": "Manage Your Apple Account",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Apple Account: Sign-in and Manage",
+      "description": "",
+      "seo": {
+        "title": "Apple Account: Sign-in and Manage",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 1,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 29,
+        "canonical": "",
+        "ogTitle": "Apple Account",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 2,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 10,
+        "stylesheets": 5,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 7226,
+        "headings": 4
+      },
+      "scrapedAt": "2026-07-23T14:27:02.562Z",
+      "hash": "7f9fd973801c6c6813b346e555957ee6",
+      "scores": {
+        "accessibility": 100,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 93
+      }
+    },
+    {
+      "url": "https://www.icloud.com",
+      "name": "iCloud.com",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "iCloud",
+      "description": "Log in to iCloud to access your photos, mail, notes, documents and more. Sign in with your Apple Account or create a new account to start using Apple services.",
+      "seo": {
+        "title": "iCloud",
+        "metaDescription": "Log in to iCloud to access your photos, mail, notes, documents and more. Sign in with your Apple Account or create a new account to start using Apple services.",
+        "h1Count": 1,
+        "h2Count": 3,
+        "images": 4,
+        "imagesWithoutAlt": 1,
+        "links": 5,
+        "canonical": "https://www.icloud.com/",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 11,
+        "stylesheets": 5,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 200,
+        "headings": 4
+      },
+      "scrapedAt": "2026-07-23T14:27:04.534Z",
+      "hash": "248f42d83bcd281daeda1ed02fc14f66",
+      "scores": {
+        "accessibility": 75,
+        "seo": 95,
+        "performance": 100,
+        "security": 100,
+        "overall": 93
+      }
+    },
+    {
+      "url": "https://azure.microsoft.com",
+      "name": "Azure",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Cloud Computing Services | Microsoft AzureYour Privacy Choices Opt-Out Icon",
+      "description": "Invent with purpose, realize cost savings, and make your organization more efficient with Microsoft Azure’s open and flexible cloud computing platform.",
+      "seo": {
+        "title": "Cloud Computing Services | Microsoft AzureYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Invent with purpose, realize cost savings, and make your organization more efficient with Microsoft Azure’s open and flexible cloud computing platform.",
+        "h1Count": 1,
+        "h2Count": 9,
+        "images": 123,
+        "imagesWithoutAlt": 0,
+        "links": 357,
+        "canonical": "https://azure.microsoft.com/en-us",
+        "ogTitle": "Cloud Computing Services | Microsoft Azure",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 105,
+        "stylesheets": 31,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 2978,
+        "headings": 78
+      },
+      "scrapedAt": "2026-07-23T14:27:08.432Z",
+      "hash": "bb66011030908a562259ccab6ee7bc43",
+      "scores": {
+        "accessibility": 80,
+        "seo": 95,
+        "performance": 65,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://copilot.microsoft.com",
+      "name": "Copilot",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Microsoft Copilot: Your AI companion",
+      "description": "Microsoft Copilot is your companion to inform, entertain and inspire. Get advice, feedback and straightforward answers. Try Copilot now.",
+      "seo": {
+        "title": "Microsoft Copilot: Your AI companion",
+        "metaDescription": "Microsoft Copilot is your companion to inform, entertain and inspire. Get advice, feedback and straightforward answers. Try Copilot now.",
+        "h1Count": 1,
+        "h2Count": 0,
+        "images": 1,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "https://copilot.microsoft.com",
+        "ogTitle": "Microsoft Copilot: Your AI companion",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 9,
+        "stylesheets": 1,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 85,
+        "headings": 1
+      },
+      "scrapedAt": "2026-07-23T14:27:10.454Z",
+      "hash": "51c82bf408fc595d868ee5af308f12b9",
+      "scores": {
+        "accessibility": 80,
+        "seo": 95,
+        "performance": 100,
+        "security": 100,
+        "overall": 94
+      }
+    },
+    {
+      "url": "https://www.xbox.com",
+      "name": "XBOX",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "XBOX Official Site: Play Games Anywhere | XBOXYour Privacy Choices Opt-Out Icon",
+      "description": "Play with XBOX on PC, console, & more. Explore Game Pass. Discover thousands of games. Shop controllers, handhelds, & consoles. Join players anywhere.",
+      "seo": {
+        "title": "XBOX Official Site: Play Games Anywhere | XBOXYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Play with XBOX on PC, console, & more. Explore Game Pass. Discover thousands of games. Shop controllers, handhelds, & consoles. Join players anywhere.",
+        "h1Count": 1,
+        "h2Count": 30,
+        "images": 53,
+        "imagesWithoutAlt": 0,
+        "links": 211,
+        "canonical": "https://www.xbox.com/en-US/",
+        "ogTitle": "XBOX Official Site: Consoles, Games, and Community | XBOX",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 74,
+        "stylesheets": 14,
+        "iframes": 3
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 3530,
+        "headings": 32
+      },
+      "scrapedAt": "2026-07-23T14:27:12.988Z",
+      "hash": "d1f2d2c719b6bde405035580d9ea9dbe",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://support.microsoft.com",
+      "name": "Support",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Microsoft SupportYour Privacy Choices Opt-Out Icon",
+      "description": "Microsoft Support is here to help you with Microsoft products. Find how-to articles, videos, and training for Microsoft Copilot, Microsoft 365, Windows 11, Surface, and more.",
+      "seo": {
+        "title": "Microsoft SupportYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Microsoft Support is here to help you with Microsoft products. Find how-to articles, videos, and training for Microsoft Copilot, Microsoft 365, Windows 11, Surface, and more.",
+        "h1Count": 1,
+        "h2Count": 7,
+        "images": 46,
+        "imagesWithoutAlt": 41,
+        "links": 181,
+        "canonical": "https://support.microsoft.com/en-us/",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 15,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 20,
+        "stylesheets": 8,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1182,
+        "headings": 53
+      },
+      "scrapedAt": "2026-07-23T14:27:14.880Z",
+      "hash": "d28ce21eeac41616bbb1183affd282d9",
+      "scores": {
+        "accessibility": 70,
+        "seo": 95,
+        "performance": 100,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://apps.microsoft.com",
+      "name": "Windows Apps",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Microsoft Store - Download apps, games & more for your Windows PC",
+      "description": "Explore the Microsoft Store for apps and games on Windows. Enjoy exclusive deals, new releases, and your favorite content all in one place.",
+      "seo": {
+        "title": "Microsoft Store - Download apps, games & more for your Windows PC",
+        "metaDescription": "Explore the Microsoft Store for apps and games on Windows. Enjoy exclusive deals, new releases, and your favorite content all in one place.",
+        "h1Count": 0,
+        "h2Count": 0,
+        "images": 0,
+        "imagesWithoutAlt": 0,
+        "links": 0,
+        "canonical": "https://apps.microsoft.com/home?hl=en-US&gl=US",
+        "ogTitle": "Microsoft Store - Download apps, games & more for your Windows PC",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 14,
+        "stylesheets": 1,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 4,
+        "headings": 0
+      },
+      "scrapedAt": "2026-07-23T14:27:16.870Z",
+      "hash": "79ed5a7ae17c7c7dd1ca1567abaa72ed",
+      "scores": {
+        "accessibility": 80,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://developer.microsoft.com",
+      "name": "Microsoft Developer",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Microsoft DeveloperYour Privacy Choices Opt-Out Icon",
+      "description": "Any platform. Any language. Our tools. Develop solutions, on your terms, using Microsoft products and services.",
+      "seo": {
+        "title": "Microsoft DeveloperYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Any platform. Any language. Our tools. Develop solutions, on your terms, using Microsoft products and services.",
+        "h1Count": 1,
+        "h2Count": 10,
+        "images": 74,
+        "imagesWithoutAlt": 0,
+        "links": 178,
+        "canonical": "https://developer.microsoft.com/en-us/",
+        "ogTitle": "Microsoft Developer",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 14,
+        "stylesheets": 1,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 2006,
+        "headings": 92
+      },
+      "scrapedAt": "2026-07-23T14:27:20.327Z",
+      "hash": "2f8cd280a7517a6dd5a5e97d8b172089",
+      "scores": {
+        "accessibility": 100,
+        "seo": 95,
+        "performance": 100,
+        "security": 100,
+        "overall": 99
+      }
+    },
+    {
+      "url": "https://learn.microsoft.com",
+      "name": "Microsoft Learn",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Microsoft Learn: Build with answers in reach",
+      "description": "Find official documentation, practical know-how, and expert guidance for builders working and troubleshooting in Microsoft products.",
+      "seo": {
+        "title": "Microsoft Learn: Build with answers in reach",
+        "metaDescription": "Find official documentation, practical know-how, and expert guidance for builders working and troubleshooting in Microsoft products.",
+        "h1Count": 1,
+        "h2Count": 2,
+        "images": 10,
+        "imagesWithoutAlt": 6,
+        "links": 77,
+        "canonical": "",
+        "ogTitle": "Microsoft Learn: Build with answers in reach",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 7,
+        "stylesheets": 1,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 417,
+        "headings": 6
+      },
+      "scrapedAt": "2026-07-23T14:27:22.701Z",
+      "hash": "ea3272235f7c874ccfc24339fce984d3",
+      "scores": {
+        "accessibility": 70,
+        "seo": 90,
+        "performance": 100,
+        "security": 100,
+        "overall": 90
+      }
+    },
+    {
+      "url": "https://techcommunity.microsoft.com",
+      "name": "Microsoft Tech Community",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Home | Microsoft Community HubCalifornia Consumer Privacy Act (CCPA) Opt-Out IconCalifornia Consumer Privacy Act (CCPA) Opt-Out Icon",
+      "description": "Our community is a collaborative place to learn about our products and ask questions! Check out our most popular conversations!",
+      "seo": {
+        "title": "Home | Microsoft Community HubCalifornia Consumer Privacy Act (CCPA) Opt-Out IconCalifornia Consumer Privacy Act (CCPA) Opt-Out Icon",
+        "metaDescription": "Our community is a collaborative place to learn about our products and ask questions! Check out our most popular conversations!",
+        "h1Count": 1,
+        "h2Count": 3,
+        "images": 23,
+        "imagesWithoutAlt": 0,
+        "links": 215,
+        "canonical": "https://techcommunity.microsoft.com/",
+        "ogTitle": "Home | Microsoft Community Hub",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 81,
+        "stylesheets": 55,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 6758,
+        "headings": 23
+      },
+      "scrapedAt": "2026-07-23T14:27:27.939Z",
+      "hash": "bf83c8ff17febc77f2ea30e29731163d",
+      "scores": {
+        "accessibility": 80,
+        "seo": 95,
+        "performance": 65,
+        "security": 100,
+        "overall": 85
+      }
+    },
+    {
+      "url": "https://marketplace.microsoft.com",
+      "name": "Microsoft Marketplace",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Microsoft Marketplace | cloud solutions, AI apps, and agentsYour Privacy Choices Opt-Out Icon",
+      "description": "Accelerate your AI transformation with Microsoft Marketplace—your trusted source to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs.",
+      "seo": {
+        "title": "Microsoft Marketplace | cloud solutions, AI apps, and agentsYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Accelerate your AI transformation with Microsoft Marketplace—your trusted source to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs.",
+        "h1Count": 1,
+        "h2Count": 6,
+        "images": 86,
+        "imagesWithoutAlt": 0,
+        "links": 69,
+        "canonical": "https://marketplace.microsoft.com/en-us/",
+        "ogTitle": "Microsoft Marketplace | cloud solutions, AI apps, and agents",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 15,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 24,
+        "stylesheets": 2,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 91184,
+        "headings": 12
+      },
+      "scrapedAt": "2026-07-23T14:27:31.251Z",
+      "hash": "e7f9a2e723cfde049c08a84a5add6a32",
+      "scores": {
+        "accessibility": 80,
+        "seo": 95,
+        "performance": 80,
+        "security": 100,
+        "overall": 89
+      }
+    },
+    {
+      "url": "https://visualstudio.microsoft.com",
+      "name": "Visual Studio",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Visual Studio: IDE and Code Editor for Software DevelopmentYour Privacy Choices Opt-Out Icon",
+      "description": "Visual Studio dev tools & services make app development easy for any developer, on any platform & language. Develop with our code editor or IDE anywhere for free.",
+      "seo": {
+        "title": "Visual Studio: IDE and Code Editor for Software DevelopmentYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Visual Studio dev tools & services make app development easy for any developer, on any platform & language. Develop with our code editor or IDE anywhere for free.",
+        "h1Count": 1,
+        "h2Count": 19,
+        "images": 17,
+        "imagesWithoutAlt": 0,
+        "links": 146,
+        "canonical": "https://visualstudio.microsoft.com",
+        "ogTitle": "Visual Studio: IDE and Code Editor for Software Development",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 38,
+        "stylesheets": 42,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 13273,
+        "headings": 27
+      },
+      "scrapedAt": "2026-07-23T14:27:33.452Z",
+      "hash": "04084f4c1fd16378d93ff89508848e85",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 91
+      }
+    },
+    {
+      "url": "https://blog.google",
+      "name": "News",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "News from Google | Google Product and Technology News and Stories",
+      "description": "Get the latest news and stories about Google products, technology and innovation on News from Google, Google's official blog.",
+      "seo": {
+        "title": "News from Google | Google Product and Technology News and Stories",
+        "metaDescription": "Get the latest news and stories about Google products, technology and innovation on News from Google, Google's official blog.",
+        "h1Count": 5,
+        "h2Count": 4,
+        "images": 26,
+        "imagesWithoutAlt": 0,
+        "links": 190,
+        "canonical": "https://blog.google/",
+        "ogTitle": "News from Google",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 23,
+        "stylesheets": 15,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1619,
+        "headings": 39
+      },
+      "scrapedAt": "2026-07-23T14:27:35.360Z",
+      "hash": "1e6703f69df304776cd714e1f5f2753e",
+      "scores": {
+        "accessibility": 80,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 86
+      }
+    },
+    {
+      "url": "https://deepmind.google",
+      "name": "Learn all about our leading AI models — and discover their c",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Google DeepMind",
+      "description": "Artificial intelligence could be one of humanity’s most useful inventions. We research and build safe artificial intelligence systems. We're committed to solving intelligence, to advance science and …",
+      "seo": {
+        "title": "Google DeepMind",
+        "metaDescription": "Artificial intelligence could be one of humanity’s most useful inventions. We research and build safe artificial intelligence systems. We're committed to solving intelligence, to advance science and …",
+        "h1Count": 0,
+        "h2Count": 11,
+        "images": 69,
+        "imagesWithoutAlt": 0,
+        "links": 187,
+        "canonical": "https://deepmind.google/",
+        "ogTitle": "Google DeepMind",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 1,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 12,
+        "stylesheets": 4,
+        "iframes": 5
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1444,
+        "headings": 41
+      },
+      "scrapedAt": "2026-07-23T14:27:37.690Z",
+      "hash": "67ac644372a165f79698e49653876233",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 96
+      }
+    },
+    {
+      "url": "https://ai.google",
+      "name": "See how we’re tackling some of the most challenging problems",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Google AI - How we're making AI helpful for everyone",
+      "description": "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+      "seo": {
+        "title": "Google AI - How we're making AI helpful for everyone",
+        "metaDescription": "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+        "h1Count": 1,
+        "h2Count": 18,
+        "images": 181,
+        "imagesWithoutAlt": 0,
+        "links": 230,
+        "canonical": "https://ai.google/",
+        "ogTitle": "Google AI - How we're making AI helpful for everyone",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 14,
+        "stylesheets": 4,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 3907,
+        "headings": 67
+      },
+      "scrapedAt": "2026-07-23T14:27:42.290Z",
+      "hash": "0241b3a1135ca782a242e66927bbc2b6",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 100,
+        "security": 100,
+        "overall": 100
+      }
+    },
+    {
+      "url": "https://www.youtube.com",
+      "name": "Link to Youtube Video",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "YouTube",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "seo": {
+        "title": "YouTube",
+        "metaDescription": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "h1Count": 4,
+        "h2Count": 1,
+        "images": 7,
+        "imagesWithoutAlt": 5,
+        "links": 24,
+        "canonical": "https://www.youtube.com/",
+        "ogTitle": "YouTube",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 5,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 48,
+        "stylesheets": 8,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 536,
+        "headings": 7
+      },
+      "scrapedAt": "2026-07-23T14:27:45.288Z",
+      "hash": "c7b91b6b38308e06ac56d51bd035bebf",
+      "scores": {
+        "accessibility": 75,
+        "seo": 95,
+        "performance": 80,
+        "security": 100,
+        "overall": 88
+      }
+    },
+    {
+      "url": "https://www.blog.google",
+      "name": "Blog",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "News from Google | Google Product and Technology News and Stories",
+      "description": "Get the latest news and stories about Google products, technology and innovation on News from Google, Google's official blog.",
+      "seo": {
+        "title": "News from Google | Google Product and Technology News and Stories",
+        "metaDescription": "Get the latest news and stories about Google products, technology and innovation on News from Google, Google's official blog.",
+        "h1Count": 5,
+        "h2Count": 4,
+        "images": 26,
+        "imagesWithoutAlt": 0,
+        "links": 190,
+        "canonical": "https://blog.google/",
+        "ogTitle": "News from Google",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 23,
+        "stylesheets": 15,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1619,
+        "headings": 39
+      },
+      "scrapedAt": "2026-07-23T14:27:47.397Z",
+      "hash": "1e6703f69df304776cd714e1f5f2753e",
+      "scores": {
+        "accessibility": 80,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 86
+      }
+    },
+    {
+      "url": "https://careers.google.com",
+      "name": "Careers",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Search for your career at Google.",
+      "description": "Join Google Careers and build what's next, today. Explore career opportunities in engineering, design, sales, hardware, and more. Make a global impact with innovative technology that helps billions of users.",
+      "seo": {
+        "title": "Search for your career at Google.",
+        "metaDescription": "Join Google Careers and build what's next, today. Explore career opportunities in engineering, design, sales, hardware, and more. Make a global impact with innovative technology that helps billions of users.",
+        "h1Count": 0,
+        "h2Count": 7,
+        "images": 1,
+        "imagesWithoutAlt": 0,
+        "links": 33,
+        "canonical": "https://www.google.com/about/careers/applications/",
+        "ogTitle": "Search for your career at Google.",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 32,
+        "stylesheets": 3,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 8324,
+        "headings": 7
+      },
+      "scrapedAt": "2026-07-23T14:27:49.512Z",
+      "hash": "28e39026154d3fa149951bf1971d7722",
+      "scores": {
+        "accessibility": 100,
+        "seo": 80,
+        "performance": 80,
+        "security": 100,
+        "overall": 90
+      }
+    },
+    {
+      "url": "https://support.google.com",
+      "name": "Help Center",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Google Help",
+      "description": "",
+      "seo": {
+        "title": "Google Help",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 4,
+        "images": 21,
+        "imagesWithoutAlt": 20,
+        "links": 196,
+        "canonical": "https://support.google.com/?hl=en",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 4,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 61,
+        "stylesheets": 3,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 41918,
+        "headings": 182
+      },
+      "scrapedAt": "2026-07-23T14:27:51.716Z",
+      "hash": "77860903708ac3972ddd4de031715040",
+      "scores": {
+        "accessibility": 70,
+        "seo": 80,
+        "performance": 80,
+        "security": 100,
+        "overall": 83
+      }
+    },
+    {
+      "url": "https://abc.xyz",
+      "name": "Investor Relations",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Alphabet Investor Relations - Home",
+      "description": "",
+      "seo": {
+        "title": "Alphabet Investor Relations - Home",
+        "metaDescription": "",
+        "h1Count": 2,
+        "h2Count": 0,
+        "images": 5,
+        "imagesWithoutAlt": 0,
+        "links": 64,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 31,
+        "stylesheets": 9,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 3900,
+        "headings": 2
+      },
+      "scrapedAt": "2026-07-23T14:27:54.012Z",
+      "hash": "d4ede4b78162ffd4d4faf3524f625d63",
+      "scores": {
+        "accessibility": 80,
+        "seo": 70,
+        "performance": 80,
+        "security": 100,
+        "overall": 83
+      }
+    },
+    {
+      "url": "https://google.com",
+      "name": "Accessibility",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Google",
+      "description": "",
+      "seo": {
+        "title": "Google",
+        "metaDescription": "",
+        "h1Count": 0,
+        "h2Count": 0,
+        "images": 7,
+        "imagesWithoutAlt": 0,
+        "links": 18,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 20,
+        "stylesheets": 2,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1584,
+        "headings": 0
+      },
+      "scrapedAt": "2026-07-23T14:27:55.995Z",
+      "hash": "3b9c5175b0761f865a80df121972bac4",
+      "scores": {
+        "accessibility": 100,
+        "seo": 55,
+        "performance": 100,
+        "security": 100,
+        "overall": 89
+      }
+    },
+    {
+      "url": "https://crisisresponse.google",
+      "name": "Crisis Response",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Crisis Resilience | Google",
+      "description": "Discover how Google uses AI, satellite data, and partnerships to provide real-time alerts for wildfires, floods, and severe weather globally.",
+      "seo": {
+        "title": "Crisis Resilience | Google",
+        "metaDescription": "Discover how Google uses AI, satellite data, and partnerships to provide real-time alerts for wildfires, floods, and severe weather globally.",
+        "h1Count": 1,
+        "h2Count": 9,
+        "images": 12,
+        "imagesWithoutAlt": 0,
+        "links": 18,
+        "canonical": "https://crisisresilience.google/",
+        "ogTitle": "Crisis Resilience | Google",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 0
+      },
+      "performance": {
+        "scripts": 7,
+        "stylesheets": 3,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 450,
+        "headings": 12
+      },
+      "scrapedAt": "2026-07-23T14:27:57.958Z",
+      "hash": "881560a41716076b4f1859960ed68b8a",
+      "scores": {
+        "accessibility": 80,
+        "seo": 100,
+        "performance": 100,
         "security": 100,
         "overall": 95
       }
