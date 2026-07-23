@@ -72,11 +72,25 @@ Return as JSON:
 }
 
 async function runOpenCodeAudit(prompt) {
-  const { stdout } = await execFileAsync('opencode', ['run', '-m', CONFIG.model, '--format', 'json', prompt], {
+  const proc = execFile('opencode', ['run', '-m', CONFIG.model, '--format', 'json'], {
     encoding: 'utf-8',
     timeout: CONFIG.timeout,
     cwd: ROOT_DIR,
     maxBuffer: 10 * 1024 * 1024
+  });
+
+  proc.stdin.write(prompt);
+  proc.stdin.end();
+
+  const { stdout } = await new Promise((resolve, reject) => {
+    let out = '', err = '';
+    proc.stdout.on('data', d => out += d);
+    proc.stderr.on('data', d => err += d);
+    proc.on('error', reject);
+    proc.on('close', code => {
+      if (code !== 0) reject(new Error(`opencode exited with code ${code}: ${err.slice(0, 200)}`));
+      else resolve({ stdout: out });
+    });
   });
 
   const lines = stdout.trim().split('\n').filter(Boolean);
