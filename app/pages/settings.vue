@@ -7,7 +7,7 @@ const settings = reactive({
     apiKey: ''
   },
   github: {
-    repository: 'hautlys/autit-auto',
+    repository: 'hautlys/audit-auto',
     branch: 'main'
   },
   notifications: {
@@ -21,7 +21,7 @@ const saving = ref(false)
 async function saveSettings() {
   saving.value = true
   try {
-    await $fetch('/api/settings', {
+    await $fetch('/audit-auto/api/settings', {
       method: 'POST',
       body: settings
     })

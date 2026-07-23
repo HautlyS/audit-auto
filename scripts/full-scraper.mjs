@@ -165,7 +165,7 @@ async function main() {
   const args = process.argv.slice(2);
   const auditFlag = args.includes('--audit') || args.includes('--all');
   
-  console.log('🌐 Autit-Auto Full Scraper');
+  console.log('🌐 Audit-Auto Full Scraper');
   console.log('==========================\n');
   console.log(`🎯 Targets: ${ALL_TARGETS.length}`);
   

@@ -1,8 +1,8 @@
-# Autit-Auto Configuration
+# Audit-Auto Configuration
 # Automated Website Audit System
 
 [project]
-name = "Autit-Auto"
+name = "Audit-Auto"
 version = "2.0.0"
 description = "Full Scraper & AI Audit System for US/EU Enterprises & NGOs"
 
@@ -53,7 +53,7 @@ international = true
 # Deploy to GitHub Pages
 deploy = true
 # Base URL
-base_url = "https://hautlys.github.io/autit-auto"
+base_url = "https://hautlys.github.io/audit-auto/"
 
 [discovery]
 # Enable Reddit scraping for target discovery

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: targets } = await useFetch('/api/targets')
+const { data: targets } = await useFetch('/audit-auto/api/targets')
 
 const filter = reactive({
   type: 'all',

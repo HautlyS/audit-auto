@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Autit-Auto | Website Audit Dashboard',
+      title: 'Audit-Auto | Website Audit Dashboard',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -17,14 +17,14 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#3b82f6' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: '/audit-auto/favicon.ico' }
       ]
     }
   },
 
   runtimeConfig: {
     public: {
-      apiBase: '/api'
+      apiBase: '/audit-auto/api'
     }
   },
 

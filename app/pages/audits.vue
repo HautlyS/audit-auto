@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: dashboardData } = await useFetch('/api/dashboard')
+const { data: dashboardData } = await useFetch('/audit-auto/api/dashboard')
 
 const filter = reactive({
   type: 'all',

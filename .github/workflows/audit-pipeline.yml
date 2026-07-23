@@ -1,4 +1,4 @@
-name: Autit-Auto Full Audit Pipeline
+name: Audit-Auto Full Audit Pipeline
 
 on:
   push:
@@ -270,7 +270,7 @@ jobs:
 
       - name: Generate run summary
         run: |
-          echo "## 🚀 Autit-Auto Pipeline Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## 🚀 Audit-Auto Pipeline Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
@@ -283,8 +283,8 @@ jobs:
           echo "| **Timestamp** | $(date -u +%Y-%m-%dT%H:%M:%SZ) |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 🔗 Links" >> $GITHUB_STEP_SUMMARY
-          echo "- [Dashboard](https://hautlys.github.io/autit-auto)" >> $GITHUB_STEP_SUMMARY
-          echo "- [Repository](https://github.com/hautlys/autit-auto)" >> $GITHUB_STEP_SUMMARY
+          echo "- [Dashboard](https://hautlys.github.io/audit-auto/)" >> $GITHUB_STEP_SUMMARY
+          echo "- [Repository](https://github.com/hautlys/audit-auto)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📋 Next Scheduled Run" >> $GITHUB_STEP_SUMMARY
           echo "The next scheduled run will occur in approximately 2 hours." >> $GITHUB_STEP_SUMMARY

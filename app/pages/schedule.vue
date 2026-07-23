@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: scheduleConfig } = await useFetch('/api/schedule')
+const { data: scheduleConfig } = await useFetch('/audit-auto/api/schedule')
 
 const config = reactive({
   cron: '0 */2 * * *',

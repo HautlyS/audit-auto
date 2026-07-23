@@ -23,7 +23,7 @@ const scrapeFlag = args.includes('--scrape');
 const auditFlag = args.includes('--audit');
 const allFlag = args.includes('--all');
 
-console.log('🚀 Autit-Auto Pipeline');
+console.log('🚀 Audit-Auto Pipeline');
 console.log('=====================\n');
 console.log(`⏰ Started at: ${new Date().toISOString()}`);
 console.log(`📋 Mode: ${allFlag ? 'FULL' : discoverFlag ? 'DISCOVER' : scrapeFlag ? 'SCRAPE' : auditFlag ? 'AUDIT' : 'DEFAULT'}`);

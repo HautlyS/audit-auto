@@ -1,4 +1,4 @@
-# Autit-Auto Launch Checklist
+# Audit-Auto Launch Checklist
 
 ## System Status: READY FOR APPROVAL
 
@@ -46,11 +46,11 @@
 ### Step 1: Push to GitHub
 
 ```bash
-cd /home/ubuntu/Autit-Auto
+cd /home/ubuntu/Audit-Auto
 git init
 git add .
-git commit -m "feat: initial autit-auto system"
-git remote add origin https://github.com/hautlys/autit-auto.git
+git commit -m "feat: initial audit-auto system"
+git remote add origin https://github.com/hautlys/audit-auto.git
 git push -u origin main
 ```
 
@@ -73,7 +73,7 @@ Go to Settings → Secrets and variables → Actions:
 ### Step 4: Trigger First Run
 
 1. Go to Actions tab
-2. Select "Autit-Auto Full Audit Pipeline"
+2. Select "Audit-Auto Full Audit Pipeline"
 3. Click "Run workflow"
 4. Select mode: `full`
 5. Click "Run workflow"
@@ -83,7 +83,7 @@ Go to Settings → Secrets and variables → Actions:
 After ~15 minutes, check:
 - Actions tab: All jobs completed ✅
 - Pages tab: Site deployed
-- Dashboard URL: `https://hautlys.github.io/autit-auto`
+- Dashboard URL: `https://hautlys.github.io/audit-auto/`
 
 ---
 

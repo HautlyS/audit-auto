@@ -1,4 +1,4 @@
-# Autit-Auto
+# Audit-Auto
 
 > Full Scraper & AI Audit System for US/EU Enterprises and NGOs
 
@@ -37,8 +37,8 @@ Automated website auditing system using Playwright for scraping, OpenCode AI for
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/hautlys/autit-auto.git
-cd autit-auto
+git clone https://github.com/hautlys/audit-auto.git
+cd audit-auto
 npm install
 npx playwright install chromium
 ```
@@ -134,7 +134,7 @@ Earth Guardians, Greenpeace, WWF, Red Cross, Doctors Without Borders, Amnesty In
 ## Project Structure
 
 ```
-autit-auto/
+audit-auto/
 ├── .github/workflows/        # GitHub Actions
 │   └── audit-pipeline.yml    # Main workflow (2hr cron)
 ├── app/                      # Nuxt 3 dashboard

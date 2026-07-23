@@ -191,7 +191,7 @@ async function main() {
   const allFlag = args.includes('--all');
   const region = args.find((_, i, a) => a[i-1] === '--region');
   
-  console.log('🚀 Autit-Auto Audit Runner');
+  console.log('🚀 Audit-Auto Audit Runner');
   console.log('========================\n');
   
   let targets = loadTargets(region);

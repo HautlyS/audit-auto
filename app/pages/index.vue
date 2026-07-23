@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: dashboardData } = await useFetch('/api/dashboard')
+const { data: dashboardData } = await useFetch('/audit-auto/api/dashboard')
 
 const stats = computed(() => [
   { label: 'Total Audits', value: dashboardData.value?.summary?.totalAudits || 0, icon: 'i-lucide-file-check', color: 'primary' },

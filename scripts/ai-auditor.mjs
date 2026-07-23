@@ -182,7 +182,7 @@ async function main() {
   const args = process.argv.slice(2);
   const allFlag = args.includes('--all');
   
-  console.log('🤖 Autit-Auto AI Auditor');
+  console.log('🤖 Audit-Auto AI Auditor');
   console.log('========================\n');
   
   // Load scraped data

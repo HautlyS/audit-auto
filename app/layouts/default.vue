@@ -15,7 +15,7 @@ const links = [
     <UDashboardSidebar>
       <template #header>
         <NuxtLink to="/" class="flex items-center gap-2">
-          <span class="text-xl font-bold">Autit-Auto</span>
+          <span class="text-xl font-bold">Audit-Auto</span>
         </NuxtLink>
       </template>
       
