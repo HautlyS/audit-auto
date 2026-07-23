@@ -82,33 +82,7 @@ jobs:
           node scripts/discover-targets.mjs
 
       - name: Merge TOML targets into master list
-        run: node -e "
-          const fs=require('fs'),p=require('path');
-          const ROOT=process.cwd();
-          const knownPath=p.join(ROOT,'data','known-targets.json');
-          let known=[];
-          if(fs.existsSync(knownPath)) known=JSON.parse(fs.readFileSync(knownPath,'utf-8'));
-          const seen=new Set(known.map(t=>t.url));
-          const dirs=[{f:'data/targets-us.toml',r:'us'},{f:'data/targets-eu.toml',r:'eu'},{f:'data/targets-ngos.toml',r:'ngos'}];
-          let m=0;
-          for(const d of dirs){
-            const fp=p.join(ROOT,d.f);
-            if(fs.existsSync(fp)){
-              const c=fs.readFileSync(fp,'utf-8');
-              const blocks=c.match(/\[\[targets\]\]\n[\s\S]*?(?=\[\[targets\]\]|\$)/g)||[];
-              for(const b of blocks){
-                const n=b.match(/name\s*=\s*\"([^\"]+)\"/)?.[1];
-                const u=b.match(/url\s*=\s*\"([^\"]+)\"/)?.[1];
-                if(n&&u&&!seen.has(u)){
-                  known.push({name:n,url:u,type:d.r==='ngos'?'ngo':'enterprise',region:d.r==='ngos'?'international':d.r,category:b.match(/category\s*=\s*\"([^\"]+)\"/)?.[1]||'general',discoveredAt:new Date().toISOString(),lastSeenAt:new Date().toISOString(),discoveredBy:'static:toml'});
-                  seen.add(u);m++;
-                }
-              }
-            }
-          }
-          if(m>0){fs.writeFileSync(knownPath,JSON.stringify(known,null,2));}
-          console.log('📋 Static targets merged: '+m+' (total known: '+known.length+')');
-        "
+        run: node scripts/merge-static-targets.mjs
 
       - name: Run scraper
         id: scrape

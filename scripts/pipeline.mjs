@@ -41,53 +41,10 @@ function runStep(name, command) {
 
 function mergeStaticIntoDiscovery() {
   console.log('\n📋 Merging static TOML targets into known-targets.json...');
-  const knownPath = join(ROOT_DIR, 'data', 'known-targets.json');
-
-  let known = [];
-  if (existsSync(knownPath)) {
-    known = JSON.parse(readFileSync(knownPath, 'utf-8'));
-  }
-
-  const seen = new Set(known.map(t => t.url));
-  const staticDirs = [
-    { file: 'data/targets-us.toml', region: 'us' },
-    { file: 'data/targets-eu.toml', region: 'eu' },
-    { file: 'data/targets-ngos.toml', region: 'ngos' }
-  ];
-
-  let merged = 0;
-  for (const { file, region } of staticDirs) {
-    const filePath = join(ROOT_DIR, file);
-    if (existsSync(filePath)) {
-      const content = readFileSync(filePath, 'utf-8');
-      const matches = content.matchAll(/\[\[targets\]\][\s\S]*?(?=\[\[targets\]\]|$)/g);
-      for (const match of matches) {
-        const block = match[0];
-        const name = block.match(/name\s*=\s*"([^"]+)"/)?.[1];
-        const url = block.match(/url\s*=\s*"([^"]+)"/)?.[1];
-        const type = block.match(/type\s*=\s*"([^"]+)"/)?.[1] || (region === 'ngos' ? 'ngo' : 'enterprise');
-        if (name && url && !seen.has(url)) {
-          known.push({
-            name, url, type,
-            region: region === 'ngos' ? 'international' : region,
-            category: block.match(/category\s*=\s*"([^"]+)"/)?.[1] || 'general',
-            discoveredAt: new Date().toISOString(),
-            lastSeenAt: new Date().toISOString(),
-            discoveredBy: 'static:toml'
-          });
-          seen.add(url);
-          merged++;
-        }
-      }
-    }
-  }
-
-  if (merged > 0) {
-    mkdirSync(join(ROOT_DIR, 'data'), { recursive: true });
-    writeFileSync(knownPath, JSON.stringify(known, null, 2));
-    console.log(`  ✅ Merged ${merged} static targets into master list (total: ${known.length})`);
-  } else {
-    console.log(`  ℹ️  No new static targets to merge (total: ${known.length})`);
+  try {
+    execSync('node scripts/merge-static-targets.mjs', { cwd: ROOT_DIR, stdio: 'inherit' });
+  } catch (e) {
+    console.error('⚠️  Merge failed:', e.message);
   }
 }
 
