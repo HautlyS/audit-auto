@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   ],
 
   app: {
+    baseURL: '/audit-auto/',
     head: {
       title: 'Audit-Auto | Website Audit Dashboard',
       meta: [

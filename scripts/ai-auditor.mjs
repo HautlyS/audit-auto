@@ -88,7 +88,7 @@ async function runOpenCodeAudit(prompt) {
     proc.stderr.on('data', d => err += d);
     proc.on('error', reject);
     proc.on('close', code => {
-      if (code !== 0) reject(new Error(`opencode exited with code ${code}: ${err.slice(0, 200)}`));
+      if (code !== 0) reject(new Error(`opencode exited with code ${code}. Stderr:\n${err}`));
       else resolve({ stdout: out });
     });
   });
