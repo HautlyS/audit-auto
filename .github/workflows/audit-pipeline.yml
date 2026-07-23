@@ -1,6 +1,8 @@
 name: Autit-Auto Full Audit Pipeline
 
 on:
+  push:
+    branches: [master, main]
   schedule:
     # Every 2 hours
     - cron: '0 */2 * * *'
@@ -243,7 +245,7 @@ jobs:
         run: npm run generate
 
       - name: Deploy to GitHub Pages
-        if: success() && github.ref == 'refs/heads/main'
+        if: success() && github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
