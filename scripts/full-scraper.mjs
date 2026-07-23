@@ -12,7 +12,6 @@ import * as cheerio from 'cheerio';
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import pLimit from 'p-limit';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -52,15 +51,8 @@ const ALL_TARGETS = [
   { name: 'Amnesty International', url: 'https://www.amnesty.org', category: 'human_rights', region: 'international', type: 'ngo' }
 ];
 
-// Scrape a single site
-async function scrapeSite(target) {
-  const browser = await chromium.launch({ 
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
-  });
-  const context = await browser.newContext({ userAgent: CONFIG.userAgent });
-  const page = await context.newPage();
-  
+// Scrape a single site using a shared browser context
+async function scrapeSite(page, target) {
   try {
     console.log(`  🔎 Scraping: ${target.name} (${target.url})`);
     
@@ -153,10 +145,6 @@ async function scrapeSite(target) {
   } catch (error) {
     console.log(`  ❌ Error: ${target.name} - ${error.message}`);
     return null;
-  } finally {
-    await page.close();
-    await context.close();
-    await browser.close();
   }
 }
 
@@ -176,17 +164,30 @@ async function main() {
   
   console.log('\n🚀 Starting scrape...\n');
   
-  const limit = pLimit(CONFIG.maxConcurrent);
+  // Launch browser once, reuse for all targets
+  const browser = await chromium.launch({ 
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+  });
+  
   const results = [];
   
-  const promises = ALL_TARGETS.map(target => 
-    limit(async () => {
-      const result = await scrapeSite(target);
-      if (result) results.push(result);
-    })
-  );
-  
-  await Promise.all(promises);
+  try {
+    for (const target of ALL_TARGETS) {
+      const context = await browser.newContext({ userAgent: CONFIG.userAgent });
+      const page = await context.newPage();
+      
+      try {
+        const result = await scrapeSite(page, target);
+        if (result) results.push(result);
+      } finally {
+        await page.close();
+        await context.close();
+      }
+    }
+  } finally {
+    await browser.close();
+  }
   
   // Save results
   const outputDir = join(ROOT_DIR, 'data');
@@ -205,4 +206,7 @@ async function main() {
   console.log(`💾 Saved to: data/latest-scrape-results.json`);
 }
 
-main().catch(console.error);
+main().catch(error => {
+  console.error('Fatal error:', error);
+  process.exit(1);
+});

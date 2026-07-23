@@ -113,11 +113,12 @@ IMPORTANT: Return ONLY the JSON, no other text.`;
     console.log(`\n🔍 Auditing: ${target.name} (${target.url})`);
     
     const result = execSync(
-      `opencode run -m ${config.opencode.model} "${prompt.replace(/"/g, '\\"')}"`,
+      `opencode -p "${prompt.replace(/"/g, '\\"')}" -f json`,
       {
         encoding: 'utf-8',
         timeout: config.audit.timeout * 1000,
-        cwd: ROOT_DIR
+        cwd: ROOT_DIR,
+        env: { ...process.env, OPENCODE_MODEL: config.opencode.model }
       }
     );
     

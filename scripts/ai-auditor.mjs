@@ -7,12 +7,13 @@
  * Usage: node scripts/ai-auditor.mjs [--input <file>] [--all]
  */
 
-import { execSync } from 'child_process';
+import { execFile } from 'child_process';
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import pLimit from 'p-limit';
+import { promisify } from 'util';
 
+const execFileAsync = promisify(execFile);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT_DIR = join(__dirname, '..');
@@ -51,23 +52,18 @@ Return as JSON:
 {"scores":{"accessibility":85,"seo":90,"performance":75,"security":95,"overall":86},"issues":{"accessibility":["issue1"],"seo":["issue1"],"performance":["issue1"],"security":["issue1"]},"summary":"Brief summary"}`;
 }
 
-// Run OpenCode CLI audit
-function runOpenCodeAudit(prompt) {
+// Run OpenCode CLI audit using execFile to prevent shell injection
+async function runOpenCodeAudit(prompt) {
   try {
-    // Escape the prompt for shell
-    const escapedPrompt = prompt.replace(/"/g, '\\"').replace(/\n/g, ' ');
+    const { stdout } = await execFileAsync('opencode', ['-p', prompt, '-f', 'json'], {
+      encoding: 'utf-8',
+      timeout: CONFIG.timeout,
+      cwd: ROOT_DIR,
+      env: { ...process.env, OPENCODE_MODEL: CONFIG.model },
+      maxBuffer: 10 * 1024 * 1024
+    });
     
-    const result = execSync(
-      `opencode run -m ${CONFIG.model} "${escapedPrompt}"`,
-      {
-        encoding: 'utf-8',
-        timeout: CONFIG.timeout,
-        cwd: ROOT_DIR,
-        stdio: ['pipe', 'pipe', 'pipe']
-      }
-    );
-    
-    return result;
+    return stdout;
   } catch (error) {
     throw new Error(`OpenCode error: ${error.message}`);
   }
@@ -75,13 +71,11 @@ function runOpenCodeAudit(prompt) {
 
 // Parse JSON from response
 function extractJSON(response) {
-  // Try to find JSON in the response
   const jsonMatch = response.match(/\{[\s\S]*\}/);
   if (jsonMatch) {
     try {
       return JSON.parse(jsonMatch[0]);
     } catch (e) {
-      // Try to fix common JSON issues
       let fixed = jsonMatch[0]
         .replace(/,\s*}/g, '}')
         .replace(/,\s*]/g, ']');
@@ -104,14 +98,13 @@ async function auditSite(target) {
   
   for (let attempt = 1; attempt <= CONFIG.retryAttempts; attempt++) {
     try {
-      const response = runOpenCodeAudit(prompt);
+      const response = await runOpenCodeAudit(prompt);
       const auditResult = extractJSON(response);
       
-      if (auditResult) {
-        // Merge with original data
+      if (auditResult && auditResult.scores) {
         const fullResult = {
           ...target,
-          scores: auditResult.scores || target.scores,
+          scores: auditResult.scores,
           issues: auditResult.issues || {},
           summary: auditResult.summary || '',
           aiAuditTimestamp: new Date().toISOString()
@@ -132,7 +125,7 @@ async function auditSite(target) {
   }
   
   console.log(`  ❌ Failed: ${target.name} after ${CONFIG.retryAttempts} attempts`);
-  return target; // Return original data if AI fails
+  return target;
 }
 
 // Save audit result
@@ -144,12 +137,15 @@ function saveAuditResult(result) {
   const filename = `${result.type || 'unknown'}-${(result.name || 'unknown').toLowerCase().replace(/\s+/g, '-')}-${timestamp}.toml`;
   const filepath = join(auditDir, filename);
   
+  // Escape TOML strings properly
+  const escapeToml = (str) => (str || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n');
+  
   const tomlContent = `[audit]
-url = "${result.url || ''}"
-name = "${result.name || ''}"
-type = "${result.type || ''}"
-region = "${result.region || ''}"
-category = "${result.category || ''}"
+url = "${escapeToml(result.url)}"
+name = "${escapeToml(result.name)}"
+type = "${escapeToml(result.type)}"
+region = "${escapeToml(result.region)}"
+category = "${escapeToml(result.category)}"
 timestamp = "${result.scrapedAt || result.aiAuditTimestamp || new Date().toISOString()}"
 
 [scores]
@@ -160,7 +156,7 @@ security = ${result.scores?.security || 0}
 overall = ${result.scores?.overall || 0}
 
 [summary]
-text = "${(result.summary || 'No summary').replace(/"/g, '\\"').replace(/\n/g, ' ')}"
+text = "${escapeToml(result.summary)}"
 `;
   
   writeFileSync(filepath, tomlContent);
@@ -185,27 +181,23 @@ async function main() {
   console.log('🤖 Audit-Auto AI Auditor');
   console.log('========================\n');
   
-  // Load scraped data
   const scrapedData = loadScrapedData();
   
   if (scrapedData.length === 0) {
     console.log('❌ No scraped data found. Run full-scraper.mjs first.');
-    return;
+    process.exit(1);
   }
   
   console.log(`📊 Found ${scrapedData.length} targets to audit\n`);
   
-  const limit = pLimit(CONFIG.maxConcurrent);
   const results = [];
   
-  // Process targets sequentially (AI calls are slow)
   for (const target of scrapedData) {
     const result = await auditSite(target);
     results.push(result);
     saveAuditResult(result);
   }
   
-  // Generate summary
   const summary = {
     timestamp: new Date().toISOString(),
     totalTargets: scrapedData.length,
@@ -219,7 +211,6 @@ async function main() {
     }
   };
   
-  // Save summary
   const summaryPath = join(ROOT_DIR, 'data', 'latest-audit-summary.json');
   writeFileSync(summaryPath, JSON.stringify(summary, null, 2));
   
@@ -229,4 +220,7 @@ async function main() {
   console.log(`📈 Average Overall Score: ${summary.averageScores.overall}`);
 }
 
-main().catch(console.error);
+main().catch(error => {
+  console.error('Fatal error:', error);
+  process.exit(1);
+});

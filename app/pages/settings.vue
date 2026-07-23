@@ -1,6 +1,8 @@
 <script setup lang="ts">
 const toast = useToast()
 
+const { data: savedSettings, pending } = await useAsyncData('settings', () => $fetch('/audit-auto/api/settings').catch(() => null))
+
 const settings = reactive({
   opencode: {
     model: 'opencode/grok-code',
@@ -13,6 +15,12 @@ const settings = reactive({
   notifications: {
     email: true,
     slack: false
+  }
+})
+
+watchEffect(() => {
+  if (savedSettings.value) {
+    Object.assign(settings, savedSettings.value)
   }
 })
 
@@ -46,67 +54,67 @@ async function saveSettings() {
     
     <template #body>
       <div class="space-y-6">
-        <!-- OpenCode Configuration -->
-        <UCard>
-          <template #header>
-            <h3 class="font-medium">OpenCode Configuration</h3>
-          </template>
-          
-          <div class="space-y-4">
-            <div>
-              <label class="text-sm font-medium">Model</label>
-              <UInput v-model="settings.opencode.model" placeholder="opencode/grok-code" />
-              <p class="text-xs text-muted mt-1">Free tier: opencode/grok-code</p>
-            </div>
+        <USkeleton v-if="pending" class="h-24" v-for="i in 3" :key="i" />
+
+        <template v-else>
+          <UCard>
+            <template #header>
+              <h3 class="font-medium">OpenCode Configuration</h3>
+            </template>
             
-            <div>
-              <label class="text-sm font-medium">API Key (Optional for free tier)</label>
-              <UInput v-model="settings.opencode.apiKey" type="password" placeholder="sk-..." />
+            <div class="space-y-4">
+              <div>
+                <label class="text-sm font-medium">Model</label>
+                <UInput v-model="settings.opencode.model" placeholder="opencode/grok-code" />
+                <p class="text-xs text-muted mt-1">Free tier: opencode/grok-code</p>
+              </div>
+              
+              <div>
+                <label class="text-sm font-medium">API Key (Optional for free tier)</label>
+                <UInput v-model="settings.opencode.apiKey" type="password" placeholder="sk-..." />
+              </div>
             </div>
-          </div>
-        </UCard>
-        
-        <!-- GitHub Configuration -->
-        <UCard>
-          <template #header>
-            <h3 class="font-medium">GitHub Configuration</h3>
-          </template>
+          </UCard>
           
-          <div class="space-y-4">
-            <div>
-              <label class="text-sm font-medium">Repository</label>
-              <UInput v-model="settings.github.repository" placeholder="owner/repo" />
-            </div>
+          <UCard>
+            <template #header>
+              <h3 class="font-medium">GitHub Configuration</h3>
+            </template>
             
-            <div>
-              <label class="text-sm font-medium">Branch</label>
-              <UInput v-model="settings.github.branch" placeholder="main" />
+            <div class="space-y-4">
+              <div>
+                <label class="text-sm font-medium">Repository</label>
+                <UInput v-model="settings.github.repository" placeholder="owner/repo" />
+              </div>
+              
+              <div>
+                <label class="text-sm font-medium">Branch</label>
+                <UInput v-model="settings.github.branch" placeholder="main" />
+              </div>
             </div>
-          </div>
-        </UCard>
-        
-        <!-- Notifications -->
-        <UCard>
-          <template #header>
-            <h3 class="font-medium">Notifications</h3>
-          </template>
+          </UCard>
           
-          <div class="space-y-2">
-            <div class="flex items-center gap-2">
-              <USwitch v-model="settings.notifications.email" />
-              <label class="text-sm font-medium">Email notifications</label>
+          <UCard>
+            <template #header>
+              <h3 class="font-medium">Notifications</h3>
+            </template>
+            
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <USwitch v-model="settings.notifications.email" />
+                <label class="text-sm font-medium">Email notifications</label>
+              </div>
+              <div class="flex items-center gap-2">
+                <USwitch v-model="settings.notifications.slack" />
+                <label class="text-sm font-medium">Slack notifications</label>
+              </div>
             </div>
-            <div class="flex items-center gap-2">
-              <USwitch v-model="settings.notifications.slack" />
-              <label class="text-sm font-medium">Slack notifications</label>
-            </div>
+          </UCard>
+          
+          <div class="flex justify-end">
+            <UButton label="Save Settings" :loading="saving" @click="saveSettings" />
           </div>
-        </UCard>
-        
-        <!-- Save Button -->
-        <div class="flex justify-end">
-          <UButton label="Save Settings" :loading="saving" @click="saveSettings" />
-        </div>
+        </template>
       </div>
     </template>
   </UDashboardPanel>

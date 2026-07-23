@@ -16,15 +16,9 @@
   },
   "dependencies": {
     "@nuxt/ui": "^3.1.0",
-    "@nuxtjs/tailwindcss": "^6.13.0",
     "@tailwindcss/postcss": "^4.3.3",
-    "axios": "^1.7.0",
-    "cheerio": "^1.0.0",
     "lucide-vue-next": "^0.469.0",
     "nuxt": "^3.16.0",
-    "p-limit": "^6.0.0",
-    "p-retry": "^6.0.0",
-    "playwright": "^1.48.0",
     "toml": "^3.0.0",
     "vue": "^3.5.0",
     "vue-router": "^4.5.0",
@@ -32,6 +26,10 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^2.0.0",
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "p-limit": "^6.0.0",
+    "playwright": "^1.48.0",
     "typescript": "^5.7.0"
   }
 }

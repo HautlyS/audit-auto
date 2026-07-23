@@ -35,11 +35,9 @@ export default defineNuxtConfig({
     }
   },
 
-  // Enable SSR for better SEO
   ssr: true,
 
-  // Performance optimizations
   experimental: {
-    payloadExtraction: false
+    payloadExtraction: true
   }
 })

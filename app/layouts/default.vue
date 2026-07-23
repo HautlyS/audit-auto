@@ -23,7 +23,7 @@ const links = [
       
       <template #footer>
         <div class="text-sm text-muted">
-          v1.0.0 | Every 2h
+          v2.0.0 | Every 2h
         </div>
       </template>
     </UDashboardSidebar>
