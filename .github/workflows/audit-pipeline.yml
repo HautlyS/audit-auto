@@ -76,6 +76,40 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: npx playwright install chromium --with-deps
 
+      - name: Discover new targets
+        run: |
+          echo "🔍 Discovering new targets at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          node scripts/discover-targets.mjs
+
+      - name: Merge TOML targets into master list
+        run: node -e "
+          const fs=require('fs'),p=require('path');
+          const ROOT=process.cwd();
+          const knownPath=p.join(ROOT,'data','known-targets.json');
+          let known=[];
+          if(fs.existsSync(knownPath)) known=JSON.parse(fs.readFileSync(knownPath,'utf-8'));
+          const seen=new Set(known.map(t=>t.url));
+          const dirs=[{f:'data/targets-us.toml',r:'us'},{f:'data/targets-eu.toml',r:'eu'},{f:'data/targets-ngos.toml',r:'ngos'}];
+          let m=0;
+          for(const d of dirs){
+            const fp=p.join(ROOT,d.f);
+            if(fs.existsSync(fp)){
+              const c=fs.readFileSync(fp,'utf-8');
+              const blocks=c.match(/\[\[targets\]\]\n[\s\S]*?(?=\[\[targets\]\]|\$)/g)||[];
+              for(const b of blocks){
+                const n=b.match(/name\s*=\s*\"([^\"]+)\"/)?.[1];
+                const u=b.match(/url\s*=\s*\"([^\"]+)\"/)?.[1];
+                if(n&&u&&!seen.has(u)){
+                  known.push({name:n,url:u,type:d.r==='ngos'?'ngo':'enterprise',region:d.r==='ngos'?'international':d.r,category:b.match(/category\s*=\s*\"([^\"]+)\"/)?.[1]||'general',discoveredAt:new Date().toISOString(),lastSeenAt:new Date().toISOString(),discoveredBy:'static:toml'});
+                  seen.add(u);m++;
+                }
+              }
+            }
+          }
+          if(m>0){fs.writeFileSync(knownPath,JSON.stringify(known,null,2));}
+          console.log('📋 Static targets merged: '+m+' (total known: '+known.length+')');
+        "
+
       - name: Run scraper
         id: scrape
         run: |
@@ -161,11 +195,12 @@ jobs:
           node scripts/ai-auditor.mjs --all
           
           if [ -f "data/latest-audit-summary.json" ]; then
-            AUDIT_COUNT=$(node -e "const d=require('./data/latest-audit-summary.json');console.log(d.completedAudits||0)")
+            AUDIT_COUNT=$(node -e "const d=require('./data/latest-audit-summary.json');console.log(d.newAudits||0)")
+            SKIP_COUNT=$(node -e "const d=require('./data/latest-audit-summary.json');console.log(d.skippedUnchanged||0)")
             AVG_SCORE=$(node -e "const d=require('./data/latest-audit-summary.json');console.log(d.averageScores?.overall||0)")
             echo "audit_count=$AUDIT_COUNT" >> $GITHUB_OUTPUT
             echo "avg_score=$AVG_SCORE" >> $GITHUB_OUTPUT
-            echo "✅ Audited $AUDIT_COUNT sites (avg score: $AVG_SCORE)"
+            echo "✅ Audited $AUDIT_COUNT sites (${SKIP_COUNT} unchanged, avg: $AVG_SCORE%)"
           else
             echo "audit_count=0" >> $GITHUB_OUTPUT
             echo "avg_score=0" >> $GITHUB_OUTPUT

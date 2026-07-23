@@ -1,12 +1,5 @@
 #!/usr/bin/env node
 
-/**
- * AI Auditor - Uses OpenCode CLI headless mode for deep website analysis
- * Processes scraped data and generates comprehensive audit reports
- * 
- * Usage: node scripts/ai-auditor.mjs [--input <file>] [--all]
- */
-
 import { execFile } from 'child_process';
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
@@ -18,29 +11,55 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT_DIR = join(__dirname, '..');
 
-// Configuration
 const CONFIG = {
   model: process.env.OPENCODE_MODEL || 'opencode/mimo-v2.5-free',
-  maxConcurrent: 1,
   timeout: 60000,
   retryAttempts: 2
 };
 
-// Audit prompt template
-function buildAuditPrompt(target, scrapedData) {
+const AUDITS_DIR = join(ROOT_DIR, 'audits');
+const SCRAPE_RESULTS_PATH = join(ROOT_DIR, 'data', 'latest-scrape-results.json');
+const SCRAPE_HISTORY_PATH = join(ROOT_DIR, 'data', 'scrape-history.json');
+const AUDIT_REGISTRY_PATH = join(ROOT_DIR, 'data', 'audit-registry.json');
+
+function loadAuditRegistry() {
+  if (existsSync(AUDIT_REGISTRY_PATH)) {
+    return JSON.parse(readFileSync(AUDIT_REGISTRY_PATH, 'utf-8'));
+  }
+  return {};
+}
+
+function saveAuditRegistry(registry) {
+  mkdirSync(join(ROOT_DIR, 'data'), { recursive: true });
+  writeFileSync(AUDIT_REGISTRY_PATH, JSON.stringify(registry, null, 2));
+}
+
+function loadScrapeHistory() {
+  if (existsSync(SCRAPE_HISTORY_PATH)) {
+    return JSON.parse(readFileSync(SCRAPE_HISTORY_PATH, 'utf-8'));
+  }
+  return {};
+}
+
+function buildAuditPrompt(target) {
   return `Analyze this website data and provide a brief audit:
 
 Website: ${target.name} (${target.url})
 Type: ${target.type} | Region: ${target.region}
 
 Data:
-- Title: ${scrapedData.title || 'N/A'}
-- Meta: ${scrapedData.description || 'N/A'}
-- H1 Tags: ${scrapedData.seo?.h1Count || 0}
-- Images w/o Alt: ${scrapedData.seo?.imagesWithoutAlt || 0}
-- HTTPS: ${scrapedData.security?.isHttps ? 'Yes' : 'No'}
-- Scripts: ${scrapedData.performance?.scripts || 0}
-- ARIA Landmarks: ${scrapedData.accessibility?.ariaLandmarks || 0}
+- Title: ${target.title || 'N/A'}
+- Meta: ${target.description || 'N/A'}
+- H1 Tags: ${target.seo?.h1Count || 0}
+- Images w/o Alt: ${target.seo?.imagesWithoutAlt || 0}
+- HTTPS: ${target.security?.isHttps ? 'Yes' : 'No'}
+- Scripts: ${target.performance?.scripts || 0}
+- ARIA Landmarks: ${target.accessibility?.ariaLandmarks || 0}
+- Word Count: ${target.content?.wordCount || 0}
+- Heading Count: ${target.content?.headings || 0}
+- Schema.org: ${target.seo?.schemaOrg ? 'Yes' : 'No'}
+- Canonical: ${target.seo?.canonical || 'None'}
+- OG Title: ${target.seo?.ogTitle || 'None'}
 
 Score each category 0-100 and list top 3 issues:
 - Accessibility (WCAG 2.1)
@@ -49,68 +68,54 @@ Score each category 0-100 and list top 3 issues:
 - Security
 
 Return as JSON:
-{"scores":{"accessibility":85,"seo":90,"performance":75,"security":95,"overall":86},"issues":{"accessibility":["issue1"],"seo":["issue1"],"performance":["issue1"],"security":["issue1"]},"summary":"Brief summary"}`;
+{"scores":{"accessibility":85,"seo":90,"performance":75,"security":95,"overall":86},"issues":{"accessibility":["issue1"],"seo":["issue1"],"performance":["issue1"],"security":["issue1"]},"recommendations":["rec1","rec2"],"summary":"Brief summary"}`;
 }
 
-// Run OpenCode CLI audit using execFile to prevent shell injection
 async function runOpenCodeAudit(prompt) {
-  try {
-    const { stdout } = await execFileAsync('opencode', ['-p', prompt, '-f', 'json'], {
-      encoding: 'utf-8',
-      timeout: CONFIG.timeout,
-      cwd: ROOT_DIR,
-      env: { ...process.env, OPENCODE_MODEL: CONFIG.model },
-      maxBuffer: 10 * 1024 * 1024
-    });
-    
-    return stdout;
-  } catch (error) {
-    throw new Error(`OpenCode error: ${error.message}`);
-  }
+  const { stdout } = await execFileAsync('opencode', ['-p', prompt, '-f', 'json'], {
+    encoding: 'utf-8',
+    timeout: CONFIG.timeout,
+    cwd: ROOT_DIR,
+    env: { ...process.env, OPENCODE_MODEL: CONFIG.model },
+    maxBuffer: 10 * 1024 * 1024
+  });
+  return stdout;
 }
 
-// Parse JSON from response
 function extractJSON(response) {
   const jsonMatch = response.match(/\{[\s\S]*\}/);
   if (jsonMatch) {
     try {
       return JSON.parse(jsonMatch[0]);
     } catch (e) {
-      let fixed = jsonMatch[0]
-        .replace(/,\s*}/g, '}')
-        .replace(/,\s*]/g, ']');
-      
-      try {
-        return JSON.parse(fixed);
-      } catch (e2) {
-        return null;
-      }
+      let fixed = jsonMatch[0].replace(/,\s*}/g, '}').replace(/,\s*]/g, ']');
+      try { return JSON.parse(fixed); } catch { return null; }
     }
   }
   return null;
 }
 
-// Audit a single site
 async function auditSite(target) {
   console.log(`  🤖 AI Auditing: ${target.name}`);
-  
-  const prompt = buildAuditPrompt(target, target);
-  
+
+  const prompt = buildAuditPrompt(target);
+
   for (let attempt = 1; attempt <= CONFIG.retryAttempts; attempt++) {
     try {
       const response = await runOpenCodeAudit(prompt);
       const auditResult = extractJSON(response);
-      
+
       if (auditResult && auditResult.scores) {
         const fullResult = {
           ...target,
           scores: auditResult.scores,
           issues: auditResult.issues || {},
+          recommendations: auditResult.recommendations || [],
           summary: auditResult.summary || '',
           aiAuditTimestamp: new Date().toISOString()
         };
-        
-        console.log(`  ✅ Done: ${target.name} - Score: ${fullResult.scores?.overall || 'N/A'}`);
+
+        console.log(`  ✅ Done: ${target.name} - Score: ${fullResult.scores.overall}`);
         return fullResult;
       } else {
         console.log(`  ⚠️  Attempt ${attempt}: Failed to parse response for ${target.name}`);
@@ -118,28 +123,47 @@ async function auditSite(target) {
     } catch (error) {
       console.log(`  ⚠️  Attempt ${attempt}: Error for ${target.name}: ${error.message}`);
     }
-    
+
     if (attempt < CONFIG.retryAttempts) {
       await new Promise(r => setTimeout(r, 1000));
     }
   }
-  
+
   console.log(`  ❌ Failed: ${target.name} after ${CONFIG.retryAttempts} attempts`);
-  return target;
+  return null;
 }
 
-// Save audit result
 function saveAuditResult(result) {
-  const auditDir = join(ROOT_DIR, 'audits');
-  mkdirSync(auditDir, { recursive: true });
-  
-  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-  const filename = `${result.type || 'unknown'}-${(result.name || 'unknown').toLowerCase().replace(/\s+/g, '-')}-${timestamp}.toml`;
-  const filepath = join(auditDir, filename);
-  
-  // Escape TOML strings properly
+  mkdirSync(AUDITS_DIR, { recursive: true });
+
+  const existing = loadAuditRegistry();
+  const prevFile = existing[result.url]?.filename;
+
+  if (prevFile) {
+    const prevPath = join(AUDITS_DIR, prevFile);
+    if (existsSync(prevPath)) {
+      const oldContent = readFileSync(prevPath, 'utf-8');
+      const oldScores = oldContent.match(/overall = (\d+)/);
+      if (oldScores && parseInt(oldScores[1]) === (result.scores?.overall || 0)) {
+        console.log(`  🔄 Score unchanged (${result.scores?.overall}), rewriting timestamp`);
+        existing[result.url] = { ...existing[result.url], lastAuditedAt: new Date().toISOString() };
+        saveAuditRegistry(existing);
+        return;
+      }
+    }
+  }
+
   const escapeToml = (str) => (str || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n');
-  
+
+  const hash = result.hash || '';
+  const filename = `${result.type || 'unknown'}-${(result.name || 'unknown').toLowerCase().replace(/\s+/g, '-')}-${hash.slice(0, 8) || 'no-hash'}.toml`;
+  const filepath = join(AUDITS_DIR, filename);
+
+  const recommendations = (result.recommendations || []).map(r => `"${escapeToml(r)}"`).join(',\n  ');
+  const issuesByCat = (obj) => Object.entries(obj || {}).map(([cat, issues]) =>
+    `[issues.${cat}]\n` + (issues || []).map(i => `"${escapeToml(i)}"`).join('\n')
+  ).join('\n\n');
+
   const tomlContent = `[audit]
 url = "${escapeToml(result.url)}"
 name = "${escapeToml(result.name)}"
@@ -147,6 +171,7 @@ type = "${escapeToml(result.type)}"
 region = "${escapeToml(result.region)}"
 category = "${escapeToml(result.category)}"
 timestamp = "${result.scrapedAt || result.aiAuditTimestamp || new Date().toISOString()}"
+hash = "${hash}"
 
 [scores]
 accessibility = ${result.scores?.accessibility || 0}
@@ -157,67 +182,111 @@ overall = ${result.scores?.overall || 0}
 
 [summary]
 text = "${escapeToml(result.summary)}"
+
+[recommendations]
+items = [
+  ${recommendations || '"No recommendations"'}
+]
+
+${issuesByCat(result.issues)}
 `;
-  
   writeFileSync(filepath, tomlContent);
+
+  const existing2 = loadAuditRegistry();
+  existing2[result.url] = {
+    url: result.url,
+    name: result.name,
+    filename,
+    hash,
+    scores: result.scores,
+    lastAuditedAt: new Date().toISOString(),
+    auditCount: (existing2[result.url]?.auditCount || 0) + 1,
+    scoreHistory: [...(existing2[result.url]?.scoreHistory || []), { score: result.scores?.overall, at: new Date().toISOString() }]
+  };
+  saveAuditRegistry(existing2);
+
   console.log(`  💾 Saved: ${filename}`);
 }
 
-// Load scraped data
-function loadScrapedData() {
-  const latestPath = join(ROOT_DIR, 'data', 'latest-scrape-results.json');
-  if (existsSync(latestPath)) {
-    const data = JSON.parse(readFileSync(latestPath, 'utf-8'));
-    return data.results || [];
-  }
-  return [];
-}
-
-// Main execution
 async function main() {
   const args = process.argv.slice(2);
   const allFlag = args.includes('--all');
-  
+
   console.log('🤖 Audit-Auto AI Auditor');
   console.log('========================\n');
-  
-  const scrapedData = loadScrapedData();
-  
-  if (scrapedData.length === 0) {
-    console.log('❌ No scraped data found. Run full-scraper.mjs first.');
+
+  if (!existsSync(SCRAPE_RESULTS_PATH)) {
+    console.log('❌ No scraped data found. Run full-scraper.mjs --audit first.');
     process.exit(1);
   }
-  
-  console.log(`📊 Found ${scrapedData.length} targets to audit\n`);
-  
-  const results = [];
-  
-  for (const target of scrapedData) {
-    const result = await auditSite(target);
-    results.push(result);
-    saveAuditResult(result);
+
+  const scrapeData = JSON.parse(readFileSync(SCRAPE_RESULTS_PATH, 'utf-8'));
+  const scrapedTargets = scrapeData.results || [];
+  const scrapeHistory = loadScrapeHistory();
+  const auditRegistry = loadAuditRegistry();
+
+  if (scrapedTargets.length === 0) {
+    console.log('❌ No targets found in scrape results.');
+    process.exit(1);
   }
-  
+
+  const toAudit = scrapedTargets.filter(t => {
+    const prevAudit = auditRegistry[t.url];
+    const currentHash = scrapeHistory[t.url]?.hash || t.hash;
+    if (!prevAudit) return true;
+    if (prevAudit.hash !== currentHash) return true;
+    return false;
+  });
+
+  const skipCount = scrapedTargets.length - toAudit.length;
+
+  console.log(`📊 Total scraped: ${scrapedTargets.length}`);
+  console.log(`🤖 New/changed to audit: ${toAudit.length}`);
+  console.log(`⏭️  Skipped (unchanged): ${skipCount}\n`);
+
+  if (toAudit.length === 0) {
+    console.log('✅ All targets unchanged since last audit. Nothing to do.');
+    return;
+  }
+
+  const results = [];
+
+  for (const target of toAudit) {
+    const result = await auditSite(target);
+    if (result) {
+      result.hash = scrapeHistory[target.url]?.hash || target.hash;
+      results.push(result);
+      saveAuditResult(result);
+    }
+  }
+
   const summary = {
     timestamp: new Date().toISOString(),
-    totalTargets: scrapedData.length,
-    completedAudits: results.length,
+    totalTargets: scrapedTargets.length,
+    newAudits: results.length,
+    skippedUnchanged: skipCount,
     averageScores: {
       accessibility: results.length ? Math.round(results.reduce((a, r) => a + (r.scores?.accessibility || 0), 0) / results.length) : 0,
       seo: results.length ? Math.round(results.reduce((a, r) => a + (r.scores?.seo || 0), 0) / results.length) : 0,
       performance: results.length ? Math.round(results.reduce((a, r) => a + (r.scores?.performance || 0), 0) / results.length) : 0,
       security: results.length ? Math.round(results.reduce((a, r) => a + (r.scores?.security || 0), 0) / results.length) : 0,
       overall: results.length ? Math.round(results.reduce((a, r) => a + (r.scores?.overall || 0), 0) / results.length) : 0
+    },
+    registry: {
+      totalUniqueSites: Object.keys(loadAuditRegistry()).length,
+      totalAuditFiles: existsSync(AUDITS_DIR) ? readFileSync(AUDITS_DIR).toString() : 0
     }
   };
-  
+
   const summaryPath = join(ROOT_DIR, 'data', 'latest-audit-summary.json');
   writeFileSync(summaryPath, JSON.stringify(summary, null, 2));
-  
+
   console.log('\n========================');
   console.log('✅ AI Audit cycle complete!');
-  console.log(`📊 Results: ${results.length}/${scrapedData.length} sites audited`);
+  console.log(`📊 New audits: ${results.length}/${toAudit.length}`);
+  console.log(`⏭️  Skipped unchanged: ${skipCount}`);
   console.log(`📈 Average Overall Score: ${summary.averageScores.overall}`);
+  console.log(`📝 Registry: ${summary.registry.totalUniqueSites} unique sites`);
 }
 
 main().catch(error => {

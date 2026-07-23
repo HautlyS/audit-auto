@@ -1,108 +1,139 @@
 #!/usr/bin/env node
 
-/**
- * Pipeline - Orchestrates full scraping and AI auditing
- * Main entry point for the audit system
- * 
- * Usage: node scripts/pipeline.mjs [--discover] [--scrape] [--audit] [--all]
- */
-
 import { execSync } from 'child_process';
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { createHash } from 'crypto';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT_DIR = join(__dirname, '..');
 
-// Parse arguments
 const args = process.argv.slice(2);
 const discoverFlag = args.includes('--discover');
 const scrapeFlag = args.includes('--scrape');
 const auditFlag = args.includes('--audit');
 const allFlag = args.includes('--all');
 
-console.log('🚀 Audit-Auto Pipeline');
-console.log('=====================\n');
+console.log('🚀 Audit-Auto Dynamic Pipeline');
+console.log('===============================\n');
 console.log(`⏰ Started at: ${new Date().toISOString()}`);
 console.log(`📋 Mode: ${allFlag ? 'FULL' : discoverFlag ? 'DISCOVER' : scrapeFlag ? 'SCRAPE' : auditFlag ? 'AUDIT' : 'DEFAULT'}`);
 
-// Track execution time and step results
 const startTime = Date.now();
-const stepResults: { step: string; success: boolean; error?: string }[] = [];
+const stepResults = [];
 
-// Step 1: Discovery (optional)
-if (discoverFlag || allFlag) {
-  console.log('\n📍 Step 1: Target Discovery');
-  console.log('---------------------------');
-  
+function runStep(name, command) {
+  console.log(`\n📍 ${name}`);
+  console.log('-'.repeat(name.length + 4));
   try {
-    execSync('node scripts/full-scraper.mjs --discover', {
-      cwd: ROOT_DIR,
-      stdio: 'inherit'
-    });
-    console.log('✅ Discovery complete');
-    stepResults.push({ step: 'discovery', success: true });
-  } catch (error: any) {
-    console.error('⚠️  Discovery failed:', error.message);
-    stepResults.push({ step: 'discovery', success: false, error: error.message });
+    execSync(command, { cwd: ROOT_DIR, stdio: 'inherit' });
+    console.log(`\n✅ ${name} complete`);
+    stepResults.push({ step: name.toLowerCase().replace(/\s+/g, '_'), success: true });
+    return true;
+  } catch (error) {
+    console.error(`\n⚠️  ${name} failed: ${error.message}`);
+    stepResults.push({ step: name.toLowerCase().replace(/\s+/g, '_'), success: false, error: error.message });
+    return false;
   }
 }
 
-// Step 2: Scraping
-if (scrapeFlag || allFlag) {
-  console.log('\n📍 Step 2: Web Scraping');
-  console.log('-----------------------');
-  
-  try {
-    execSync('node scripts/full-scraper.mjs --audit', {
-      cwd: ROOT_DIR,
-      stdio: 'inherit'
-    });
-    console.log('✅ Scraping complete');
-    stepResults.push({ step: 'scraping', success: true });
-  } catch (error: any) {
-    console.error('⚠️  Scraping failed:', error.message);
-    stepResults.push({ step: 'scraping', success: false, error: error.message });
+function mergeStaticIntoDiscovery() {
+  console.log('\n📋 Merging static TOML targets into known-targets.json...');
+  const knownPath = join(ROOT_DIR, 'data', 'known-targets.json');
+
+  let known = [];
+  if (existsSync(knownPath)) {
+    known = JSON.parse(readFileSync(knownPath, 'utf-8'));
+  }
+
+  const seen = new Set(known.map(t => t.url));
+  const staticDirs = [
+    { file: 'data/targets-us.toml', region: 'us' },
+    { file: 'data/targets-eu.toml', region: 'eu' },
+    { file: 'data/targets-ngos.toml', region: 'ngos' }
+  ];
+
+  let merged = 0;
+  for (const { file, region } of staticDirs) {
+    const filePath = join(ROOT_DIR, file);
+    if (existsSync(filePath)) {
+      const content = readFileSync(filePath, 'utf-8');
+      const matches = content.matchAll(/\[\[targets\]\][\s\S]*?(?=\[\[targets\]\]|$)/g);
+      for (const match of matches) {
+        const block = match[0];
+        const name = block.match(/name\s*=\s*"([^"]+)"/)?.[1];
+        const url = block.match(/url\s*=\s*"([^"]+)"/)?.[1];
+        const type = block.match(/type\s*=\s*"([^"]+)"/)?.[1] || (region === 'ngos' ? 'ngo' : 'enterprise');
+        if (name && url && !seen.has(url)) {
+          known.push({
+            name, url, type,
+            region: region === 'ngos' ? 'international' : region,
+            category: block.match(/category\s*=\s*"([^"]+)"/)?.[1] || 'general',
+            discoveredAt: new Date().toISOString(),
+            lastSeenAt: new Date().toISOString(),
+            discoveredBy: 'static:toml'
+          });
+          seen.add(url);
+          merged++;
+        }
+      }
+    }
+  }
+
+  if (merged > 0) {
+    mkdirSync(join(ROOT_DIR, 'data'), { recursive: true });
+    writeFileSync(knownPath, JSON.stringify(known, null, 2));
+    console.log(`  ✅ Merged ${merged} static targets into master list (total: ${known.length})`);
+  } else {
+    console.log(`  ℹ️  No new static targets to merge (total: ${known.length})`);
   }
 }
 
-// Step 3: AI Auditing
-if (auditFlag || allFlag) {
-  console.log('\n📍 Step 3: AI Auditing');
-  console.log('----------------------');
-  
-  try {
-    execSync('node scripts/ai-auditor.mjs --all', {
-      cwd: ROOT_DIR,
-      stdio: 'inherit'
-    });
-    console.log('✅ AI Auditing complete');
-    stepResults.push({ step: 'auditing', success: true });
-  } catch (error: any) {
-    console.error('⚠️  AI Auditing failed:', error.message);
-    stepResults.push({ step: 'auditing', success: false, error: error.message });
+function countAuditRegistry() {
+  const regPath = join(ROOT_DIR, 'data', 'audit-registry.json');
+  if (existsSync(regPath)) {
+    const reg = JSON.parse(readFileSync(regPath, 'utf-8'));
+    return Object.keys(reg).length;
   }
+  return 0;
 }
 
-// Step 4: Generate Dashboard Data
-console.log('\n📍 Step 4: Generating Dashboard Data');
-console.log('------------------------------------');
-
-try {
-  execSync('node scripts/generate-dashboard-data.mjs', {
-    cwd: ROOT_DIR,
-    stdio: 'inherit'
-  });
-  console.log('✅ Dashboard data generated');
-  stepResults.push({ step: 'dashboard', success: true });
-} catch (error: any) {
-  console.error('⚠️  Dashboard generation failed:', error.message);
-  stepResults.push({ step: 'dashboard', success: false, error: error.message });
+function countScrapeHistory() {
+  const histPath = join(ROOT_DIR, 'data', 'scrape-history.json');
+  if (existsSync(histPath)) {
+    const hist = JSON.parse(readFileSync(histPath, 'utf-8'));
+    return Object.keys(hist).length;
+  }
+  return 0;
 }
 
-// Step 5: Save Pipeline Stats
+if (allFlag) {
+  runStep('Step 1: Dynamic Discovery', 'node scripts/discover-targets.mjs');
+
+  mergeStaticIntoDiscovery();
+
+  runStep('Step 2: Web Scraping', 'node scripts/full-scraper.mjs --audit');
+
+  runStep('Step 3: AI Auditing', 'node scripts/ai-auditor.mjs --all');
+
+  runStep('Step 4: Dashboard Data', 'node scripts/generate-dashboard-data.mjs');
+} else {
+  if (discoverFlag) {
+    runStep('Discovery', 'node scripts/discover-targets.mjs');
+    mergeStaticIntoDiscovery();
+  }
+  if (scrapeFlag) {
+    runStep('Web Scraping', 'node scripts/full-scraper.mjs --audit');
+  }
+  if (auditFlag) {
+    runStep('AI Auditing', 'node scripts/ai-auditor.mjs --all');
+  }
+
+  runStep('Dashboard Data', 'node scripts/generate-dashboard-data.mjs');
+}
+
 const endTime = Date.now();
 const duration = Math.round((endTime - startTime) / 1000);
 const hasFailures = stepResults.some(s => !s.success);
@@ -114,7 +145,14 @@ const stats = {
   durationFormatted: `${Math.floor(duration / 60)}m ${duration % 60}s`,
   mode: allFlag ? 'full' : discoverFlag ? 'discover' : scrapeFlag ? 'scrape' : auditFlag ? 'audit' : 'default',
   steps: stepResults,
-  success: !hasFailures
+  success: !hasFailures,
+  registry: {
+    uniqueSitesTracked: countScrapeHistory(),
+    uniqueSitesAudited: countAuditRegistry(),
+    totalAuditFiles: existsSync(join(ROOT_DIR, 'audits'))
+      ? readdirSync(join(ROOT_DIR, 'audits')).filter(f => f.endsWith('.toml')).length
+      : 0
+  }
 };
 
 const statsPath = join(ROOT_DIR, 'data', 'pipeline-stats.json');
@@ -131,9 +169,9 @@ if (hasFailures) {
   console.log('✅ Pipeline Complete!');
 }
 console.log(`⏱️  Duration: ${stats.durationFormatted}`);
-console.log(`📊 Stats saved to: data/pipeline-stats.json`);
+console.log(`📊 Registry: ${stats.registry.uniqueSitesTracked} tracked, ${stats.registry.uniqueSitesAudited} audited`);
+console.log(`📁 Audit files: ${stats.registry.totalAuditFiles}`);
 
-// Exit with error code if any critical step failed
 if (hasFailures && (stepResults.find(s => s.step === 'scraping' && !s.success) || stepResults.find(s => s.step === 'auditing' && !s.success))) {
   process.exit(1);
 }
