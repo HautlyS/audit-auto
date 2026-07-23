@@ -104,7 +104,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: scrape-results-${{ github.run_id }}
-          path: data/latest-scrape-results.json
+          path: |
+            data/latest-scrape-results.json
+            data/scrape-history.json
           retention-days: 7
 
       - name: Commit scrape results
@@ -188,6 +190,8 @@ jobs:
           path: |
             audits/
             data/latest-audit-summary.json
+            data/audit-registry.json
+            data/scrape-history.json
           retention-days: 30
 
       - name: Commit audit results

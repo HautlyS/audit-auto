@@ -72,14 +72,24 @@ Return as JSON:
 }
 
 async function runOpenCodeAudit(prompt) {
-  const { stdout } = await execFileAsync('opencode', ['-p', prompt, '-f', 'json'], {
+  const { stdout } = await execFileAsync('opencode', ['run', '-m', CONFIG.model, '--format', 'json', prompt], {
     encoding: 'utf-8',
     timeout: CONFIG.timeout,
     cwd: ROOT_DIR,
-    env: { ...process.env, OPENCODE_MODEL: CONFIG.model },
     maxBuffer: 10 * 1024 * 1024
   });
-  return stdout;
+
+  const lines = stdout.trim().split('\n').filter(Boolean);
+  const textParts = [];
+  for (const line of lines) {
+    try {
+      const event = JSON.parse(line);
+      if (event.type === 'text' && event.part?.text) {
+        textParts.push(event.part.text);
+      }
+    } catch { }
+  }
+  return textParts.join('\n');
 }
 
 function extractJSON(response) {
