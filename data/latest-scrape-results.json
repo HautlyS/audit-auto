@@ -1,7 +1,101 @@
 {
-  "timestamp": "2026-07-22T18:20:16.230Z",
+  "timestamp": "2026-07-23T12:26:49.040Z",
   "totalScraped": 19,
   "results": [
+    {
+      "url": "https://www.apple.com",
+      "name": "Apple",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "Apple",
+      "description": "",
+      "seo": {
+        "title": "Apple",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 37,
+        "images": 47,
+        "imagesWithoutAlt": 0,
+        "links": 341,
+        "canonical": "https://www.apple.com/",
+        "ogTitle": "Apple",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 18,
+        "stylesheets": 9,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 4637,
+        "headings": 55
+      },
+      "scrapedAt": "2026-07-23T12:26:06.957Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 100,
+        "security": 100,
+        "overall": 96
+      }
+    },
+    {
+      "url": "https://www.microsoft.com",
+      "name": "Microsoft",
+      "type": "enterprise",
+      "region": "us",
+      "category": "technology",
+      "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
+      "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+      "seo": {
+        "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+        "h1Count": 1,
+        "h2Count": 26,
+        "images": 42,
+        "imagesWithoutAlt": 0,
+        "links": 135,
+        "canonical": "https://www.microsoft.com/en-us",
+        "ogTitle": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 3
+      },
+      "performance": {
+        "scripts": 282,
+        "stylesheets": 13,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 5038,
+        "headings": 31
+      },
+      "scrapedAt": "2026-07-23T12:26:10.388Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 100,
+        "performance": 65,
+        "security": 100,
+        "overall": 91
+      }
+    },
     {
       "url": "https://about.google",
       "name": "Google",
@@ -30,7 +124,7 @@
       "performance": {
         "scripts": 12,
         "stylesheets": 3,
-        "iframes": 0
+        "iframes": 1
       },
       "security": {
         "isHttps": true,
@@ -40,7 +134,7 @@
         "wordCount": 261,
         "headings": 9
       },
-      "scrapedAt": "2026-07-22T18:19:37.765Z",
+      "scrapedAt": "2026-07-23T12:26:12.260Z",
       "scores": {
         "accessibility": 80,
         "seo": 100,
@@ -50,33 +144,33 @@
       }
     },
     {
-      "url": "https://www.apple.com",
-      "name": "Apple",
+      "url": "https://www.amazon.com",
+      "name": "Amazon",
       "type": "enterprise",
       "region": "us",
       "category": "technology",
-      "title": "Apple",
+      "title": "Amazon.com",
       "description": "",
       "seo": {
-        "title": "Apple",
+        "title": "Amazon.com",
         "metaDescription": "",
-        "h1Count": 1,
-        "h2Count": 37,
-        "images": 47,
+        "h1Count": 0,
+        "h2Count": 0,
+        "images": 0,
         "imagesWithoutAlt": 0,
-        "links": 338,
-        "canonical": "https://www.apple.com/",
-        "ogTitle": "Apple",
-        "schemaOrg": true
+        "links": 2,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
         "formLabels": 0,
-        "ariaLandmarks": 3
+        "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 18,
-        "stylesheets": 9,
+        "scripts": 0,
+        "stylesheets": 1,
         "iframes": 0
       },
       "security": {
@@ -84,16 +178,16 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 4631,
-        "headings": 55
+        "wordCount": 21,
+        "headings": 1
       },
-      "scrapedAt": "2026-07-22T18:19:40.135Z",
+      "scrapedAt": "2026-07-23T12:26:13.894Z",
       "scores": {
-        "accessibility": 100,
-        "seo": 85,
+        "accessibility": 80,
+        "seo": 55,
         "performance": 100,
         "security": 100,
-        "overall": 96
+        "overall": 84
       }
     },
     {
@@ -134,7 +228,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-07-22T18:19:42.915Z",
+      "scrapedAt": "2026-07-23T12:26:15.559Z",
       "scores": {
         "accessibility": 70,
         "seo": 70,
@@ -144,33 +238,33 @@
       }
     },
     {
-      "url": "https://www.amazon.com",
-      "name": "Amazon",
+      "url": "https://about.meta.com",
+      "name": "Meta",
       "type": "enterprise",
       "region": "us",
       "category": "technology",
-      "title": "Amazon.com. Spend less. Smile more.",
-      "description": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
+      "title": "About Meta | Social Technology, VR, AR, and Innovation",
+      "description": "Learn more about Meta and stay updated on our role in social technology, virtual reality, augmented reality, and the future of human connection.",
       "seo": {
-        "title": "Amazon.com. Spend less. Smile more.",
-        "metaDescription": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
+        "title": "About Meta | Social Technology, VR, AR, and Innovation",
+        "metaDescription": "Learn more about Meta and stay updated on our role in social technology, virtual reality, augmented reality, and the future of human connection.",
         "h1Count": 0,
-        "h2Count": 3,
-        "images": 45,
+        "h2Count": 7,
+        "images": 18,
         "imagesWithoutAlt": 0,
-        "links": 202,
-        "canonical": "https://www.amazon.com/",
-        "ogTitle": "",
-        "schemaOrg": false
+        "links": 263,
+        "canonical": "https://www.meta.com/about/",
+        "ogTitle": "About Meta | Social Technology, VR, AR, and Innovation",
+        "schemaOrg": true
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 2,
-        "ariaLandmarks": 4
+        "formLabels": 0,
+        "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 131,
-        "stylesheets": 8,
+        "scripts": 81,
+        "stylesheets": 12,
         "iframes": 0
       },
       "security": {
@@ -178,63 +272,63 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 14358,
-        "headings": 47
+        "wordCount": 1535,
+        "headings": 10
       },
-      "scrapedAt": "2026-07-22T18:19:45.022Z",
+      "scrapedAt": "2026-07-23T12:26:18.230Z",
       "scores": {
-        "accessibility": 100,
-        "seo": 80,
-        "performance": 80,
+        "accessibility": 80,
+        "seo": 85,
+        "performance": 65,
         "security": 100,
-        "overall": 90
+        "overall": 83
       }
     },
     {
-      "url": "https://www.microsoft.com",
-      "name": "Microsoft",
+      "url": "https://www.netflix.com",
+      "name": "Netflix",
       "type": "enterprise",
       "region": "us",
-      "category": "technology",
-      "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
-      "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+      "category": "entertainment",
+      "title": "Netflix - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
+      "description": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
       "seo": {
-        "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
-        "metaDescription": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+        "title": "Netflix - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
+        "metaDescription": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
         "h1Count": 1,
-        "h2Count": 26,
-        "images": 38,
-        "imagesWithoutAlt": 0,
-        "links": 135,
-        "canonical": "https://www.microsoft.com/en-us",
-        "ogTitle": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
-        "schemaOrg": true
+        "h2Count": 5,
+        "images": 4,
+        "imagesWithoutAlt": 1,
+        "links": 30,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 0,
-        "ariaLandmarks": 3
+        "formLabels": 10,
+        "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 252,
-        "stylesheets": 12,
-        "iframes": 2
+        "scripts": 15,
+        "stylesheets": 1,
+        "iframes": 5
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2807,
+        "wordCount": 1558,
         "headings": 30
       },
-      "scrapedAt": "2026-07-22T18:19:45.472Z",
+      "scrapedAt": "2026-07-23T12:26:21.293Z",
       "scores": {
-        "accessibility": 100,
-        "seo": 100,
-        "performance": 65,
+        "accessibility": 95,
+        "seo": 85,
+        "performance": 100,
         "security": 100,
-        "overall": 91
+        "overall": 95
       }
     },
     {
@@ -275,60 +369,13 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-07-22T18:19:49.386Z",
+      "scrapedAt": "2026-07-23T12:26:23.088Z",
       "scores": {
         "accessibility": 70,
         "seo": 70,
         "performance": 100,
         "security": 100,
         "overall": 85
-      }
-    },
-    {
-      "url": "https://about.meta.com",
-      "name": "Meta",
-      "type": "enterprise",
-      "region": "us",
-      "category": "technology",
-      "title": "About Meta | Social Technology, VR, AR, and Innovation",
-      "description": "Learn more about Meta and stay updated on our role in social technology, virtual reality, augmented reality, and the future of human connection.",
-      "seo": {
-        "title": "About Meta | Social Technology, VR, AR, and Innovation",
-        "metaDescription": "Learn more about Meta and stay updated on our role in social technology, virtual reality, augmented reality, and the future of human connection.",
-        "h1Count": 0,
-        "h2Count": 7,
-        "images": 11,
-        "imagesWithoutAlt": 0,
-        "links": 26,
-        "canonical": "https://www.meta.com/about/",
-        "ogTitle": "About Meta | Social Technology, VR, AR, and Innovation",
-        "schemaOrg": true
-      },
-      "accessibility": {
-        "hasLangAttr": true,
-        "formLabels": 0,
-        "ariaLandmarks": 0
-      },
-      "performance": {
-        "scripts": 81,
-        "stylesheets": 12,
-        "iframes": 0
-      },
-      "security": {
-        "isHttps": true,
-        "mixedContent": 0
-      },
-      "content": {
-        "wordCount": 1144,
-        "headings": 10
-      },
-      "scrapedAt": "2026-07-22T18:19:50.779Z",
-      "scores": {
-        "accessibility": 80,
-        "seo": 85,
-        "performance": 65,
-        "security": 100,
-        "overall": 83
       }
     },
     {
@@ -357,7 +404,7 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 82,
+        "scripts": 85,
         "stylesheets": 12,
         "iframes": 1
       },
@@ -366,10 +413,10 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 7301,
+        "wordCount": 7336,
         "headings": 26
       },
-      "scrapedAt": "2026-07-22T18:19:54.565Z",
+      "scrapedAt": "2026-07-23T12:26:25.144Z",
       "scores": {
         "accessibility": 100,
         "seo": 85,
@@ -416,7 +463,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-07-22T18:19:54.626Z",
+      "scrapedAt": "2026-07-23T12:26:26.881Z",
       "scores": {
         "accessibility": 70,
         "seo": 70,
@@ -426,126 +473,32 @@
       }
     },
     {
-      "url": "https://www.netflix.com",
-      "name": "Netflix",
-      "type": "enterprise",
-      "region": "us",
-      "category": "entertainment",
-      "title": "Netflix - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
-      "description": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
-      "seo": {
-        "title": "Netflix - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
-        "metaDescription": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
-        "h1Count": 1,
-        "h2Count": 5,
-        "images": 4,
-        "imagesWithoutAlt": 1,
-        "links": 30,
-        "canonical": "",
-        "ogTitle": "",
-        "schemaOrg": false
-      },
-      "accessibility": {
-        "hasLangAttr": true,
-        "formLabels": 10,
-        "ariaLandmarks": 1
-      },
-      "performance": {
-        "scripts": 15,
-        "stylesheets": 1,
-        "iframes": 4
-      },
-      "security": {
-        "isHttps": true,
-        "mixedContent": 0
-      },
-      "content": {
-        "wordCount": 1550,
-        "headings": 30
-      },
-      "scrapedAt": "2026-07-22T18:19:56.774Z",
-      "scores": {
-        "accessibility": 95,
-        "seo": 85,
-        "performance": 100,
-        "security": 100,
-        "overall": 95
-      }
-    },
-    {
-      "url": "https://www.nestle.com",
-      "name": "Nestle",
-      "type": "enterprise",
-      "region": "eu",
-      "category": "food",
-      "title": "Just a moment...Nestlé logo",
-      "description": "",
-      "seo": {
-        "title": "Just a moment...Nestlé logo",
-        "metaDescription": "",
-        "h1Count": 1,
-        "h2Count": 1,
-        "images": 0,
-        "imagesWithoutAlt": 0,
-        "links": 0,
-        "canonical": "",
-        "ogTitle": "",
-        "schemaOrg": false
-      },
-      "accessibility": {
-        "hasLangAttr": true,
-        "formLabels": 0,
-        "ariaLandmarks": 1
-      },
-      "performance": {
-        "scripts": 13,
-        "stylesheets": 0,
-        "iframes": 0
-      },
-      "security": {
-        "isHttps": true,
-        "mixedContent": 0
-      },
-      "content": {
-        "wordCount": 108,
-        "headings": 2
-      },
-      "scrapedAt": "2026-07-22T18:20:00.565Z",
-      "scores": {
-        "accessibility": 100,
-        "seo": 70,
-        "performance": 100,
-        "security": 100,
-        "overall": 93
-      }
-    },
-    {
       "url": "https://www.siemens.com",
       "name": "Siemens",
       "type": "enterprise",
       "region": "eu",
       "category": "industrial",
-      "title": "Siemens home | Siemensactive integrationadaptive governanceaerospaceA.I. iconappsarrow rightarrow downarrow leftarrow rightarrow uparrow attacharrow back atomautomotivebar chartbatterybidirectional exchangebookmarkbox checkbuilding enterprisebuilding smbcalendarchatcheckcheckclockcloseclosecloudcloud transformationcommunitycomponentconfigurationconnectivity enginecopycutdata managementdeletedevelopment implementationdriving innovationease of useenvironmental solutionsFaviconFavicon-no-bg  digital twindocumentdocument successdocumentdownloaddropdowneditelectronicsemailend to end scenariosequipmenterrorFacebookFacebookfavoritefilterfirstnew folderopen folderfolderexit full screenfull screengearinggear upgridhardwareGoogleGoogleGooglehidehistoryhomehomehourglassidea-innovationimageinformationInstagramInstagramlanguagelastlicensesline chartlink externallink externallinkLinkedinLinkedinlinkedinlistloading spinnerlocationlockloginlower cost of ownershipmachinerymanufacturingmarinemarket analysismaximizemedalmedicalmenuminimizeminusnotificationoff the shelf productoffer consultingoptimizeoptionspastepathpausepharmaceuticalphoneplantplayplusplusprocess integrationproven solutionperformancequalityquotequestionreading timeredorefreshresetretailsaveseal of approvalsearch smallsearchsemiconductorssettingsshareSheerIdSheerIdshopping cartshowsort ascendingsort descendingsortstopstrategic partnershipsuccesssupportsustainabilitytagstext documenttime lapseTwitterTwitterundouseruploadutilitiesvoicewarningWeiboWeiboXXYammerYammerYoukuYoukuYouTubeYouTubezoom inzoom outblogbuildbullseye cloud lockcollaborate bulbcollaborationcommunityconsulting servicesdigital-exchangedigital twin screenengageextendflexibilityinnovationinstantintegratemacronewspaperownership culturepdfpersonalizedpredictableprinted circuit boardrespectscalableseamlesstraining",
+      "title": "Siemens home | Siemensactive integrationadaptive governanceaerospaceA.I. iconappsarrow rightarrow downarrow leftarrow rightarrow uparrow attacharrow back atomautomotivebar chartbatterybidirectional exchangebookmarkbox checkbuilding enterprisebuilding smbcalendarchatcheckcheckclockcloseclosecloudcloud transformationcommunitycomponentconfigurationconnectivity enginecopycutdata managementdeletedevelopment implementationdriving innovationease of useenvironmental solutionsFaviconFavicon-no-bg  digital twindocumentdocument successdocumentdownloaddropdowneditelectronicsemailend to end scenariosequipmenterrorFacebookFacebookfavoritefilterfirstnew folderopen folderfolderexit full screenfull screengearinggear upgridhardwareGoogleGoogleGooglehidehistoryhomehomehourglassidea-innovationimageinformationInstagramInstagramlanguagelastlicensesline chartlink externallink externallinkLinkedinLinkedinlinkedinlistloading spinnerlocationlockloginlower cost of ownershipmachinerymanufacturingmarinemarket analysismaximizemedalmedicalmenuminimizeminusnotificationoff the shelf productoffer consultingoptimizeoptionspastepathpausepharmaceuticalphoneplantplayplusplusprocess integrationproven solutionperformancequalityquotequestionreading timeredorefreshresetretailsaveseal of approvalsearch smallsearchsemiconductorssettingsshareSheerIdSheerIdshopping cartshowsort ascendingsort descendingsortstopstrategic partnershipsuccesssupportsustainabilitytagstext documenttime lapseTwitterTwitterundouseruploadutilitiesvoicewarningWeiboWeiboXXYammerYammerYoukuYoukuYouTubeYouTubezoom inzoom outblogbuildbullseye cloud lockcollaborate bulbcollaborationcommunityconsulting servicesdigital-exchangedigital twin screenengageextendflexibilityinnovationinstantintegratemacronewspaperownership culturepdfpersonalizedpredictableprinted circuit boardrespectscalableseamlesstrainingarrow rightarrow right",
       "description": "Siemens: A global technology leader driving innovation in industry, infrastructure and mobility through digital transformation.",
       "seo": {
-        "title": "Siemens home | Siemensactive integrationadaptive governanceaerospaceA.I. iconappsarrow rightarrow downarrow leftarrow rightarrow uparrow attacharrow back atomautomotivebar chartbatterybidirectional exchangebookmarkbox checkbuilding enterprisebuilding smbcalendarchatcheckcheckclockcloseclosecloudcloud transformationcommunitycomponentconfigurationconnectivity enginecopycutdata managementdeletedevelopment implementationdriving innovationease of useenvironmental solutionsFaviconFavicon-no-bg  digital twindocumentdocument successdocumentdownloaddropdowneditelectronicsemailend to end scenariosequipmenterrorFacebookFacebookfavoritefilterfirstnew folderopen folderfolderexit full screenfull screengearinggear upgridhardwareGoogleGoogleGooglehidehistoryhomehomehourglassidea-innovationimageinformationInstagramInstagramlanguagelastlicensesline chartlink externallink externallinkLinkedinLinkedinlinkedinlistloading spinnerlocationlockloginlower cost of ownershipmachinerymanufacturingmarinemarket analysismaximizemedalmedicalmenuminimizeminusnotificationoff the shelf productoffer consultingoptimizeoptionspastepathpausepharmaceuticalphoneplantplayplusplusprocess integrationproven solutionperformancequalityquotequestionreading timeredorefreshresetretailsaveseal of approvalsearch smallsearchsemiconductorssettingsshareSheerIdSheerIdshopping cartshowsort ascendingsort descendingsortstopstrategic partnershipsuccesssupportsustainabilitytagstext documenttime lapseTwitterTwitterundouseruploadutilitiesvoicewarningWeiboWeiboXXYammerYammerYoukuYoukuYouTubeYouTubezoom inzoom outblogbuildbullseye cloud lockcollaborate bulbcollaborationcommunityconsulting servicesdigital-exchangedigital twin screenengageextendflexibilityinnovationinstantintegratemacronewspaperownership culturepdfpersonalizedpredictableprinted circuit boardrespectscalableseamlesstraining",
+        "title": "Siemens home | Siemensactive integrationadaptive governanceaerospaceA.I. iconappsarrow rightarrow downarrow leftarrow rightarrow uparrow attacharrow back atomautomotivebar chartbatterybidirectional exchangebookmarkbox checkbuilding enterprisebuilding smbcalendarchatcheckcheckclockcloseclosecloudcloud transformationcommunitycomponentconfigurationconnectivity enginecopycutdata managementdeletedevelopment implementationdriving innovationease of useenvironmental solutionsFaviconFavicon-no-bg  digital twindocumentdocument successdocumentdownloaddropdowneditelectronicsemailend to end scenariosequipmenterrorFacebookFacebookfavoritefilterfirstnew folderopen folderfolderexit full screenfull screengearinggear upgridhardwareGoogleGoogleGooglehidehistoryhomehomehourglassidea-innovationimageinformationInstagramInstagramlanguagelastlicensesline chartlink externallink externallinkLinkedinLinkedinlinkedinlistloading spinnerlocationlockloginlower cost of ownershipmachinerymanufacturingmarinemarket analysismaximizemedalmedicalmenuminimizeminusnotificationoff the shelf productoffer consultingoptimizeoptionspastepathpausepharmaceuticalphoneplantplayplusplusprocess integrationproven solutionperformancequalityquotequestionreading timeredorefreshresetretailsaveseal of approvalsearch smallsearchsemiconductorssettingsshareSheerIdSheerIdshopping cartshowsort ascendingsort descendingsortstopstrategic partnershipsuccesssupportsustainabilitytagstext documenttime lapseTwitterTwitterundouseruploadutilitiesvoicewarningWeiboWeiboXXYammerYammerYoukuYoukuYouTubeYouTubezoom inzoom outblogbuildbullseye cloud lockcollaborate bulbcollaborationcommunityconsulting servicesdigital-exchangedigital twin screenengageextendflexibilityinnovationinstantintegratemacronewspaperownership culturepdfpersonalizedpredictableprinted circuit boardrespectscalableseamlesstrainingarrow rightarrow right",
         "metaDescription": "Siemens: A global technology leader driving innovation in industry, infrastructure and mobility through digital transformation.",
         "h1Count": 1,
         "h2Count": 9,
-        "images": 52,
+        "images": 54,
         "imagesWithoutAlt": 15,
-        "links": 74,
+        "links": 165,
         "canonical": "https://www.siemens.com/en-us/",
         "ogTitle": "Siemens home",
         "schemaOrg": true
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 7,
+        "formLabels": 24,
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 21,
+        "scripts": 38,
         "stylesheets": 3,
         "iframes": 0
       },
@@ -554,10 +507,10 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 3888,
+        "wordCount": 6062,
         "headings": 38
       },
-      "scrapedAt": "2026-07-22T18:20:01.707Z",
+      "scrapedAt": "2026-07-23T12:26:30.031Z",
       "scores": {
         "accessibility": 70,
         "seo": 100,
@@ -572,45 +525,92 @@
       "type": "enterprise",
       "region": "eu",
       "category": "automotive",
-      "title": "Luxury SUVs, Sedans, Coupes, Convertibles, and Crossovers | BMW USA",
+      "title": "Luxury SUVs, Sedans, Coupes, Convertibles, and Crossovers | BMW USABack ButtonSearch IconFilter Icon",
       "description": "Explore models, build your own, find financing and leasing offers, and browse local inventory from a nearby BMW Center. Experience the performance, luxury, and innovation of the Ultimate Driving Machine today.",
       "seo": {
-        "title": "Luxury SUVs, Sedans, Coupes, Convertibles, and Crossovers | BMW USA",
+        "title": "Luxury SUVs, Sedans, Coupes, Convertibles, and Crossovers | BMW USABack ButtonSearch IconFilter Icon",
         "metaDescription": "Explore models, build your own, find financing and leasing offers, and browse local inventory from a nearby BMW Center. Experience the performance, luxury, and innovation of the Ultimate Driving Machine today.",
         "h1Count": 3,
-        "h2Count": 5,
+        "h2Count": 6,
         "images": 108,
         "imagesWithoutAlt": 0,
-        "links": 258,
+        "links": 259,
         "canonical": "https://www.bmwusa.com/",
         "ogTitle": "",
         "schemaOrg": true
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 3,
+        "formLabels": 9,
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 75,
+        "scripts": 159,
         "stylesheets": 28,
-        "iframes": 2
+        "iframes": 5
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 4211,
-        "headings": 13
+        "wordCount": 9316,
+        "headings": 17
       },
-      "scrapedAt": "2026-07-22T18:20:06.190Z",
+      "scrapedAt": "2026-07-23T12:26:34.099Z",
       "scores": {
         "accessibility": 80,
         "seo": 100,
         "performance": 65,
         "security": 100,
         "overall": 86
+      }
+    },
+    {
+      "url": "https://www.nestle.com",
+      "name": "Nestle",
+      "type": "enterprise",
+      "region": "eu",
+      "category": "food",
+      "title": "Just a moment...Nestlé logoBack ButtonSearch IconFilter Icon",
+      "description": "",
+      "seo": {
+        "title": "Just a moment...Nestlé logoBack ButtonSearch IconFilter Icon",
+        "metaDescription": "",
+        "h1Count": 1,
+        "h2Count": 2,
+        "images": 3,
+        "imagesWithoutAlt": 0,
+        "links": 3,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 6,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 16,
+        "stylesheets": 0,
+        "iframes": 1
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 562,
+        "headings": 8
+      },
+      "scrapedAt": "2026-07-23T12:26:36.163Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 70,
+        "performance": 100,
+        "security": 100,
+        "overall": 93
       }
     },
     {
@@ -648,16 +648,63 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1754,
+        "wordCount": 1816,
         "headings": 23
       },
-      "scrapedAt": "2026-07-22T18:20:07.407Z",
+      "scrapedAt": "2026-07-23T12:26:38.331Z",
       "scores": {
         "accessibility": 100,
         "seo": 100,
         "performance": 100,
         "security": 100,
         "overall": 100
+      }
+    },
+    {
+      "url": "https://www.earthguardians.org",
+      "name": "Earth Guardians",
+      "type": "ngo",
+      "region": "us",
+      "category": "environment",
+      "title": "Earth Guardians",
+      "description": "",
+      "seo": {
+        "title": "Earth Guardians",
+        "metaDescription": "",
+        "h1Count": 9,
+        "h2Count": 4,
+        "images": 11,
+        "imagesWithoutAlt": 0,
+        "links": 82,
+        "canonical": "https://www.earthguardians.org",
+        "ogTitle": "Earth Guardians",
+        "schemaOrg": true
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 1
+      },
+      "performance": {
+        "scripts": 69,
+        "stylesheets": 13,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 1
+      },
+      "content": {
+        "wordCount": 5817,
+        "headings": 16
+      },
+      "scrapedAt": "2026-07-23T12:26:41.040Z",
+      "scores": {
+        "accessibility": 100,
+        "seo": 85,
+        "performance": 65,
+        "security": 80,
+        "overall": 83
       }
     },
     {
@@ -686,9 +733,9 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 10,
+        "scripts": 13,
         "stylesheets": 1,
-        "iframes": 0
+        "iframes": 1
       },
       "security": {
         "isHttps": true,
@@ -698,7 +745,7 @@
         "wordCount": 266,
         "headings": 2
       },
-      "scrapedAt": "2026-07-22T18:20:10.741Z",
+      "scrapedAt": "2026-07-23T12:26:42.945Z",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -745,7 +792,7 @@
         "wordCount": 1354,
         "headings": 30
       },
-      "scrapedAt": "2026-07-22T18:20:11.920Z",
+      "scrapedAt": "2026-07-23T12:26:44.895Z",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -792,60 +839,13 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-07-22T18:20:13.709Z",
+      "scrapedAt": "2026-07-23T12:26:46.706Z",
       "scores": {
         "accessibility": 70,
         "seo": 70,
         "performance": 100,
         "security": 100,
         "overall": 85
-      }
-    },
-    {
-      "url": "https://www.earthguardians.org",
-      "name": "Earth Guardians",
-      "type": "ngo",
-      "region": "us",
-      "category": "environment",
-      "title": "Earth Guardians",
-      "description": "",
-      "seo": {
-        "title": "Earth Guardians",
-        "metaDescription": "",
-        "h1Count": 9,
-        "h2Count": 4,
-        "images": 10,
-        "imagesWithoutAlt": 0,
-        "links": 82,
-        "canonical": "https://www.earthguardians.org",
-        "ogTitle": "Earth Guardians",
-        "schemaOrg": true
-      },
-      "accessibility": {
-        "hasLangAttr": true,
-        "formLabels": 0,
-        "ariaLandmarks": 1
-      },
-      "performance": {
-        "scripts": 69,
-        "stylesheets": 13,
-        "iframes": 0
-      },
-      "security": {
-        "isHttps": true,
-        "mixedContent": 1
-      },
-      "content": {
-        "wordCount": 5817,
-        "headings": 16
-      },
-      "scrapedAt": "2026-07-22T18:20:13.623Z",
-      "scores": {
-        "accessibility": 100,
-        "seo": 85,
-        "performance": 65,
-        "security": 80,
-        "overall": 83
       }
     },
     {
@@ -886,7 +886,7 @@
         "wordCount": 1121,
         "headings": 27
       },
-      "scrapedAt": "2026-07-22T18:20:16.133Z",
+      "scrapedAt": "2026-07-23T12:26:48.997Z",
       "scores": {
         "accessibility": 100,
         "seo": 100,
