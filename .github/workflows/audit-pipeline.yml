@@ -112,7 +112,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/ -A
+          git add data/known-targets.json data/latest-scrape-results.json data/scrape-history.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "chore: scrape results [skip ci]"
           git pull --rebase origin ${{ github.ref_name }} || true
           git push origin ${{ github.ref_name }} || echo "Push failed, continuing..."
@@ -195,7 +195,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add audits/ data/ -A
+          git add data/known-targets.json data/audit-registry.json data/scrape-history.json data/latest-*.json 2>/dev/null || true
+          git add audits/ --ignore-errors 2>/dev/null || true
           git diff --staged --quiet || git commit -m "chore: audit results [skip ci]"
           git pull --rebase origin ${{ github.ref_name }} || true
           git push origin ${{ github.ref_name }} || echo "Push failed, continuing..."
