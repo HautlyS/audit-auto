@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const toast = useToast()
 
-const { data: scheduleConfig, pending, error } = await useAsyncData('schedule', () => $fetch('/audit-auto/api/schedule'))
+const { data: scheduleConfig, pending, error } = await useScheduleData()
 
 const config = reactive({
   cron: '0 */2 * * *',
@@ -51,7 +51,7 @@ async function saveConfig() {
   }
 }
 
-const { data: pipelineStats } = await useAsyncData('pipelineStats', () => $fetch('/audit-auto/api/pipeline-stats').catch(() => null))
+const { data: pipelineStats } = await usePipelineStats()
 
 const recentRuns = computed(() => {
   if (pipelineStats.value) {

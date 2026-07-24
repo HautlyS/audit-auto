@@ -1,6 +1,5 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs'
 import { join } from 'path'
-import toml from 'toml'
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)

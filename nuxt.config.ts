@@ -2,10 +2,17 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-01',
   devtools: { enabled: true },
+  srcDir: 'app/',
   
   modules: [
     '@nuxt/ui',
   ],
+
+  postcss: {
+    plugins: {
+      '@tailwindcss/postcss': {}
+    }
+  },
 
   app: {
     baseURL: '/audit-auto/',

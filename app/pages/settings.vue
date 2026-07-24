@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const toast = useToast()
 
-const { data: savedSettings, pending } = await useAsyncData('settings', () => $fetch('/audit-auto/api/settings').catch(() => null))
+const { data: savedSettings, pending } = await useSettingsData()
 
 const settings = reactive({
   opencode: {

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const route = useRoute()
-
 const links = [
   { label: 'Dashboard', icon: 'i-lucide-layout-dashboard', to: '/' },
   { label: 'Audits', icon: 'i-lucide-file-search', to: '/audits' },

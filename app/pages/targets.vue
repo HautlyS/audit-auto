@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: targets, pending, error } = await useAsyncData('targets', () => $fetch('/audit-auto/api/targets'))
+const { data: targets, pending, error } = await useTargetsData()
 
 const filter = reactive({
   type: 'all',
