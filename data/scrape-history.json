@@ -8,7 +8,7 @@
       "security": 100,
       "overall": 96
     },
-    "scrapedAt": "2026-07-26T06:36:26.981Z",
+    "scrapedAt": "2026-07-26T09:58:46.571Z",
     "name": "Apple"
   },
   "https://www.microsoft.com": {
@@ -20,19 +20,19 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:36:30.325Z",
+    "scrapedAt": "2026-07-26T09:58:49.490Z",
     "name": "Microsoft"
   },
   "https://www.amazon.com": {
-    "hash": "4a614c83e8a0067eb20d55f772a94349",
+    "hash": "6b5a20f1a15801788b834d996e50ef6d",
     "scores": {
-      "accessibility": 100,
-      "seo": 80,
-      "performance": 80,
+      "accessibility": 80,
+      "seo": 55,
+      "performance": 100,
       "security": 100,
-      "overall": 90
+      "overall": 84
     },
-    "scrapedAt": "2026-07-26T06:36:32.791Z",
+    "scrapedAt": "2026-07-26T09:58:51.228Z",
     "name": "Amazon"
   },
   "https://about.google": {
@@ -44,7 +44,7 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:36:34.611Z",
+    "scrapedAt": "2026-07-26T09:58:52.965Z",
     "name": "Google"
   },
   "https://www.tesla.com": {
@@ -56,7 +56,7 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:36:36.251Z",
+    "scrapedAt": "2026-07-26T09:58:54.561Z",
     "name": "Tesla"
   },
   "https://www.jpmorganchase.com": {
@@ -68,11 +68,11 @@
       "security": 100,
       "overall": 80
     },
-    "scrapedAt": "2026-07-26T06:36:38.718Z",
+    "scrapedAt": "2026-07-26T09:58:56.788Z",
     "name": "JPMorgan Chase"
   },
   "https://www.visa.com": {
-    "hash": "8451ea0cff03b87748f3ab0d9c6f3d26",
+    "hash": "0442179bd013b202aeb7382f400b1e61",
     "scores": {
       "accessibility": 90,
       "seo": 100,
@@ -80,11 +80,11 @@
       "security": 100,
       "overall": 89
     },
-    "scrapedAt": "2026-07-26T06:36:40.835Z",
+    "scrapedAt": "2026-07-26T09:58:58.869Z",
     "name": "Visa"
   },
   "https://www.walmart.com": {
-    "hash": "da1eed834819939efc11fed1ef8ccd5b",
+    "hash": "aa6c61b81139257d0cdb6082c89360a9",
     "scores": {
       "accessibility": 100,
       "seo": 100,
@@ -92,11 +92,11 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:36:43.269Z",
+    "scrapedAt": "2026-07-26T09:59:01.205Z",
     "name": "Walmart"
   },
   "https://www.unitedhealthgroup.com": {
-    "hash": "7d43ebfeaef238694b84d0160e025f01",
+    "hash": "ab21fea9ea0ec1baac4f24a3675bf467",
     "scores": {
       "accessibility": 70,
       "seo": 100,
@@ -104,7 +104,7 @@
       "security": 100,
       "overall": 84
     },
-    "scrapedAt": "2026-07-26T06:36:46.309Z",
+    "scrapedAt": "2026-07-26T09:59:04.148Z",
     "name": "UnitedHealth"
   },
   "https://www.exxonmobil.com": {
@@ -116,11 +116,11 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:36:48.025Z",
+    "scrapedAt": "2026-07-26T09:59:05.773Z",
     "name": "ExxonMobil"
   },
   "https://about.meta.com": {
-    "hash": "62c8d4397976b217f0acd1b956c05d6b",
+    "hash": "5d508aae9398a0f651bfa7da8d04a055",
     "scores": {
       "accessibility": 80,
       "seo": 85,
@@ -128,7 +128,7 @@
       "security": 100,
       "overall": 83
     },
-    "scrapedAt": "2026-07-26T06:36:50.956Z",
+    "scrapedAt": "2026-07-26T09:59:09.845Z",
     "name": "Meta"
   },
   "https://www.netflix.com": {
@@ -140,7 +140,7 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:36:54.090Z",
+    "scrapedAt": "2026-07-26T09:59:12.194Z",
     "name": "Netflix"
   },
   "https://www.salesforce.com": {
@@ -152,7 +152,7 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:36:55.898Z",
+    "scrapedAt": "2026-07-26T09:59:13.820Z",
     "name": "Salesforce"
   },
   "https://www.sap.com": {
@@ -164,11 +164,11 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:36:57.583Z",
+    "scrapedAt": "2026-07-26T09:59:15.422Z",
     "name": "SAP"
   },
   "https://www.siemens.com": {
-    "hash": "74f22984f301cf703ead10063c1e9744",
+    "hash": "27b228a66d806978df190ac5fcefe24d",
     "scores": {
       "accessibility": 70,
       "seo": 100,
@@ -176,7 +176,7 @@
       "security": 100,
       "overall": 88
     },
-    "scrapedAt": "2026-07-26T06:37:01.639Z",
+    "scrapedAt": "2026-07-26T09:59:19.349Z",
     "name": "Siemens"
   },
   "https://www.allianz.com": {
@@ -188,11 +188,11 @@
       "security": 100,
       "overall": 93
     },
-    "scrapedAt": "2026-07-26T06:37:03.442Z",
+    "scrapedAt": "2026-07-26T09:59:21.033Z",
     "name": "Allianz"
   },
   "https://www.bmw.com": {
-    "hash": "7b52d1194d08688df71a9019fe35c81a",
+    "hash": "65258942d0817865274f91bdfb87b1d5",
     "scores": {
       "accessibility": 80,
       "seo": 100,
@@ -200,7 +200,7 @@
       "security": 100,
       "overall": 86
     },
-    "scrapedAt": "2026-07-26T06:37:07.707Z",
+    "scrapedAt": "2026-07-26T09:59:24.303Z",
     "name": "BMW"
   },
   "https://www.mercedes-benz.com": {
@@ -212,11 +212,11 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:37:09.488Z",
+    "scrapedAt": "2026-07-26T09:59:26.327Z",
     "name": "Mercedes-Benz"
   },
   "https://www.volkswagen.com": {
-    "hash": "bfbd8b2d6b88c1d7af6b6fe0967b3da8",
+    "hash": "b92e09b499d6908f0a551b0383cd70eb",
     "scores": {
       "accessibility": 100,
       "seo": 100,
@@ -224,19 +224,19 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:37:12.989Z",
+    "scrapedAt": "2026-07-26T09:59:29.869Z",
     "name": "Volkswagen"
   },
   "https://www.asml.com": {
-    "hash": "82de15756a2bbdd6bf63bea741742efb",
+    "hash": "c1fd982313ebdefebacc530a8827884b",
     "scores": {
-      "accessibility": 95,
+      "accessibility": 90,
       "seo": 100,
       "performance": 80,
       "security": 100,
-      "overall": 94
+      "overall": 93
     },
-    "scrapedAt": "2026-07-26T06:37:15.582Z",
+    "scrapedAt": "2026-07-26T09:59:32.155Z",
     "name": "ASML"
   },
   "https://www.nestle.com": {
@@ -248,7 +248,7 @@
       "security": 100,
       "overall": 93
     },
-    "scrapedAt": "2026-07-26T06:37:17.393Z",
+    "scrapedAt": "2026-07-26T09:59:33.859Z",
     "name": "Nestle"
   },
   "https://www.novartis.com": {
@@ -260,7 +260,7 @@
       "security": 100,
       "overall": 90
     },
-    "scrapedAt": "2026-07-26T06:37:19.587Z",
+    "scrapedAt": "2026-07-26T09:59:35.915Z",
     "name": "Novartis"
   },
   "https://www.unilever.com": {
@@ -272,7 +272,7 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:37:21.308Z",
+    "scrapedAt": "2026-07-26T09:59:37.550Z",
     "name": "Unilever"
   },
   "https://www.hsbc.com": {
@@ -284,7 +284,7 @@
       "security": 100,
       "overall": 100
     },
-    "scrapedAt": "2026-07-26T06:37:24.827Z",
+    "scrapedAt": "2026-07-26T09:59:40.763Z",
     "name": "HSBC"
   },
   "https://www.barclays.com": {
@@ -296,7 +296,7 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:37:27.820Z",
+    "scrapedAt": "2026-07-26T09:59:42.907Z",
     "name": "Barclays"
   },
   "https://www.totalenergies.com": {
@@ -308,11 +308,11 @@
       "security": 100,
       "overall": 99
     },
-    "scrapedAt": "2026-07-26T06:37:30.158Z",
+    "scrapedAt": "2026-07-26T09:59:45.371Z",
     "name": "TotalEnergies"
   },
   "https://www.airbus.com": {
-    "hash": "eeaae9f6bad924dbdb3d503851d773da",
+    "hash": "8f02ab5c69cdec72af8c3b5a3823b576",
     "scores": {
       "accessibility": 70,
       "seo": 100,
@@ -320,11 +320,11 @@
       "security": 100,
       "overall": 93
     },
-    "scrapedAt": "2026-07-26T06:37:32.288Z",
+    "scrapedAt": "2026-07-26T09:59:47.477Z",
     "name": "Airbus"
   },
   "https://www.earthguardians.org": {
-    "hash": "7f8e4fd8fac91eecc12fb4c91ca5bd4a",
+    "hash": "61fb6d499f9e09818d81d7442cf5fc28",
     "scores": {
       "accessibility": 100,
       "seo": 85,
@@ -332,7 +332,7 @@
       "security": 80,
       "overall": 83
     },
-    "scrapedAt": "2026-07-26T06:37:35.254Z",
+    "scrapedAt": "2026-07-26T09:59:50.536Z",
     "name": "Earth Guardians"
   },
   "https://www.greenpeace.org": {
@@ -344,7 +344,7 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:37:37.215Z",
+    "scrapedAt": "2026-07-26T09:59:52.486Z",
     "name": "Greenpeace"
   },
   "https://www.worldwildlife.org": {
@@ -356,7 +356,7 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:37:39.449Z",
+    "scrapedAt": "2026-07-26T09:59:54.629Z",
     "name": "WWF"
   },
   "https://www.redcross.org": {
@@ -368,11 +368,11 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:37:41.106Z",
+    "scrapedAt": "2026-07-26T09:59:56.248Z",
     "name": "Red Cross"
   },
   "https://www.doctorswithoutborders.org": {
-    "hash": "d32f8758eab8a2b2a672ea7c2faee1ba",
+    "hash": "5292bac4d1efd192cdeafeb5ec5c7b91",
     "scores": {
       "accessibility": 95,
       "seo": 100,
@@ -380,7 +380,7 @@
       "security": 100,
       "overall": 94
     },
-    "scrapedAt": "2026-07-26T06:37:43.388Z",
+    "scrapedAt": "2026-07-26T09:59:58.330Z",
     "name": "Doctors Without Borders"
   },
   "https://www.amnesty.org": {
@@ -392,11 +392,11 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:37:46.123Z",
+    "scrapedAt": "2026-07-26T10:00:00.797Z",
     "name": "Amnesty International"
   },
   "https://www.hrw.org": {
-    "hash": "0b78a44676551dc93991d2c79fd428e1",
+    "hash": "65b34dbd08d78ce5a878171da93df917",
     "scores": {
       "accessibility": 100,
       "seo": 85,
@@ -404,11 +404,11 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:37:48.306Z",
+    "scrapedAt": "2026-07-26T10:00:02.919Z",
     "name": "Human Rights Watch"
   },
   "https://www.oxfam.org": {
-    "hash": "be50e636fda004e7d7c33c7095ea1ed2",
+    "hash": "680053aa9384e817f6ca96e26276e7fd",
     "scores": {
       "accessibility": 95,
       "seo": 100,
@@ -416,7 +416,7 @@
       "security": 100,
       "overall": 94
     },
-    "scrapedAt": "2026-07-26T06:37:51.737Z",
+    "scrapedAt": "2026-07-26T10:00:06.564Z",
     "name": "Oxfam"
   },
   "https://www.unicef.org": {
@@ -428,11 +428,11 @@
       "security": 100,
       "overall": 93
     },
-    "scrapedAt": "2026-07-26T06:37:53.602Z",
+    "scrapedAt": "2026-07-26T10:00:08.372Z",
     "name": "UNICEF"
   },
   "https://www.wfp.org": {
-    "hash": "61d4bc3a314db5af69b8e87f3d1749e6",
+    "hash": "b612d61e132005908c3617d5a42a2be2",
     "scores": {
       "accessibility": 100,
       "seo": 100,
@@ -440,7 +440,7 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:37:56.896Z",
+    "scrapedAt": "2026-07-26T10:00:11.312Z",
     "name": "World Food Programme"
   },
   "https://www.sierraclub.org": {
@@ -452,11 +452,11 @@
       "security": 100,
       "overall": 76
     },
-    "scrapedAt": "2026-07-26T06:37:58.912Z",
+    "scrapedAt": "2026-07-26T10:00:13.099Z",
     "name": "Sierra Club"
   },
   "https://www.nrdc.org": {
-    "hash": "a50159cd113f13f41a47a489e244ebe6",
+    "hash": "876fdff5ac524e33e4d8cf0b64e8f474",
     "scores": {
       "accessibility": 100,
       "seo": 80,
@@ -464,11 +464,11 @@
       "security": 100,
       "overall": 86
     },
-    "scrapedAt": "2026-07-26T06:38:01.243Z",
+    "scrapedAt": "2026-07-26T10:00:15.909Z",
     "name": "NRDC"
   },
   "https://www.nature.org": {
-    "hash": "4082b66c429437ca43930fc2f086b0b7",
+    "hash": "2f162ae67de80c67eaabc0488b18b785",
     "scores": {
       "accessibility": 100,
       "seo": 95,
@@ -476,7 +476,7 @@
       "security": 100,
       "overall": 94
     },
-    "scrapedAt": "2026-07-26T06:38:03.868Z",
+    "scrapedAt": "2026-07-26T10:00:18.292Z",
     "name": "The Nature Conservancy"
   },
   "https://www.conservation.org": {
@@ -488,7 +488,7 @@
       "security": 100,
       "overall": 89
     },
-    "scrapedAt": "2026-07-26T06:38:06.739Z",
+    "scrapedAt": "2026-07-26T10:00:21.054Z",
     "name": "Conservation International"
   },
   "https://www.edf.org": {
@@ -500,7 +500,7 @@
       "security": 100,
       "overall": 94
     },
-    "scrapedAt": "2026-07-26T06:38:09.016Z",
+    "scrapedAt": "2026-07-26T10:00:23.292Z",
     "name": "Environmental Defense Fund"
   },
   "https://www.rainforest-alliance.org": {
@@ -512,7 +512,7 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:38:12.619Z",
+    "scrapedAt": "2026-07-26T10:00:26.549Z",
     "name": "Rainforest Alliance"
   },
   "https://www.oceanconservancy.org": {
@@ -524,11 +524,11 @@
       "security": 100,
       "overall": 79
     },
-    "scrapedAt": "2026-07-26T06:38:15.267Z",
+    "scrapedAt": "2026-07-26T10:00:28.763Z",
     "name": "Ocean Conservancy"
   },
   "https://350.org": {
-    "hash": "32279717f39b4f8ee3b1f2bc575373fd",
+    "hash": "1428691aaad113a37dda4b1572f68ff5",
     "scores": {
       "accessibility": 50,
       "seo": 100,
@@ -536,11 +536,11 @@
       "security": 100,
       "overall": 83
     },
-    "scrapedAt": "2026-07-26T06:38:17.832Z",
+    "scrapedAt": "2026-07-26T10:00:31.492Z",
     "name": "350.org"
   },
   "https://www.greenamerica.org": {
-    "hash": "65d2eda7be5249b9926df6890871c867",
+    "hash": "b83d421ba9bfc39c35defc8ba8ed2138",
     "scores": {
       "accessibility": 90,
       "seo": 95,
@@ -548,11 +548,11 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:38:20.270Z",
+    "scrapedAt": "2026-07-26T10:00:33.613Z",
     "name": "Green America"
   },
   "https://www.earthday.org": {
-    "hash": "5cd560e441b7f0faaeccf66538209f37",
+    "hash": "652bf5c92fef8d4abb73297572f803ed",
     "scores": {
       "accessibility": 95,
       "seo": 85,
@@ -560,7 +560,7 @@
       "security": 100,
       "overall": 86
     },
-    "scrapedAt": "2026-07-26T06:38:22.709Z",
+    "scrapedAt": "2026-07-26T10:00:35.857Z",
     "name": "Earth Day Network"
   },
   "https://support.apple.com": {
@@ -572,11 +572,11 @@
       "security": 100,
       "overall": 100
     },
-    "scrapedAt": "2026-07-26T06:38:24.965Z",
+    "scrapedAt": "2026-07-26T10:00:37.884Z",
     "name": "Mac Support"
   },
   "https://discussions.apple.com": {
-    "hash": "bbee183ba7742145fd5de7013766c1a4",
+    "hash": "a4970f90e02375b58c510ec1dca4ed3f",
     "scores": {
       "accessibility": 100,
       "seo": 85,
@@ -584,7 +584,7 @@
       "security": 100,
       "overall": 96
     },
-    "scrapedAt": "2026-07-26T06:38:27.572Z",
+    "scrapedAt": "2026-07-26T10:00:40.048Z",
     "name": "Community"
   },
   "https://checkcoverage.apple.com": {
@@ -596,7 +596,7 @@
       "security": 100,
       "overall": 89
     },
-    "scrapedAt": "2026-07-26T06:38:29.502Z",
+    "scrapedAt": "2026-07-26T10:00:41.809Z",
     "name": "Check Coverage"
   },
   "https://card.apple.com": {
@@ -608,11 +608,11 @@
       "security": 100,
       "overall": 93
     },
-    "scrapedAt": "2026-07-26T06:38:31.713Z",
+    "scrapedAt": "2026-07-26T10:00:44.001Z",
     "name": "Apply now"
   },
   "https://tv.apple.com": {
-    "hash": "8d2c29f96cd440a24f8f3a9fdb5aa173",
+    "hash": "b07685403b6048252909030d47088f2b",
     "scores": {
       "accessibility": 80,
       "seo": 75,
@@ -620,11 +620,11 @@
       "security": 100,
       "overall": 89
     },
-    "scrapedAt": "2026-07-26T06:38:33.890Z",
+    "scrapedAt": "2026-07-26T10:00:46.053Z",
     "name": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/"
   },
   "https://music.apple.com": {
-    "hash": "576006346e133f744b70352bf6ce8ac0",
+    "hash": "4c5f0005bb22b80c0ad0b665564d2d47",
     "scores": {
       "accessibility": 80,
       "seo": 70,
@@ -632,7 +632,7 @@
       "security": 100,
       "overall": 88
     },
-    "scrapedAt": "2026-07-26T06:38:39.801Z",
+    "scrapedAt": "2026-07-26T10:00:51.603Z",
     "name": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati"
   },
   "https://fitness.apple.com": {
@@ -644,11 +644,11 @@
       "security": 100,
       "overall": 96
     },
-    "scrapedAt": "2026-07-26T06:38:42.513Z",
+    "scrapedAt": "2026-07-26T10:00:54.074Z",
     "name": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati"
   },
   "https://apps.apple.com": {
-    "hash": "ab6c3f6e0efccb52f75b38a77a75183b",
+    "hash": "c43dbc2714d1c06f8f51d98f90dd0875",
     "scores": {
       "accessibility": 80,
       "seo": 70,
@@ -656,7 +656,7 @@
       "security": 100,
       "overall": 88
     },
-    "scrapedAt": "2026-07-26T06:38:44.560Z",
+    "scrapedAt": "2026-07-26T10:00:56.039Z",
     "name": "<picture>\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic"
   },
   "https://account.apple.com": {
@@ -668,7 +668,7 @@
       "security": 100,
       "overall": 93
     },
-    "scrapedAt": "2026-07-26T06:38:47.351Z",
+    "scrapedAt": "2026-07-26T10:00:58.740Z",
     "name": "Manage Your Apple Account"
   },
   "https://www.icloud.com": {
@@ -680,11 +680,11 @@
       "security": 100,
       "overall": 93
     },
-    "scrapedAt": "2026-07-26T06:38:49.543Z",
+    "scrapedAt": "2026-07-26T10:01:00.797Z",
     "name": "iCloud.com"
   },
   "https://azure.microsoft.com": {
-    "hash": "bb66011030908a562259ccab6ee7bc43",
+    "hash": "49d3eade51bd39a7e86dcce66f70be47",
     "scores": {
       "accessibility": 80,
       "seo": 95,
@@ -692,7 +692,7 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:38:55.234Z",
+    "scrapedAt": "2026-07-26T10:01:05.054Z",
     "name": "Azure"
   },
   "https://copilot.microsoft.com": {
@@ -704,11 +704,11 @@
       "security": 100,
       "overall": 94
     },
-    "scrapedAt": "2026-07-26T06:38:57.403Z",
+    "scrapedAt": "2026-07-26T10:01:07.096Z",
     "name": "Copilot"
   },
   "https://www.xbox.com": {
-    "hash": "b737958a2b2e6e2176a7033db8f7450d",
+    "hash": "840447d38d6abd2c24c68779797d514f",
     "scores": {
       "accessibility": 100,
       "seo": 100,
@@ -716,7 +716,7 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:39:00.102Z",
+    "scrapedAt": "2026-07-26T10:01:09.477Z",
     "name": "XBOX"
   },
   "https://support.microsoft.com": {
@@ -728,7 +728,7 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:39:02.146Z",
+    "scrapedAt": "2026-07-26T10:01:11.464Z",
     "name": "Support"
   },
   "https://apps.microsoft.com": {
@@ -740,7 +740,7 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:39:04.199Z",
+    "scrapedAt": "2026-07-26T10:01:13.376Z",
     "name": "Windows Apps"
   },
   "https://developer.microsoft.com": {
@@ -752,7 +752,7 @@
       "security": 100,
       "overall": 99
     },
-    "scrapedAt": "2026-07-26T06:39:07.881Z",
+    "scrapedAt": "2026-07-26T10:01:16.478Z",
     "name": "Microsoft Developer"
   },
   "https://learn.microsoft.com": {
@@ -764,11 +764,11 @@
       "security": 100,
       "overall": 90
     },
-    "scrapedAt": "2026-07-26T06:39:09.917Z",
+    "scrapedAt": "2026-07-26T10:01:18.233Z",
     "name": "Microsoft Learn"
   },
   "https://techcommunity.microsoft.com": {
-    "hash": "7ddd62b9ed769cd95bd056c443fa2ea5",
+    "hash": "1acefd2bb46a19e3a98e03d019edbbe4",
     "scores": {
       "accessibility": 80,
       "seo": 95,
@@ -776,11 +776,11 @@
       "security": 100,
       "overall": 85
     },
-    "scrapedAt": "2026-07-26T06:39:15.280Z",
+    "scrapedAt": "2026-07-26T10:01:23.153Z",
     "name": "Microsoft Tech Community"
   },
   "https://marketplace.microsoft.com": {
-    "hash": "570a3372e51bf447af60d846b9a13696",
+    "hash": "3f9484891a2a7eb8c4567deceb32e218",
     "scores": {
       "accessibility": 80,
       "seo": 95,
@@ -788,7 +788,7 @@
       "security": 100,
       "overall": 89
     },
-    "scrapedAt": "2026-07-26T06:39:18.878Z",
+    "scrapedAt": "2026-07-26T10:01:26.714Z",
     "name": "Microsoft Marketplace"
   },
   "https://visualstudio.microsoft.com": {
@@ -800,7 +800,7 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:39:21.251Z",
+    "scrapedAt": "2026-07-26T10:01:28.876Z",
     "name": "Visual Studio"
   },
   "https://blog.google": {
@@ -812,7 +812,7 @@
       "security": 100,
       "overall": 86
     },
-    "scrapedAt": "2026-07-26T06:39:23.285Z",
+    "scrapedAt": "2026-07-26T10:01:30.667Z",
     "name": "News"
   },
   "https://deepmind.google": {
@@ -824,7 +824,7 @@
       "security": 100,
       "overall": 96
     },
-    "scrapedAt": "2026-07-26T06:39:25.982Z",
+    "scrapedAt": "2026-07-26T10:01:33.396Z",
     "name": "Learn all about our leading AI models — and discover their c"
   },
   "https://ai.google": {
@@ -836,7 +836,7 @@
       "security": 100,
       "overall": 100
     },
-    "scrapedAt": "2026-07-26T06:39:28.484Z",
+    "scrapedAt": "2026-07-26T10:01:35.971Z",
     "name": "See how we’re tackling some of the most challenging problems"
   },
   "https://www.youtube.com": {
@@ -848,7 +848,7 @@
       "security": 100,
       "overall": 88
     },
-    "scrapedAt": "2026-07-26T06:39:31.626Z",
+    "scrapedAt": "2026-07-26T10:01:39.080Z",
     "name": "Link to Youtube Video"
   },
   "https://www.blog.google": {
@@ -860,7 +860,7 @@
       "security": 100,
       "overall": 86
     },
-    "scrapedAt": "2026-07-26T06:39:33.739Z",
+    "scrapedAt": "2026-07-26T10:01:41.043Z",
     "name": "Blog"
   },
   "https://careers.google.com": {
@@ -872,7 +872,7 @@
       "security": 100,
       "overall": 90
     },
-    "scrapedAt": "2026-07-26T06:39:35.972Z",
+    "scrapedAt": "2026-07-26T10:01:43.380Z",
     "name": "Careers"
   },
   "https://support.google.com": {
@@ -884,7 +884,7 @@
       "security": 100,
       "overall": 83
     },
-    "scrapedAt": "2026-07-26T06:39:38.450Z",
+    "scrapedAt": "2026-07-26T10:01:46.042Z",
     "name": "Help Center"
   },
   "https://abc.xyz": {
@@ -896,11 +896,11 @@
       "security": 100,
       "overall": 83
     },
-    "scrapedAt": "2026-07-26T06:39:41.658Z",
+    "scrapedAt": "2026-07-26T10:01:49.188Z",
     "name": "Investor Relations"
   },
   "https://google.com": {
-    "hash": "56a151a754e9ab2fd78ae8ae00de1c67",
+    "hash": "4fc0594765d080fbc56aa72910d5c6b5",
     "scores": {
       "accessibility": 100,
       "seo": 55,
@@ -908,7 +908,7 @@
       "security": 100,
       "overall": 89
     },
-    "scrapedAt": "2026-07-26T06:39:43.778Z",
+    "scrapedAt": "2026-07-26T10:01:51.236Z",
     "name": "Accessibility"
   },
   "https://crisisresponse.google": {
@@ -920,7 +920,7 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:39:46.022Z",
+    "scrapedAt": "2026-07-26T10:01:53.364Z",
     "name": "Crisis Response"
   },
   "https://www.google.org": {
@@ -932,7 +932,7 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:39:48.009Z",
+    "scrapedAt": "2026-07-26T10:01:55.275Z",
     "name": "Google.org"
   },
   "https://music.amazon.com": {
@@ -944,11 +944,11 @@
       "security": 100,
       "overall": 96
     },
-    "scrapedAt": "2026-07-26T06:39:50.120Z",
+    "scrapedAt": "2026-07-26T10:01:57.269Z",
     "name": "Music Library"
   },
   "https://health.amazon.com": {
-    "hash": "22a8fa7238d952cb6260bc12be8c4a22",
+    "hash": "c852d91b75429f5f9fb8c423275598f6",
     "scores": {
       "accessibility": 70,
       "seo": 95,
@@ -956,11 +956,11 @@
       "security": 100,
       "overall": 86
     },
-    "scrapedAt": "2026-07-26T06:39:52.579Z",
+    "scrapedAt": "2026-07-26T10:01:59.816Z",
     "name": "Health AI"
   },
   "https://pharmacy.amazon.com": {
-    "hash": "3adf97622b4d0b469d09465edbfde8da",
+    "hash": "6627b9fef242adc9b3f46c934d4cc8af",
     "scores": {
       "accessibility": 70,
       "seo": 95,
@@ -968,7 +968,7 @@
       "security": 100,
       "overall": 83
     },
-    "scrapedAt": "2026-07-26T06:39:54.934Z",
+    "scrapedAt": "2026-07-26T10:02:02.271Z",
     "name": "Pharmacy"
   },
   "https://www.amazon.jobs": {
@@ -980,11 +980,11 @@
       "security": 100,
       "overall": 86
     },
-    "scrapedAt": "2026-07-26T06:39:58.152Z",
+    "scrapedAt": "2026-07-26T10:02:04.723Z",
     "name": "Careers"
   },
   "https://www.aboutamazon.com": {
-    "hash": "b7c4ea58d31dcfb31618a594a06f2eea",
+    "hash": "d8efae844a627bafec7287f3cd06aac8",
     "scores": {
       "accessibility": 100,
       "seo": 100,
@@ -992,7 +992,7 @@
       "security": 100,
       "overall": 95
     },
-    "scrapedAt": "2026-07-26T06:40:00.065Z",
+    "scrapedAt": "2026-07-26T10:02:06.551Z",
     "name": "Amazon Newsletter"
   },
   "https://sustainability.aboutamazon.com": {
@@ -1004,7 +1004,7 @@
       "security": 100,
       "overall": 91
     },
-    "scrapedAt": "2026-07-26T06:40:03.385Z",
+    "scrapedAt": "2026-07-26T10:02:09.795Z",
     "name": "Sustainability"
   },
   "https://www.amazon.science": {
@@ -1016,7 +1016,7 @@
       "security": 100,
       "overall": 94
     },
-    "scrapedAt": "2026-07-26T06:40:06.232Z",
+    "scrapedAt": "2026-07-26T10:02:12.656Z",
     "name": "Amazon Science"
   },
   "https://sell.amazon.com": {
@@ -1028,7 +1028,7 @@
       "security": 100,
       "overall": 81
     },
-    "scrapedAt": "2026-07-26T06:40:08.675Z",
+    "scrapedAt": "2026-07-26T10:02:15.088Z",
     "name": "Sell on Amazon"
   },
   "https://developer.amazon.com": {
@@ -1040,7 +1040,7 @@
       "security": 100,
       "overall": 81
     },
-    "scrapedAt": "2026-07-26T06:40:11.179Z",
+    "scrapedAt": "2026-07-26T10:02:17.608Z",
     "name": "Sell apps on Amazon"
   },
   "https://supply.amazon.com": {
@@ -1052,7 +1052,7 @@
       "security": 100,
       "overall": 80
     },
-    "scrapedAt": "2026-07-26T06:40:13.304Z",
+    "scrapedAt": "2026-07-26T10:02:19.769Z",
     "name": "Supply to Amazon"
   }
 }
