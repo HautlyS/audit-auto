@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T16:36:15.743Z",
+  "timestamp": "2026-08-08T18:39:23.361Z",
   "totalScraped": 91,
   "totalTargets": 93,
   "changedCount": 91,
@@ -42,7 +42,7 @@
         "wordCount": 4698,
         "headings": 56
       },
-      "scrapedAt": "2026-08-08T16:32:32.582Z",
+      "scrapedAt": "2026-08-08T18:35:47.590Z",
       "hash": "43728eb4ccdcdced15da4df3fbf00389",
       "scores": {
         "accessibility": 100,
@@ -65,7 +65,7 @@
         "metaDescription": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
         "h1Count": 1,
         "h2Count": 26,
-        "images": 41,
+        "images": 42,
         "imagesWithoutAlt": 0,
         "links": 135,
         "canonical": "https://www.microsoft.com/en-us",
@@ -90,8 +90,8 @@
         "wordCount": 5218,
         "headings": 31
       },
-      "scrapedAt": "2026-08-08T16:32:36.024Z",
-      "hash": "bcd9c9595b62507941421dbf67f27076",
+      "scrapedAt": "2026-08-08T18:35:50.509Z",
+      "hash": "87d6a71e9921dc0e0c3b8465138e9274",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -106,28 +106,28 @@
       "type": "enterprise",
       "region": "us",
       "category": "technology",
-      "title": "Amazon.com",
-      "description": "",
+      "title": "Amazon.com. Spend less. Smile more.",
+      "description": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
       "seo": {
-        "title": "Amazon.com",
-        "metaDescription": "",
+        "title": "Amazon.com. Spend less. Smile more.",
+        "metaDescription": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
         "h1Count": 0,
-        "h2Count": 0,
-        "images": 0,
+        "h2Count": 3,
+        "images": 46,
         "imagesWithoutAlt": 0,
-        "links": 2,
-        "canonical": "",
+        "links": 200,
+        "canonical": "https://www.amazon.com/",
         "ogTitle": "",
         "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 0,
-        "ariaLandmarks": 0
+        "formLabels": 26,
+        "ariaLandmarks": 4
       },
       "performance": {
-        "scripts": 0,
-        "stylesheets": 1,
+        "scripts": 137,
+        "stylesheets": 8,
         "iframes": 0
       },
       "security": {
@@ -135,17 +135,17 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 21,
-        "headings": 1
+        "wordCount": 14698,
+        "headings": 49
       },
-      "scrapedAt": "2026-08-08T16:32:37.873Z",
-      "hash": "6b5a20f1a15801788b834d996e50ef6d",
+      "scrapedAt": "2026-08-08T18:35:52.807Z",
+      "hash": "d58c834f9bfe14ccefef293659e3fd19",
       "scores": {
-        "accessibility": 80,
-        "seo": 55,
-        "performance": 100,
+        "accessibility": 100,
+        "seo": 80,
+        "performance": 80,
         "security": 100,
-        "overall": 84
+        "overall": 90
       }
     },
     {
@@ -186,7 +186,7 @@
         "wordCount": 251,
         "headings": 9
       },
-      "scrapedAt": "2026-08-08T16:32:39.693Z",
+      "scrapedAt": "2026-08-08T18:35:54.670Z",
       "hash": "5497063661c31fa045975c30de9f0e75",
       "scores": {
         "accessibility": 80,
@@ -234,7 +234,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-08-08T16:32:41.366Z",
+      "scrapedAt": "2026-08-08T18:35:56.307Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -282,7 +282,7 @@
         "wordCount": 1418,
         "headings": 60
       },
-      "scrapedAt": "2026-08-08T16:32:43.766Z",
+      "scrapedAt": "2026-08-08T18:35:58.581Z",
       "hash": "950ccd48e254afdb6e87b54cc8569464",
       "scores": {
         "accessibility": 60,
@@ -330,7 +330,7 @@
         "wordCount": 4584,
         "headings": 20
       },
-      "scrapedAt": "2026-08-08T16:32:45.938Z",
+      "scrapedAt": "2026-08-08T18:36:00.555Z",
       "hash": "0442179bd013b202aeb7382f400b1e61",
       "scores": {
         "accessibility": 90,
@@ -352,7 +352,7 @@
         "title": "Walmart | Save Money. Live better.",
         "metaDescription": "Shop Walmart.com today for Every Day Low Prices. Join Walmart+ for unlimited free delivery from your store & free shipping with no order minimum. Start your free 30-day trial now!",
         "h1Count": 1,
-        "h2Count": 1,
+        "h2Count": 2,
         "images": 24,
         "imagesWithoutAlt": 0,
         "links": 71,
@@ -366,7 +366,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 200,
+        "scripts": 202,
         "stylesheets": 1,
         "iframes": 2
       },
@@ -375,11 +375,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1791,
-        "headings": 24
+        "wordCount": 1783,
+        "headings": 25
       },
-      "scrapedAt": "2026-08-08T16:32:48.466Z",
-      "hash": "167c60e8f26e360bd64fc391964c3c15",
+      "scrapedAt": "2026-08-08T18:36:02.925Z",
+      "hash": "6c13c291fe09eb8686300d9a21060d03",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -394,40 +394,40 @@
       "type": "enterprise",
       "region": "us",
       "category": "healthcare",
-      "title": "Built for Better Health - UnitedHealth GroupMobile MenuClose MenuClose\n                                    SearchSearchSearchClearSearchLoadingSubmit SearchSubmit SearchClose SearchClearSearchLoadingSubmit SearchSubmit SearchClosePage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchBack ButtonSearch IconFilter Icon",
+      "title": "Built for Better Health - UnitedHealth GroupMobile MenuClose MenuClose\n                                    SearchSearchSearchClearSearchLoadingSubmit SearchSubmit SearchClose SearchClearSearchLoadingSubmit SearchSubmit SearchClosePage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
       "description": "UnitedHealth Group helps people live healthier lives and helps make the health system work better for everyone.",
       "seo": {
-        "title": "Built for Better Health - UnitedHealth GroupMobile MenuClose MenuClose\n                                    SearchSearchSearchClearSearchLoadingSubmit SearchSubmit SearchClose SearchClearSearchLoadingSubmit SearchSubmit SearchClosePage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchBack ButtonSearch IconFilter Icon",
+        "title": "Built for Better Health - UnitedHealth GroupMobile MenuClose MenuClose\n                                    SearchSearchSearchClearSearchLoadingSubmit SearchSubmit SearchClose SearchClearSearchLoadingSubmit SearchSubmit SearchClosePage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchPage Not Found - UnitedHealth GroupClose MenuClose\n                                    SearchSearchClose SearchBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
         "metaDescription": "UnitedHealth Group helps people live healthier lives and helps make the health system work better for everyone.",
         "h1Count": 8,
-        "h2Count": 1,
-        "images": 91,
+        "h2Count": 2,
+        "images": 93,
         "imagesWithoutAlt": 10,
-        "links": 432,
+        "links": 434,
         "canonical": "https://www.unitedhealthgroup.com",
         "ogTitle": "Welcome to UnitedHealth Group",
         "schemaOrg": true
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 20,
+        "formLabels": 28,
         "ariaLandmarks": 4
       },
       "performance": {
         "scripts": 124,
         "stylesheets": 26,
-        "iframes": 1
+        "iframes": 2
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 9941,
-        "headings": 47
+        "wordCount": 10538,
+        "headings": 55
       },
-      "scrapedAt": "2026-08-08T16:32:51.069Z",
-      "hash": "25214da2ec56e274ea34fc048eb3b4cb",
+      "scrapedAt": "2026-08-08T18:36:05.809Z",
+      "hash": "7a1259eccbde30598b5949fb44f352f1",
       "scores": {
         "accessibility": 70,
         "seo": 100,
@@ -474,7 +474,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-08-08T16:32:52.757Z",
+      "scrapedAt": "2026-08-08T18:36:07.447Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -497,9 +497,9 @@
         "metaDescription": "Learn more about Meta and stay updated on our role in social technology, virtual reality, augmented reality, and the future of human connection.",
         "h1Count": 0,
         "h2Count": 7,
-        "images": 17,
+        "images": 18,
         "imagesWithoutAlt": 0,
-        "links": 254,
+        "links": 263,
         "canonical": "https://www.meta.com/about/",
         "ogTitle": "About Meta | Social Technology, VR, AR, and Innovation",
         "schemaOrg": true
@@ -510,7 +510,7 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 75,
+        "scripts": 73,
         "stylesheets": 13,
         "iframes": 0
       },
@@ -519,11 +519,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1496,
+        "wordCount": 1504,
         "headings": 10
       },
-      "scrapedAt": "2026-08-08T16:32:56.167Z",
-      "hash": "9e952d0b5d4c67a422695204513ae2fc",
+      "scrapedAt": "2026-08-08T18:36:10.366Z",
+      "hash": "1e64cbfc0c892141e54f9b23cf239c3a",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -570,7 +570,7 @@
         "wordCount": 1561,
         "headings": 30
       },
-      "scrapedAt": "2026-08-08T16:32:58.745Z",
+      "scrapedAt": "2026-08-08T18:36:13.088Z",
       "hash": "6fdd57addceec94e2418ec3c2425b75e",
       "scores": {
         "accessibility": 95,
@@ -618,7 +618,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-08-08T16:33:00.438Z",
+      "scrapedAt": "2026-08-08T18:36:14.740Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -666,7 +666,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-08-08T16:33:02.117Z",
+      "scrapedAt": "2026-08-08T18:36:16.351Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -702,7 +702,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 21,
+        "scripts": 38,
         "stylesheets": 3,
         "iframes": 0
       },
@@ -711,11 +711,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 4268,
+        "wordCount": 6067,
         "headings": 38
       },
-      "scrapedAt": "2026-08-08T16:33:04.992Z",
-      "hash": "7ffc031b1e9df6d7ea067541cbab6625",
+      "scrapedAt": "2026-08-08T18:36:20.442Z",
+      "hash": "6b1d29b6c30fc66487f61d4663edcba5",
       "scores": {
         "accessibility": 70,
         "seo": 100,
@@ -762,7 +762,7 @@
         "wordCount": 110,
         "headings": 3
       },
-      "scrapedAt": "2026-08-08T16:33:06.697Z",
+      "scrapedAt": "2026-08-08T18:36:22.066Z",
       "hash": "220f4b0a44fd1dc4256aa29cf6230e42",
       "scores": {
         "accessibility": 100,
@@ -787,7 +787,7 @@
         "h2Count": 6,
         "images": 108,
         "imagesWithoutAlt": 0,
-        "links": 259,
+        "links": 258,
         "canonical": "https://www.bmwusa.com/",
         "ogTitle": "",
         "schemaOrg": true
@@ -807,11 +807,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 9328,
+        "wordCount": 9308,
         "headings": 17
       },
-      "scrapedAt": "2026-08-08T16:33:10.918Z",
-      "hash": "354d37621d1f09c04bcf9b02e7084430",
+      "scrapedAt": "2026-08-08T18:36:26.175Z",
+      "hash": "a4a2df4d9ec901fa272488db93b21c28",
       "scores": {
         "accessibility": 80,
         "seo": 100,
@@ -858,7 +858,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-08-08T16:33:12.782Z",
+      "scrapedAt": "2026-08-08T18:36:27.901Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -906,7 +906,7 @@
         "wordCount": 5586,
         "headings": 21
       },
-      "scrapedAt": "2026-08-08T16:33:15.227Z",
+      "scrapedAt": "2026-08-08T18:36:30.606Z",
       "hash": "5cf953ce36684469fca63105199fd440",
       "scores": {
         "accessibility": 100,
@@ -929,8 +929,8 @@
         "metaDescription": "ASML gives the world's leading chipmakers the power to mass produce patterns on silicon, helping to make computer chips smaller, faster and greener.",
         "h1Count": 1,
         "h2Count": 10,
-        "images": 19,
-        "imagesWithoutAlt": 2,
+        "images": 15,
+        "imagesWithoutAlt": 1,
         "links": 149,
         "canonical": "https://www.asml.com",
         "ogTitle": "ASML | The world's supplier to the semiconductor industry",
@@ -942,26 +942,26 @@
         "ariaLandmarks": 4
       },
       "performance": {
-        "scripts": 85,
+        "scripts": 50,
         "stylesheets": 2,
-        "iframes": 2
+        "iframes": 1
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 5310,
+        "wordCount": 5203,
         "headings": 27
       },
-      "scrapedAt": "2026-08-08T16:33:17.688Z",
-      "hash": "3d7a83d3c77a0238183bcf4ff57a13ec",
+      "scrapedAt": "2026-08-08T18:36:32.885Z",
+      "hash": "9ad6115048a53699b04727fa5623e585",
       "scores": {
-        "accessibility": 90,
+        "accessibility": 95,
         "seo": 100,
         "performance": 80,
         "security": 100,
-        "overall": 93
+        "overall": 94
       }
     },
     {
@@ -1002,7 +1002,7 @@
         "wordCount": 562,
         "headings": 8
       },
-      "scrapedAt": "2026-08-08T16:33:19.460Z",
+      "scrapedAt": "2026-08-08T18:36:34.680Z",
       "hash": "03ec71aa3b44db08ee6c47c1cc8f2dba",
       "scores": {
         "accessibility": 100,
@@ -1050,7 +1050,7 @@
         "wordCount": 1873,
         "headings": 23
       },
-      "scrapedAt": "2026-08-08T16:33:22.954Z",
+      "scrapedAt": "2026-08-08T18:36:36.668Z",
       "hash": "371ca9a752230c061b856f09b8bbd911",
       "scores": {
         "accessibility": 80,
@@ -1098,7 +1098,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-08-08T16:33:24.712Z",
+      "scrapedAt": "2026-08-08T18:36:38.381Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -1146,7 +1146,7 @@
         "wordCount": 1870,
         "headings": 25
       },
-      "scrapedAt": "2026-08-08T16:33:26.865Z",
+      "scrapedAt": "2026-08-08T18:36:40.364Z",
       "hash": "5f64946fab74bab3e53aa92f019d58d1",
       "scores": {
         "accessibility": 100,
@@ -1194,7 +1194,7 @@
         "wordCount": 1471,
         "headings": 49
       },
-      "scrapedAt": "2026-08-08T16:33:29.262Z",
+      "scrapedAt": "2026-08-08T18:36:42.432Z",
       "hash": "5fec780faee8592be6c877ec5bfa7b11",
       "scores": {
         "accessibility": 100,
@@ -1242,7 +1242,7 @@
         "wordCount": 1084,
         "headings": 19
       },
-      "scrapedAt": "2026-08-08T16:33:31.328Z",
+      "scrapedAt": "2026-08-08T18:36:44.520Z",
       "hash": "6985819341af14d036c233d42592b183",
       "scores": {
         "accessibility": 100,
@@ -1290,7 +1290,7 @@
         "wordCount": 1820,
         "headings": 64
       },
-      "scrapedAt": "2026-08-08T16:33:33.372Z",
+      "scrapedAt": "2026-08-08T18:36:46.615Z",
       "hash": "7edc60863cab30bb26e1240d67b6029d",
       "scores": {
         "accessibility": 70,
@@ -1338,7 +1338,7 @@
         "wordCount": 5807,
         "headings": 16
       },
-      "scrapedAt": "2026-08-08T16:33:35.958Z",
+      "scrapedAt": "2026-08-08T18:36:49.338Z",
       "hash": "61fb6d499f9e09818d81d7442cf5fc28",
       "scores": {
         "accessibility": 100,
@@ -1386,7 +1386,7 @@
         "wordCount": 266,
         "headings": 2
       },
-      "scrapedAt": "2026-08-08T16:33:37.829Z",
+      "scrapedAt": "2026-08-08T18:36:51.093Z",
       "hash": "32d32b694c828f98bd98c3303467d243",
       "scores": {
         "accessibility": 80,
@@ -1434,7 +1434,7 @@
         "wordCount": 1334,
         "headings": 30
       },
-      "scrapedAt": "2026-08-08T16:33:39.784Z",
+      "scrapedAt": "2026-08-08T18:36:53.034Z",
       "hash": "ae0fde9ca02ffe05af88f2340fc6b720",
       "scores": {
         "accessibility": 80,
@@ -1482,7 +1482,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-08-08T16:33:41.488Z",
+      "scrapedAt": "2026-08-08T18:36:54.839Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -1518,7 +1518,7 @@
         "ariaLandmarks": 4
       },
       "performance": {
-        "scripts": 107,
+        "scripts": 102,
         "stylesheets": 8,
         "iframes": 4
       },
@@ -1527,11 +1527,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1443,
+        "wordCount": 1434,
         "headings": 15
       },
-      "scrapedAt": "2026-08-08T16:33:43.575Z",
-      "hash": "2fe63b70929a210a3d72a3d901d0bd0f",
+      "scrapedAt": "2026-08-08T18:36:56.781Z",
+      "hash": "a1fc3371186718b1ad8469545b4737ba",
       "scores": {
         "accessibility": 95,
         "seo": 100,
@@ -1578,7 +1578,7 @@
         "wordCount": 1139,
         "headings": 27
       },
-      "scrapedAt": "2026-08-08T16:33:46.021Z",
+      "scrapedAt": "2026-08-08T18:36:59.414Z",
       "hash": "3ccbef403ebc2ddeb1a0052c9e52229a",
       "scores": {
         "accessibility": 100,
@@ -1626,7 +1626,7 @@
         "wordCount": 5771,
         "headings": 143
       },
-      "scrapedAt": "2026-08-08T16:33:47.971Z",
+      "scrapedAt": "2026-08-08T18:37:01.494Z",
       "hash": "cc93c6f8367b7ce1680c57380bc49388",
       "scores": {
         "accessibility": 100,
@@ -1662,7 +1662,7 @@
         "ariaLandmarks": 4
       },
       "performance": {
-        "scripts": 70,
+        "scripts": 64,
         "stylesheets": 2,
         "iframes": 4
       },
@@ -1674,8 +1674,8 @@
         "wordCount": 1754,
         "headings": 26
       },
-      "scrapedAt": "2026-08-08T16:33:51.083Z",
-      "hash": "8ccd34704bb4c9915472f2553719ce65",
+      "scrapedAt": "2026-08-08T18:37:04.528Z",
+      "hash": "d0aca61819b7592034a10b33d2e1214f",
       "scores": {
         "accessibility": 95,
         "seo": 100,
@@ -1722,7 +1722,7 @@
         "wordCount": 110,
         "headings": 3
       },
-      "scrapedAt": "2026-08-08T16:33:52.789Z",
+      "scrapedAt": "2026-08-08T18:37:06.174Z",
       "hash": "220f4b0a44fd1dc4256aa29cf6230e42",
       "scores": {
         "accessibility": 100,
@@ -1745,7 +1745,7 @@
         "metaDescription": "We are the world’s largest humanitarian organization, saving lives in emergencies and using food assistance to build a pathway to peace, stability and prosperity for people recovering from conflict, disasters and the impact of climate change.",
         "h1Count": 3,
         "h2Count": 19,
-        "images": 16,
+        "images": 15,
         "imagesWithoutAlt": 0,
         "links": 371,
         "canonical": "https://www.wfp.org/",
@@ -1770,8 +1770,8 @@
         "wordCount": 1444,
         "headings": 48
       },
-      "scrapedAt": "2026-08-08T16:33:55.940Z",
-      "hash": "f91a89e1b693f5717e505c78dee55cc8",
+      "scrapedAt": "2026-08-08T18:37:09.498Z",
+      "hash": "be54021408cf1cca2a7683030f387bc7",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -1815,11 +1815,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1481,
+        "wordCount": 1477,
         "headings": 16
       },
-      "scrapedAt": "2026-08-08T16:33:58.726Z",
-      "hash": "fc1b5a8209cc23cd6aac0be039eddf83",
+      "scrapedAt": "2026-08-08T18:37:12.267Z",
+      "hash": "0a747f1a17bb7bdb236cb91f11f14754",
       "scores": {
         "accessibility": 95,
         "seo": 80,
@@ -1834,46 +1834,46 @@
       "type": "ngo",
       "region": "international",
       "category": "environment",
-      "title": "nrdc.org | 520: Web server is returning an unknown error",
+      "title": "Be a Force for the Future | NRDCPopup May/June 2026 (2 buttons)Close searchSearchNRDCNRDCNRDCNRDCSearchNRDC LogoBack to topBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
       "description": "",
       "seo": {
-        "title": "nrdc.org | 520: Web server is returning an unknown error",
+        "title": "Be a Force for the Future | NRDCPopup May/June 2026 (2 buttons)Close searchSearchNRDCNRDCNRDCNRDCSearchNRDC LogoBack to topBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
         "metaDescription": "",
         "h1Count": 1,
-        "h2Count": 2,
-        "images": 0,
+        "h2Count": 11,
+        "images": 27,
         "imagesWithoutAlt": 0,
-        "links": 5,
-        "canonical": "",
+        "links": 150,
+        "canonical": "https://www.nrdc.org/",
         "ogTitle": "",
         "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 0,
-        "ariaLandmarks": 0
+        "formLabels": 43,
+        "ariaLandmarks": 3
       },
       "performance": {
-        "scripts": 1,
-        "stylesheets": 1,
-        "iframes": 0
+        "scripts": 92,
+        "stylesheets": 14,
+        "iframes": 6
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 162,
-        "headings": 8
+        "wordCount": 2732,
+        "headings": 44
       },
-      "scrapedAt": "2026-08-08T16:34:05.465Z",
-      "hash": "466a33a564c8d00cfac1471620a70e6f",
+      "scrapedAt": "2026-08-08T18:37:14.487Z",
+      "hash": "1807cc9ce4356d6b8fd66ce1d68495ec",
       "scores": {
-        "accessibility": 80,
-        "seo": 70,
-        "performance": 100,
+        "accessibility": 100,
+        "seo": 80,
+        "performance": 65,
         "security": 100,
-        "overall": 88
+        "overall": 86
       }
     },
     {
@@ -1914,7 +1914,7 @@
         "wordCount": 2139,
         "headings": 41
       },
-      "scrapedAt": "2026-08-08T16:34:07.879Z",
+      "scrapedAt": "2026-08-08T18:37:16.782Z",
       "hash": "2f162ae67de80c67eaabc0488b18b785",
       "scores": {
         "accessibility": 100,
@@ -1937,7 +1937,7 @@
         "metaDescription": "Since 1987, Conservation International has worked to improve the lives of people everywhere by protecting oceans, forests and other living ecosystems.",
         "h1Count": 1,
         "h2Count": 8,
-        "images": 26,
+        "images": 25,
         "imagesWithoutAlt": 0,
         "links": 57,
         "canonical": "https://www.conservation.org/",
@@ -1950,7 +1950,7 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 103,
+        "scripts": 102,
         "stylesheets": 5,
         "iframes": 1
       },
@@ -1962,8 +1962,8 @@
         "wordCount": 3682,
         "headings": 16
       },
-      "scrapedAt": "2026-08-08T16:34:10.262Z",
-      "hash": "bf65521491c71f9697dad23afc5e243f",
+      "scrapedAt": "2026-08-08T18:37:18.950Z",
+      "hash": "fcf5685d298bae399429698cc6b10c5d",
       "scores": {
         "accessibility": 80,
         "seo": 95,
@@ -1984,22 +1984,22 @@
         "title": "Environmental Defense Fund - Finding the ways that work | EDFMagnifying GlassTwitterLinkedInInstagramFacebookTikTok",
         "metaDescription": "We're a global environmental organization driving game-changing solutions to our biggest environmental issues like climate change, air pollution and more.",
         "h1Count": 1,
-        "h2Count": 10,
+        "h2Count": 8,
         "images": 29,
         "imagesWithoutAlt": 0,
-        "links": 142,
+        "links": 132,
         "canonical": "https://www.edf.org/",
         "ogTitle": "Environmental Defense Fund - Finding the ways that work",
         "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 3,
+        "formLabels": 1,
         "ariaLandmarks": 3
       },
       "performance": {
-        "scripts": 23,
-        "stylesheets": 6,
+        "scripts": 27,
+        "stylesheets": 9,
         "iframes": 1
       },
       "security": {
@@ -2007,11 +2007,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2257,
-        "headings": 30
+        "wordCount": 2248,
+        "headings": 28
       },
-      "scrapedAt": "2026-08-08T16:34:12.374Z",
-      "hash": "7f4b344dc1b527c8fa7fc0e65ba36c4a",
+      "scrapedAt": "2026-08-08T18:37:21.158Z",
+      "hash": "7b7aeed31604a27e1248df4998d3b748",
       "scores": {
         "accessibility": 100,
         "seo": 95,
@@ -2058,7 +2058,7 @@
         "wordCount": 12270,
         "headings": 22
       },
-      "scrapedAt": "2026-08-08T16:34:15.422Z",
+      "scrapedAt": "2026-08-08T18:37:24.370Z",
       "hash": "e34c5557f364192b70969bfeb72025ba",
       "scores": {
         "accessibility": 75,
@@ -2106,7 +2106,7 @@
         "wordCount": 2094,
         "headings": 24
       },
-      "scrapedAt": "2026-08-08T16:34:17.721Z",
+      "scrapedAt": "2026-08-08T18:37:26.632Z",
       "hash": "e696ff00e5e51afcd3d41a432e1a1f9b",
       "scores": {
         "accessibility": 50,
@@ -2144,7 +2144,7 @@
       "performance": {
         "scripts": 80,
         "stylesheets": 10,
-        "iframes": 8
+        "iframes": 7
       },
       "security": {
         "isHttps": true,
@@ -2154,8 +2154,8 @@
         "wordCount": 4583,
         "headings": 17
       },
-      "scrapedAt": "2026-08-08T16:34:19.914Z",
-      "hash": "905859af6b730760776e736309ec3d77",
+      "scrapedAt": "2026-08-08T18:37:28.984Z",
+      "hash": "4a49bd38c54f1bf7108515fe261909e0",
       "scores": {
         "accessibility": 50,
         "seo": 100,
@@ -2199,11 +2199,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 362,
+        "wordCount": 363,
         "headings": 6
       },
-      "scrapedAt": "2026-08-08T16:34:22.287Z",
-      "hash": "c53c4ddc59060fe2b433c991b85f2473",
+      "scrapedAt": "2026-08-08T18:37:31.261Z",
+      "hash": "65d2eda7be5249b9926df6890871c867",
       "scores": {
         "accessibility": 90,
         "seo": 95,
@@ -2247,11 +2247,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 7078,
+        "wordCount": 7077,
         "headings": 34
       },
-      "scrapedAt": "2026-08-08T16:34:24.612Z",
-      "hash": "3ad942bc21acd638260e4ba7d66d4668",
+      "scrapedAt": "2026-08-08T18:37:33.539Z",
+      "hash": "27121d3991ea1736835e17bb88648849",
       "scores": {
         "accessibility": 95,
         "seo": 85,
@@ -2295,11 +2295,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2878,
+        "wordCount": 2905,
         "headings": 49
       },
-      "scrapedAt": "2026-08-08T16:34:26.797Z",
-      "hash": "a8f13c0a068ebf2a56ca423c1eb2e6cc",
+      "scrapedAt": "2026-08-08T18:37:35.415Z",
+      "hash": "cd21f98ddaf9b31dc6e7207fc8a4ae43",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -2346,7 +2346,7 @@
         "wordCount": 4073,
         "headings": 47
       },
-      "scrapedAt": "2026-08-08T16:34:29.178Z",
+      "scrapedAt": "2026-08-08T18:37:37.601Z",
       "hash": "6feb55a839ca46edfe96af8bb61f8641",
       "scores": {
         "accessibility": 100,
@@ -2394,7 +2394,7 @@
         "wordCount": 80,
         "headings": 0
       },
-      "scrapedAt": "2026-08-08T16:34:31.093Z",
+      "scrapedAt": "2026-08-08T18:37:39.346Z",
       "hash": "0490682407a7227517ed737dba4f284d",
       "scores": {
         "accessibility": 100,
@@ -2442,7 +2442,7 @@
         "wordCount": 30,
         "headings": 0
       },
-      "scrapedAt": "2026-08-08T16:34:33.287Z",
+      "scrapedAt": "2026-08-08T18:37:41.421Z",
       "hash": "f2ae39e984c5a90d0d0e06b32ab92c32",
       "scores": {
         "accessibility": 100,
@@ -2487,11 +2487,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1820,
+        "wordCount": 1824,
         "headings": 32
       },
-      "scrapedAt": "2026-08-08T16:34:35.333Z",
-      "hash": "3536aa569b410456d2c573156fd29d1b",
+      "scrapedAt": "2026-08-08T18:37:43.394Z",
+      "hash": "185a673faa0b217fcdf8df4b444c956d",
       "scores": {
         "accessibility": 80,
         "seo": 75,
@@ -2515,7 +2515,7 @@
         "h2Count": 28,
         "images": 123,
         "imagesWithoutAlt": 0,
-        "links": 685,
+        "links": 686,
         "canonical": "",
         "ogTitle": "",
         "schemaOrg": false
@@ -2535,11 +2535,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1881,
+        "wordCount": 1902,
         "headings": 47
       },
-      "scrapedAt": "2026-08-08T16:34:39.312Z",
-      "hash": "0817487e3322c35ec878230004079bda",
+      "scrapedAt": "2026-08-08T18:37:48.324Z",
+      "hash": "892a40f88a0368e65811f298e627c075",
       "scores": {
         "accessibility": 80,
         "seo": 70,
@@ -2586,7 +2586,7 @@
         "wordCount": 10209,
         "headings": 91
       },
-      "scrapedAt": "2026-08-08T16:34:42.156Z",
+      "scrapedAt": "2026-08-08T18:37:50.848Z",
       "hash": "b9637bda6f1c9c7595325ff3e104aae9",
       "scores": {
         "accessibility": 100,
@@ -2609,9 +2609,9 @@
         "metaDescription": "",
         "h1Count": 1,
         "h2Count": 13,
-        "images": 99,
+        "images": 84,
         "imagesWithoutAlt": 0,
-        "links": 317,
+        "links": 298,
         "canonical": "",
         "ogTitle": "",
         "schemaOrg": false
@@ -2631,11 +2631,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1426,
-        "headings": 77
+        "wordCount": 1258,
+        "headings": 60
       },
-      "scrapedAt": "2026-08-08T16:34:44.229Z",
-      "hash": "c23b5a024232527ddb692a702cc6cefc",
+      "scrapedAt": "2026-08-08T18:37:52.759Z",
+      "hash": "75cf2d174520ed99a7b38c6a0aed443f",
       "scores": {
         "accessibility": 80,
         "seo": 70,
@@ -2682,7 +2682,7 @@
         "wordCount": 7404,
         "headings": 4
       },
-      "scrapedAt": "2026-08-08T16:34:46.761Z",
+      "scrapedAt": "2026-08-08T18:37:55.415Z",
       "hash": "ad87b58b3a6a79a40de189be351c280d",
       "scores": {
         "accessibility": 100,
@@ -2730,7 +2730,7 @@
         "wordCount": 200,
         "headings": 4
       },
-      "scrapedAt": "2026-08-08T16:34:48.972Z",
+      "scrapedAt": "2026-08-08T18:37:57.443Z",
       "hash": "248f42d83bcd281daeda1ed02fc14f66",
       "scores": {
         "accessibility": 75,
@@ -2778,7 +2778,7 @@
         "wordCount": 2994,
         "headings": 78
       },
-      "scrapedAt": "2026-08-08T16:34:54.096Z",
+      "scrapedAt": "2026-08-08T18:38:01.428Z",
       "hash": "013570c8d78c936214dcd443d0f7c151",
       "scores": {
         "accessibility": 80,
@@ -2803,7 +2803,7 @@
         "h2Count": 0,
         "images": 1,
         "imagesWithoutAlt": 0,
-        "links": 0,
+        "links": 2,
         "canonical": "https://copilot.microsoft.com",
         "ogTitle": "Microsoft Copilot: Your AI companion",
         "schemaOrg": false
@@ -2823,11 +2823,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 85,
+        "wordCount": 127,
         "headings": 1
       },
-      "scrapedAt": "2026-08-08T16:34:56.149Z",
-      "hash": "51c82bf408fc595d868ee5af308f12b9",
+      "scrapedAt": "2026-08-08T18:38:03.463Z",
+      "hash": "e33c26d9f6a15f9d9a3dbd6be39fb776",
       "scores": {
         "accessibility": 80,
         "seo": 95,
@@ -2874,7 +2874,7 @@
         "wordCount": 3570,
         "headings": 32
       },
-      "scrapedAt": "2026-08-08T16:34:58.956Z",
+      "scrapedAt": "2026-08-08T18:38:05.865Z",
       "hash": "b9ec6d555e4d9282b452d758c3ef568d",
       "scores": {
         "accessibility": 100,
@@ -2922,7 +2922,7 @@
         "wordCount": 1079,
         "headings": 51
       },
-      "scrapedAt": "2026-08-08T16:35:00.872Z",
+      "scrapedAt": "2026-08-08T18:38:07.740Z",
       "hash": "31eb522f958588b39ad087bd3d729e97",
       "scores": {
         "accessibility": 70,
@@ -2970,7 +2970,7 @@
         "wordCount": 4,
         "headings": 0
       },
-      "scrapedAt": "2026-08-08T16:35:02.759Z",
+      "scrapedAt": "2026-08-08T18:38:09.523Z",
       "hash": "6ecfa4efe33f7fdae3f9537d1efb0909",
       "scores": {
         "accessibility": 80,
@@ -3006,7 +3006,7 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 16,
+        "scripts": 14,
         "stylesheets": 1,
         "iframes": 0
       },
@@ -3018,8 +3018,8 @@
         "wordCount": 1973,
         "headings": 91
       },
-      "scrapedAt": "2026-08-08T16:35:06.190Z",
-      "hash": "71574ce47e9f0c7eb22e5ae0e54995a5",
+      "scrapedAt": "2026-08-08T18:38:12.650Z",
+      "hash": "562d6f2a256c70e164a5d3b78a5b02ed",
       "scores": {
         "accessibility": 100,
         "seo": 95,
@@ -3066,7 +3066,7 @@
         "wordCount": 441,
         "headings": 6
       },
-      "scrapedAt": "2026-08-08T16:35:08.537Z",
+      "scrapedAt": "2026-08-08T18:38:14.791Z",
       "hash": "40eb5745703707f188fcc75d93b69a74",
       "scores": {
         "accessibility": 70,
@@ -3091,7 +3091,7 @@
         "h2Count": 3,
         "images": 23,
         "imagesWithoutAlt": 0,
-        "links": 208,
+        "links": 207,
         "canonical": "https://techcommunity.microsoft.com/",
         "ogTitle": "Home | Microsoft Community Hub",
         "schemaOrg": false
@@ -3102,8 +3102,8 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 79,
-        "stylesheets": 55,
+        "scripts": 80,
+        "stylesheets": 56,
         "iframes": 1
       },
       "security": {
@@ -3111,11 +3111,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 6562,
+        "wordCount": 6491,
         "headings": 23
       },
-      "scrapedAt": "2026-08-08T16:35:12.743Z",
-      "hash": "774059c90386f44b7eed3b7db7bc6d99",
+      "scrapedAt": "2026-08-08T18:38:19.814Z",
+      "hash": "77d070b9e1e574dad11cc84926d0b83c",
       "scores": {
         "accessibility": 80,
         "seo": 95,
@@ -3137,7 +3137,7 @@
         "metaDescription": "Accelerate your AI transformation with Microsoft Marketplace—your trusted source to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs.",
         "h1Count": 1,
         "h2Count": 6,
-        "images": 87,
+        "images": 86,
         "imagesWithoutAlt": 0,
         "links": 69,
         "canonical": "https://marketplace.microsoft.com/en-us/",
@@ -3150,20 +3150,20 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 45,
+        "scripts": 25,
         "stylesheets": 2,
-        "iframes": 3
+        "iframes": 0
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 91887,
+        "wordCount": 91838,
         "headings": 12
       },
-      "scrapedAt": "2026-08-08T16:35:15.965Z",
-      "hash": "6c3e53793d47ade6f719b2ace533aa10",
+      "scrapedAt": "2026-08-08T18:38:23.265Z",
+      "hash": "201c49005cfe246b073c5821c9ef07bf",
       "scores": {
         "accessibility": 80,
         "seo": 95,
@@ -3210,7 +3210,7 @@
         "wordCount": 13273,
         "headings": 27
       },
-      "scrapedAt": "2026-08-08T16:35:18.237Z",
+      "scrapedAt": "2026-08-08T18:38:25.419Z",
       "hash": "42f02d6ac9892b6d19f3159802be8a7d",
       "scores": {
         "accessibility": 100,
@@ -3258,7 +3258,7 @@
         "wordCount": 1608,
         "headings": 38
       },
-      "scrapedAt": "2026-08-08T16:35:20.024Z",
+      "scrapedAt": "2026-08-08T18:38:27.305Z",
       "hash": "4d1673a8d319c5ea6afa049d4f0f6c60",
       "scores": {
         "accessibility": 80,
@@ -3306,7 +3306,7 @@
         "wordCount": 1512,
         "headings": 42
       },
-      "scrapedAt": "2026-08-08T16:35:22.549Z",
+      "scrapedAt": "2026-08-08T18:38:29.978Z",
       "hash": "4e2eb6fed4baf522b963cb787bf1e9a8",
       "scores": {
         "accessibility": 100,
@@ -3354,7 +3354,7 @@
         "wordCount": 4051,
         "headings": 67
       },
-      "scrapedAt": "2026-08-08T16:35:24.936Z",
+      "scrapedAt": "2026-08-08T18:38:32.695Z",
       "hash": "a6977cc187e0b4bc0f641c33fa19fef2",
       "scores": {
         "accessibility": 100,
@@ -3402,7 +3402,7 @@
         "wordCount": 536,
         "headings": 7
       },
-      "scrapedAt": "2026-08-08T16:35:27.819Z",
+      "scrapedAt": "2026-08-08T18:38:35.746Z",
       "hash": "c7b91b6b38308e06ac56d51bd035bebf",
       "scores": {
         "accessibility": 75,
@@ -3450,7 +3450,7 @@
         "wordCount": 1608,
         "headings": 38
       },
-      "scrapedAt": "2026-08-08T16:35:29.806Z",
+      "scrapedAt": "2026-08-08T18:38:37.664Z",
       "hash": "4d1673a8d319c5ea6afa049d4f0f6c60",
       "scores": {
         "accessibility": 80,
@@ -3498,7 +3498,7 @@
         "wordCount": 8326,
         "headings": 7
       },
-      "scrapedAt": "2026-08-08T16:35:32.055Z",
+      "scrapedAt": "2026-08-08T18:38:39.779Z",
       "hash": "7d66be8812d3fa74a7fd01288432f90a",
       "scores": {
         "accessibility": 100,
@@ -3546,7 +3546,7 @@
         "wordCount": 41993,
         "headings": 182
       },
-      "scrapedAt": "2026-08-08T16:35:34.353Z",
+      "scrapedAt": "2026-08-08T18:38:42.098Z",
       "hash": "af47b48fd9caac3e2530d1cfd7bba813",
       "scores": {
         "accessibility": 70,
@@ -3594,7 +3594,7 @@
         "wordCount": 3900,
         "headings": 2
       },
-      "scrapedAt": "2026-08-08T16:35:37.350Z",
+      "scrapedAt": "2026-08-08T18:38:44.974Z",
       "hash": "d4ede4b78162ffd4d4faf3524f625d63",
       "scores": {
         "accessibility": 80,
@@ -3639,11 +3639,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1553,
+        "wordCount": 1603,
         "headings": 0
       },
-      "scrapedAt": "2026-08-08T16:35:39.380Z",
-      "hash": "30db9c4122c0404594f1999f22700fa1",
+      "scrapedAt": "2026-08-08T18:38:46.984Z",
+      "hash": "7d834a5eca0ce51fc04be8c73bee9d8a",
       "scores": {
         "accessibility": 100,
         "seo": 55,
@@ -3690,7 +3690,7 @@
         "wordCount": 454,
         "headings": 12
       },
-      "scrapedAt": "2026-08-08T16:35:41.705Z",
+      "scrapedAt": "2026-08-08T18:38:48.968Z",
       "hash": "68e3a2d5713e9db539326247b9424fb8",
       "scores": {
         "accessibility": 80,
@@ -3738,7 +3738,7 @@
         "wordCount": 280,
         "headings": 15
       },
-      "scrapedAt": "2026-08-08T16:35:43.580Z",
+      "scrapedAt": "2026-08-08T18:38:50.958Z",
       "hash": "8aa36be407dddc7548bac23c56e73e34",
       "scores": {
         "accessibility": 80,
@@ -3786,7 +3786,7 @@
         "wordCount": 14,
         "headings": 0
       },
-      "scrapedAt": "2026-08-08T16:35:45.365Z",
+      "scrapedAt": "2026-08-08T18:38:52.853Z",
       "hash": "15bba9bcda973ff47a6b2489d4e79470",
       "scores": {
         "accessibility": 100,
@@ -3834,7 +3834,7 @@
         "wordCount": 2044,
         "headings": 8
       },
-      "scrapedAt": "2026-08-08T16:35:47.736Z",
+      "scrapedAt": "2026-08-08T18:38:55.148Z",
       "hash": "c852d91b75429f5f9fb8c423275598f6",
       "scores": {
         "accessibility": 70,
@@ -3870,7 +3870,7 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 45,
+        "scripts": 46,
         "stylesheets": 17,
         "iframes": 0
       },
@@ -3879,11 +3879,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 3158,
+        "wordCount": 3136,
         "headings": 18
       },
-      "scrapedAt": "2026-08-08T16:35:49.989Z",
-      "hash": "3f401eae0f2970c537f282d510f97682",
+      "scrapedAt": "2026-08-08T18:38:57.333Z",
+      "hash": "dafc216a626f25e05b54db37ea0d596c",
       "scores": {
         "accessibility": 70,
         "seo": 95,
@@ -3930,7 +3930,7 @@
         "wordCount": 1139,
         "headings": 11
       },
-      "scrapedAt": "2026-08-08T16:35:52.542Z",
+      "scrapedAt": "2026-08-08T18:38:59.943Z",
       "hash": "81d556b1881b04d2c6a1d2a5dd10ab45",
       "scores": {
         "accessibility": 80,
@@ -3966,7 +3966,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 54,
+        "scripts": 61,
         "stylesheets": 6,
         "iframes": 1
       },
@@ -3978,8 +3978,8 @@
         "wordCount": 3030,
         "headings": 2
       },
-      "scrapedAt": "2026-08-08T16:35:54.330Z",
-      "hash": "80b37ffae8d19c0e89a8547a0430e1a5",
+      "scrapedAt": "2026-08-08T18:39:01.794Z",
+      "hash": "0f5685b97ba823a66bb8920258ae2793",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -4026,7 +4026,7 @@
         "wordCount": 2510,
         "headings": 37
       },
-      "scrapedAt": "2026-08-08T16:35:57.393Z",
+      "scrapedAt": "2026-08-08T18:39:04.935Z",
       "hash": "644c67f9920f65e939e64d5efe37be1a",
       "scores": {
         "accessibility": 80,
@@ -4071,11 +4071,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2162,
+        "wordCount": 2154,
         "headings": 7
       },
-      "scrapedAt": "2026-08-08T16:36:00.050Z",
-      "hash": "194551eb5069d6358d4d042590b4d1e6",
+      "scrapedAt": "2026-08-08T18:39:07.724Z",
+      "hash": "3b352de02b682bcca26e7ce2ae63505d",
       "scores": {
         "accessibility": 80,
         "seo": 95,
@@ -4122,7 +4122,7 @@
         "wordCount": 3998,
         "headings": 54
       },
-      "scrapedAt": "2026-08-08T16:36:02.212Z",
+      "scrapedAt": "2026-08-08T18:39:09.844Z",
       "hash": "4cfedb6758719e9565c0479e72947c25",
       "scores": {
         "accessibility": 50,
@@ -4170,7 +4170,7 @@
         "wordCount": 7968,
         "headings": 15
       },
-      "scrapedAt": "2026-08-08T16:36:04.540Z",
+      "scrapedAt": "2026-08-08T18:39:12.172Z",
       "hash": "5091824c5e8af7199c8d440a27be9f9d",
       "scores": {
         "accessibility": 50,
@@ -4218,7 +4218,7 @@
         "wordCount": 392,
         "headings": 2
       },
-      "scrapedAt": "2026-08-08T16:36:06.512Z",
+      "scrapedAt": "2026-08-08T18:39:14.184Z",
       "hash": "969799d92241879c260df3f21bf944c4",
       "scores": {
         "accessibility": 70,
@@ -4254,7 +4254,7 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 44,
+        "scripts": 46,
         "stylesheets": 2,
         "iframes": 1
       },
@@ -4266,8 +4266,8 @@
         "wordCount": 7343,
         "headings": 30
       },
-      "scrapedAt": "2026-08-08T16:36:08.966Z",
-      "hash": "da5aeb4a13c6c622cd041f7aa967bc8a",
+      "scrapedAt": "2026-08-08T18:39:16.949Z",
+      "hash": "92615eba049fc44cf2cfc009050f6868",
       "scores": {
         "accessibility": 100,
         "seo": 95,
@@ -4314,7 +4314,7 @@
         "wordCount": 411,
         "headings": 9
       },
-      "scrapedAt": "2026-08-08T16:36:11.892Z",
+      "scrapedAt": "2026-08-08T18:39:19.734Z",
       "hash": "672acf5e147a4662e39a9b48136d2576",
       "scores": {
         "accessibility": 70,
@@ -4362,7 +4362,7 @@
         "wordCount": 795,
         "headings": 14
       },
-      "scrapedAt": "2026-08-08T16:36:15.704Z",
+      "scrapedAt": "2026-08-08T18:39:23.318Z",
       "hash": "a5fe0e5a5238b7ec3860b73cec53ca75",
       "scores": {
         "accessibility": 75,
