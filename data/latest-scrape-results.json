@@ -1,9 +1,153 @@
 {
-  "timestamp": "2026-09-19T08:37:53.146Z",
-  "totalScraped": 94,
-  "totalTargets": 98,
-  "changedCount": 94,
+  "timestamp": "2026-09-19T13:46:49.929Z",
+  "totalScraped": 98,
+  "totalTargets": 101,
+  "changedCount": 98,
   "results": [
+    {
+      "url": "https://go.microsoft.com",
+      "name": "Privacy Statement",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
+      "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+      "seo": {
+        "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+        "h1Count": 1,
+        "h2Count": 17,
+        "images": 24,
+        "imagesWithoutAlt": 0,
+        "links": 118,
+        "canonical": "https://www.microsoft.com/en-ca",
+        "ogTitle": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 165,
+        "stylesheets": 12,
+        "iframes": 2
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 767,
+        "headings": 23
+      },
+      "scrapedAt": "2026-09-19T13:42:40.140Z",
+      "hash": "e35282ae3a707bfcd5d2481cd1fb31c5",
+      "scores": {
+        "accessibility": 100,
+        "seo": 95,
+        "performance": 65,
+        "security": 100,
+        "overall": 90
+      }
+    },
+    {
+      "url": "https://aka.ms",
+      "name": "Third-Party Cookies",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Sign in to your account",
+      "description": "",
+      "seo": {
+        "title": "Sign in to your account",
+        "metaDescription": "",
+        "h1Count": 0,
+        "h2Count": 0,
+        "images": 2,
+        "imagesWithoutAlt": 1,
+        "links": 4,
+        "canonical": "",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 2
+      },
+      "performance": {
+        "scripts": 10,
+        "stylesheets": 1,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 21,
+        "headings": 0
+      },
+      "scrapedAt": "2026-09-19T13:42:42.521Z",
+      "hash": "c8f83bc5bc4ce4362745518bdaffc5ff",
+      "scores": {
+        "accessibility": 95,
+        "seo": 55,
+        "performance": 100,
+        "security": 100,
+        "overall": 88
+      }
+    },
+    {
+      "url": "https://policies.google.com",
+      "name": "Learn more",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "Privacy & Terms – Google",
+      "description": "",
+      "seo": {
+        "title": "Privacy & Terms – Google",
+        "metaDescription": "",
+        "h1Count": 9,
+        "h2Count": 1,
+        "images": 6,
+        "imagesWithoutAlt": 0,
+        "links": 34,
+        "canonical": "/?hl=en-US",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 6
+      },
+      "performance": {
+        "scripts": 25,
+        "stylesheets": 1,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 1384,
+        "headings": 10
+      },
+      "scrapedAt": "2026-09-19T13:42:44.599Z",
+      "hash": "9dcaac77c0e313f6f9c428dedf626d33",
+      "scores": {
+        "accessibility": 100,
+        "seo": 80,
+        "performance": 80,
+        "security": 100,
+        "overall": 90
+      }
+    },
     {
       "url": "https://www.apple.com",
       "name": "Apple",
@@ -19,7 +163,7 @@
         "h2Count": 38,
         "images": 51,
         "imagesWithoutAlt": 0,
-        "links": 368,
+        "links": 369,
         "canonical": "https://www.apple.com/",
         "ogTitle": "Apple",
         "schemaOrg": true
@@ -31,7 +175,7 @@
       },
       "performance": {
         "scripts": 17,
-        "stylesheets": 9,
+        "stylesheets": 10,
         "iframes": 0
       },
       "security": {
@@ -39,11 +183,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 13463,
+        "wordCount": 13489,
         "headings": 56
       },
-      "scrapedAt": "2026-09-19T08:33:43.969Z",
-      "hash": "083fc889665a35eaed35ec7d8ebf7b37",
+      "scrapedAt": "2026-09-19T13:42:46.979Z",
+      "hash": "2f2d6c4cd358221915871e7682838085",
       "scores": {
         "accessibility": 100,
         "seo": 85,
@@ -64,40 +208,40 @@
         "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & AppsYour Privacy Choices Opt-Out Icon",
         "metaDescription": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
         "h1Count": 1,
-        "h2Count": 28,
-        "images": 42,
+        "h2Count": 17,
+        "images": 24,
         "imagesWithoutAlt": 0,
-        "links": 136,
-        "canonical": "https://www.microsoft.com/en-us",
+        "links": 118,
+        "canonical": "https://www.microsoft.com/en-ca",
         "ogTitle": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
-        "schemaOrg": true
+        "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
         "formLabels": 0,
-        "ariaLandmarks": 3
+        "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 286,
+        "scripts": 165,
         "stylesheets": 12,
-        "iframes": 3
+        "iframes": 2
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 5136,
-        "headings": 32
+        "wordCount": 767,
+        "headings": 23
       },
-      "scrapedAt": "2026-09-19T08:33:47.722Z",
-      "hash": "ba474410bd3c6669c5a827492cd1a146",
+      "scrapedAt": "2026-09-19T13:42:50.076Z",
+      "hash": "e35282ae3a707bfcd5d2481cd1fb31c5",
       "scores": {
         "accessibility": 100,
-        "seo": 100,
+        "seo": 95,
         "performance": 65,
         "security": 100,
-        "overall": 91
+        "overall": 90
       }
     },
     {
@@ -106,28 +250,28 @@
       "type": "enterprise",
       "region": "us",
       "category": "technology",
-      "title": "Amazon.com. Spend less. Smile more.",
-      "description": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
+      "title": "Amazon.com",
+      "description": "",
       "seo": {
-        "title": "Amazon.com. Spend less. Smile more.",
-        "metaDescription": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
+        "title": "Amazon.com",
+        "metaDescription": "",
         "h1Count": 0,
-        "h2Count": 3,
-        "images": 80,
+        "h2Count": 0,
+        "images": 0,
         "imagesWithoutAlt": 0,
-        "links": 259,
-        "canonical": "https://www.amazon.com/",
+        "links": 2,
+        "canonical": "",
         "ogTitle": "",
         "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 26,
-        "ariaLandmarks": 4
+        "formLabels": 0,
+        "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 145,
-        "stylesheets": 8,
+        "scripts": 0,
+        "stylesheets": 1,
         "iframes": 0
       },
       "security": {
@@ -135,17 +279,17 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 17206,
-        "headings": 54
+        "wordCount": 21,
+        "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:33:50.025Z",
-      "hash": "9a2ebceee02f3e1c4e33c3577fb59372",
+      "scrapedAt": "2026-09-19T13:42:51.718Z",
+      "hash": "6b5a20f1a15801788b834d996e50ef6d",
       "scores": {
-        "accessibility": 100,
-        "seo": 80,
-        "performance": 80,
+        "accessibility": 80,
+        "seo": 55,
+        "performance": 100,
         "security": 100,
-        "overall": 90
+        "overall": 84
       }
     },
     {
@@ -163,7 +307,7 @@
         "h2Count": 3,
         "images": 9,
         "imagesWithoutAlt": 0,
-        "links": 46,
+        "links": 47,
         "canonical": "https://about.google/",
         "ogTitle": "About Google: Our products, technology and company information",
         "schemaOrg": true
@@ -183,11 +327,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 220,
+        "wordCount": 258,
         "headings": 10
       },
-      "scrapedAt": "2026-09-19T08:33:51.790Z",
-      "hash": "50afe50a8d78af66d91cc2e6d211278c",
+      "scrapedAt": "2026-09-19T13:42:53.510Z",
+      "hash": "9e1bb2f0018aeba7241add54f7c2c9cf",
       "scores": {
         "accessibility": 80,
         "seo": 100,
@@ -234,7 +378,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:33:53.406Z",
+      "scrapedAt": "2026-09-19T13:42:55.228Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -257,9 +401,9 @@
         "metaDescription": "",
         "h1Count": 1,
         "h2Count": 44,
-        "images": 18,
+        "images": 17,
         "imagesWithoutAlt": 4,
-        "links": 113,
+        "links": 111,
         "canonical": "https://www.jpmorganchase.com/",
         "ogTitle": "Home | JPMorganChase",
         "schemaOrg": false
@@ -279,11 +423,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1408,
+        "wordCount": 1371,
         "headings": 63
       },
-      "scrapedAt": "2026-09-19T08:33:55.605Z",
-      "hash": "76dbe89229603fb31417cca505672d0f",
+      "scrapedAt": "2026-09-19T13:42:58.067Z",
+      "hash": "f4723f3584b29c81f2556d0d11f417fc",
       "scores": {
         "accessibility": 60,
         "seo": 80,
@@ -298,28 +442,28 @@
       "type": "enterprise",
       "region": "us",
       "category": "finance",
-      "title": "Access payment solutions, security, and card benefits | Visapausesearch",
-      "description": "Discover Visa personal payment solutions, secure transactions, travel support, cards and rewards designed to bring more value to your everyday experiences.\n",
+      "title": "Visa, a trusted leader in digital payments | Visa",
+      "description": "",
       "seo": {
-        "title": "Access payment solutions, security, and card benefits | Visapausesearch",
-        "metaDescription": "Discover Visa personal payment solutions, secure transactions, travel support, cards and rewards designed to bring more value to your everyday experiences.\n",
-        "h1Count": 1,
-        "h2Count": 14,
-        "images": 13,
+        "title": "Visa, a trusted leader in digital payments | Visa",
+        "metaDescription": "",
+        "h1Count": 2,
+        "h2Count": 15,
+        "images": 9,
         "imagesWithoutAlt": 0,
-        "links": 45,
-        "canonical": "https://www.visa.com/en-us",
-        "ogTitle": "Visa, a trusted leader in digital payments",
+        "links": 92,
+        "canonical": "https://www.visa.ca/en_CA",
+        "ogTitle": "",
         "schemaOrg": true
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 5,
-        "ariaLandmarks": 1
+        "formLabels": 7,
+        "ariaLandmarks": 3
       },
       "performance": {
-        "scripts": 50,
-        "stylesheets": 28,
+        "scripts": 45,
+        "stylesheets": 10,
         "iframes": 1
       },
       "security": {
@@ -327,15 +471,15 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 4532,
-        "headings": 21
+        "wordCount": 2587,
+        "headings": 18
       },
-      "scrapedAt": "2026-09-19T08:33:57.557Z",
-      "hash": "32734be19bae82f2fc2410f8955419c1",
+      "scrapedAt": "2026-09-19T13:43:00.242Z",
+      "hash": "d67a342167191773120dd6ad3b5e2c17",
       "scores": {
         "accessibility": 100,
-        "seo": 100,
-        "performance": 65,
+        "seo": 85,
+        "performance": 80,
         "security": 100,
         "overall": 91
       }
@@ -346,16 +490,16 @@
       "type": "enterprise",
       "region": "us",
       "category": "retail",
-      "title": "Walmart | Save Money. Live better.loadingloadingloadingloadingloadingloadingloadingloading",
+      "title": "Walmart | Save Money. Live better.",
       "description": "Shop Walmart.com today for Every Day Low Prices. Join Walmart+ for unlimited free delivery from your store & free shipping with no order minimum. Start your free 30-day trial now!",
       "seo": {
-        "title": "Walmart | Save Money. Live better.loadingloadingloadingloadingloadingloadingloadingloading",
+        "title": "Walmart | Save Money. Live better.",
         "metaDescription": "Shop Walmart.com today for Every Day Low Prices. Join Walmart+ for unlimited free delivery from your store & free shipping with no order minimum. Start your free 30-day trial now!",
         "h1Count": 1,
-        "h2Count": 59,
-        "images": 128,
+        "h2Count": 0,
+        "images": 13,
         "imagesWithoutAlt": 0,
-        "links": 663,
+        "links": 56,
         "canonical": "https://www.walmart.com/",
         "ogTitle": "Walmart | Save Money. Live better.",
         "schemaOrg": true
@@ -366,20 +510,20 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 187,
+        "scripts": 147,
         "stylesheets": 1,
-        "iframes": 1
+        "iframes": 2
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 7575,
-        "headings": 146
+        "wordCount": 1291,
+        "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:34:00.512Z",
-      "hash": "5abd628e0f43834a534617bfe2997a9a",
+      "scrapedAt": "2026-09-19T13:43:02.729Z",
+      "hash": "5ebe5f2adeadd39a6be5ac8371726255",
       "scores": {
         "accessibility": 80,
         "seo": 100,
@@ -401,8 +545,8 @@
         "metaDescription": "UnitedHealth Group helps people live healthier lives and helps make the health system work better for everyone.",
         "h1Count": 4,
         "h2Count": 4,
-        "images": 30,
-        "imagesWithoutAlt": 5,
+        "images": 26,
+        "imagesWithoutAlt": 3,
         "links": 99,
         "canonical": "https://www.unitedhealthgroup.com",
         "ogTitle": "UnitedHealth Group",
@@ -414,7 +558,7 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 54,
+        "scripts": 53,
         "stylesheets": 6,
         "iframes": 1
       },
@@ -423,17 +567,17 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 3854,
+        "wordCount": 3652,
         "headings": 29
       },
-      "scrapedAt": "2026-09-19T08:34:02.775Z",
-      "hash": "15bbd9e244a9a3cdacdff18f41d59dd8",
+      "scrapedAt": "2026-09-19T13:43:05.158Z",
+      "hash": "a9d732306036f75af0c82daf4c59f57c",
       "scores": {
-        "accessibility": 55,
+        "accessibility": 65,
         "seo": 100,
         "performance": 80,
         "security": 100,
-        "overall": 84
+        "overall": 86
       }
     },
     {
@@ -474,7 +618,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:34:04.408Z",
+      "scrapedAt": "2026-09-19T13:43:06.834Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -499,7 +643,7 @@
         "h2Count": 7,
         "images": 18,
         "imagesWithoutAlt": 0,
-        "links": 277,
+        "links": 257,
         "canonical": "https://www.meta.com/about/",
         "ogTitle": "About Meta | Social Technology, VR, AR, and Innovation",
         "schemaOrg": true
@@ -519,11 +663,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1665,
+        "wordCount": 1574,
         "headings": 10
       },
-      "scrapedAt": "2026-09-19T08:34:07.016Z",
-      "hash": "42c9d378cd722c805335fe38b3eb5b83",
+      "scrapedAt": "2026-09-19T13:43:09.742Z",
+      "hash": "f21005a7af3bb2bd47d7977a73cf0e2c",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -538,16 +682,16 @@
       "type": "enterprise",
       "region": "us",
       "category": "entertainment",
-      "title": "Netflix - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
+      "title": "Netflix Canada - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
       "description": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
       "seo": {
-        "title": "Netflix - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
+        "title": "Netflix Canada - Watch TV Shows Online, Watch Movies OnlineBack ButtonFilter Button",
         "metaDescription": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
         "h1Count": 1,
         "h2Count": 5,
         "images": 4,
         "imagesWithoutAlt": 1,
-        "links": 30,
+        "links": 29,
         "canonical": "",
         "ogTitle": "",
         "schemaOrg": false
@@ -567,11 +711,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1554,
+        "wordCount": 1582,
         "headings": 30
       },
-      "scrapedAt": "2026-09-19T08:34:10.055Z",
-      "hash": "8d4d534ef2bb0ee2621515a3802e78b8",
+      "scrapedAt": "2026-09-19T13:43:12.874Z",
+      "hash": "de85a3381c741f9fbc3fffc82671b4f5",
       "scores": {
         "accessibility": 95,
         "seo": 85,
@@ -618,7 +762,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:34:11.833Z",
+      "scrapedAt": "2026-09-19T13:43:14.946Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -666,7 +810,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:34:13.447Z",
+      "scrapedAt": "2026-09-19T13:43:16.672Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -702,7 +846,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 38,
+        "scripts": 35,
         "stylesheets": 3,
         "iframes": 0
       },
@@ -711,11 +855,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 6544,
+        "wordCount": 6538,
         "headings": 38
       },
-      "scrapedAt": "2026-09-19T08:34:15.975Z",
-      "hash": "6b090421e2bdc38ec380dae579859084",
+      "scrapedAt": "2026-09-19T13:43:19.808Z",
+      "hash": "949af0ff303f407e3da676f174ccaeb6",
       "scores": {
         "accessibility": 70,
         "seo": 100,
@@ -762,7 +906,7 @@
         "wordCount": 110,
         "headings": 3
       },
-      "scrapedAt": "2026-09-19T08:34:17.658Z",
+      "scrapedAt": "2026-09-19T13:43:21.745Z",
       "hash": "220f4b0a44fd1dc4256aa29cf6230e42",
       "scores": {
         "accessibility": 100,
@@ -778,44 +922,44 @@
       "type": "enterprise",
       "region": "eu",
       "category": "automotive",
-      "title": "Luxury SUVs, Sedans, Coupes, Convertibles, and Crossovers | BMW USABack ButtonSearch IconFilter Icon",
-      "description": "Explore models, build your own, find financing and leasing offers, and browse local inventory from a nearby BMW Center. Experience the performance, luxury, and innovation of the Ultimate Driving Machine today.",
+      "title": "BMW Canada: BMW Official Website | Sports Cars | Convertibles",
+      "description": "BMW Canada's official site: Shop and compare BMW models, customize your BMW, book a test drive, and explore offers and financing options.",
       "seo": {
-        "title": "Luxury SUVs, Sedans, Coupes, Convertibles, and Crossovers | BMW USABack ButtonSearch IconFilter Icon",
-        "metaDescription": "Explore models, build your own, find financing and leasing offers, and browse local inventory from a nearby BMW Center. Experience the performance, luxury, and innovation of the Ultimate Driving Machine today.",
-        "h1Count": 3,
+        "title": "BMW Canada: BMW Official Website | Sports Cars | Convertibles",
+        "metaDescription": "BMW Canada's official site: Shop and compare BMW models, customize your BMW, book a test drive, and explore offers and financing options.",
+        "h1Count": 1,
         "h2Count": 7,
-        "images": 104,
-        "imagesWithoutAlt": 0,
-        "links": 254,
-        "canonical": "https://www.bmwusa.com/",
+        "images": 17,
+        "imagesWithoutAlt": 3,
+        "links": 208,
+        "canonical": "https://www.bmw.ca/en/home.html",
         "ogTitle": "",
         "schemaOrg": true
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 9,
+        "formLabels": 0,
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 136,
-        "stylesheets": 28,
-        "iframes": 3
+        "scripts": 46,
+        "stylesheets": 7,
+        "iframes": 1
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 9222,
-        "headings": 18
+        "wordCount": 3321,
+        "headings": 34
       },
-      "scrapedAt": "2026-09-19T08:34:21.558Z",
-      "hash": "1e3f9f9e37a6b1df9d1cf4d2fc6cba8d",
+      "scrapedAt": "2026-09-19T13:43:24.763Z",
+      "hash": "51ac9031b65530ffd50dd40d60c0c989",
       "scores": {
-        "accessibility": 80,
+        "accessibility": 65,
         "seo": 100,
-        "performance": 65,
+        "performance": 80,
         "security": 100,
         "overall": 86
       }
@@ -858,7 +1002,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:34:23.642Z",
+      "scrapedAt": "2026-09-19T13:43:26.624Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -874,27 +1018,27 @@
       "type": "enterprise",
       "region": "eu",
       "category": "automotive",
-      "title": "Startseite | Volkswagen DeutschlandZur Volkswagen StartseiteÖffnet einen externen Link",
-      "description": "Willkommen bei Volkswagen. Erfahren Sie alles über die Marke, Modelle, Angebote, allgemeine Infos, bis zum Trendthema Elektromobilität.\n",
+      "title": "Volkswagen Canada | Discover our SUVs and car lineupClick for homepageOpen external linkOpen external linkOpen external linkOpen external linkOpen external link",
+      "description": "Welcome to Volkswagen Canada. Discover our new vehicles, offers on our models, latest information, and pricing. Find a Volkswagen Dealer near you.",
       "seo": {
-        "title": "Startseite | Volkswagen DeutschlandZur Volkswagen StartseiteÖffnet einen externen Link",
-        "metaDescription": "Willkommen bei Volkswagen. Erfahren Sie alles über die Marke, Modelle, Angebote, allgemeine Infos, bis zum Trendthema Elektromobilität.\n",
+        "title": "Volkswagen Canada | Discover our SUVs and car lineupClick for homepageOpen external linkOpen external linkOpen external linkOpen external linkOpen external link",
+        "metaDescription": "Welcome to Volkswagen Canada. Discover our new vehicles, offers on our models, latest information, and pricing. Find a Volkswagen Dealer near you.",
         "h1Count": 6,
-        "h2Count": 6,
-        "images": 13,
+        "h2Count": 10,
+        "images": 30,
         "imagesWithoutAlt": 0,
-        "links": 219,
-        "canonical": "https://www.volkswagen.de/de.html",
-        "ogTitle": "Startseite | Volkswagen Deutschland",
+        "links": 159,
+        "canonical": "https://www.vw.ca/en.html",
+        "ogTitle": "Volkswagen Canada | Discover our SUVs and car lineup",
         "schemaOrg": true
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 4,
+        "formLabels": 3,
         "ariaLandmarks": 3
       },
       "performance": {
-        "scripts": 25,
+        "scripts": 23,
         "stylesheets": 0,
         "iframes": 0
       },
@@ -903,11 +1047,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 5510,
-        "headings": 22
+        "wordCount": 8714,
+        "headings": 41
       },
-      "scrapedAt": "2026-09-19T08:34:26.805Z",
-      "hash": "77b896439dbea88924bb3e4d64cec1e9",
+      "scrapedAt": "2026-09-19T13:43:29.355Z",
+      "hash": "a837f85f744aa98d6df159859d88c991",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -951,11 +1095,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 5198,
+        "wordCount": 5263,
         "headings": 36
       },
-      "scrapedAt": "2026-09-19T08:34:29.063Z",
-      "hash": "042be3da221a19f3427115b1f3da2ffa",
+      "scrapedAt": "2026-09-19T13:43:32.286Z",
+      "hash": "fdda74bc7baec42b9598e12df3204103",
       "scores": {
         "accessibility": 95,
         "seo": 100,
@@ -999,11 +1143,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 562,
+        "wordCount": 563,
         "headings": 8
       },
-      "scrapedAt": "2026-09-19T08:34:30.759Z",
-      "hash": "03ec71aa3b44db08ee6c47c1cc8f2dba",
+      "scrapedAt": "2026-09-19T13:43:34.096Z",
+      "hash": "488918cf1434940e6411d5e7ed0b3e8e",
       "scores": {
         "accessibility": 100,
         "seo": 70,
@@ -1050,7 +1194,7 @@
         "wordCount": 1869,
         "headings": 23
       },
-      "scrapedAt": "2026-09-19T08:34:32.757Z",
+      "scrapedAt": "2026-09-19T13:43:36.149Z",
       "hash": "0f1b693bd6fda76b4f5e4d433f543516",
       "scores": {
         "accessibility": 80,
@@ -1098,7 +1242,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:34:34.396Z",
+      "scrapedAt": "2026-09-19T13:43:38.058Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -1146,7 +1290,7 @@
         "wordCount": 3227,
         "headings": 25
       },
-      "scrapedAt": "2026-09-19T08:34:36.920Z",
+      "scrapedAt": "2026-09-19T13:43:40.147Z",
       "hash": "6e4438d990a27bb1e3139f6f650fe547",
       "scores": {
         "accessibility": 100,
@@ -1194,7 +1338,7 @@
         "wordCount": 1484,
         "headings": 49
       },
-      "scrapedAt": "2026-09-19T08:34:39.008Z",
+      "scrapedAt": "2026-09-19T13:43:42.605Z",
       "hash": "8e5eeda5fc9ba498fc7b5f3ec962cdfd",
       "scores": {
         "accessibility": 100,
@@ -1242,7 +1386,7 @@
         "wordCount": 1178,
         "headings": 21
       },
-      "scrapedAt": "2026-09-19T08:34:41.067Z",
+      "scrapedAt": "2026-09-19T13:43:46.002Z",
       "hash": "efea7d21187f4a874650c04df01242c5",
       "scores": {
         "accessibility": 100,
@@ -1290,7 +1434,7 @@
         "wordCount": 1830,
         "headings": 64
       },
-      "scrapedAt": "2026-09-19T08:34:43.182Z",
+      "scrapedAt": "2026-09-19T13:43:48.194Z",
       "hash": "7d5870a16f1fd94b5c5a19414df1558b",
       "scores": {
         "accessibility": 70,
@@ -1338,7 +1482,7 @@
         "wordCount": 5941,
         "headings": 16
       },
-      "scrapedAt": "2026-09-19T08:34:45.901Z",
+      "scrapedAt": "2026-09-19T13:43:51.219Z",
       "hash": "fda0e5465367640d9b2212ab466fcfc9",
       "scores": {
         "accessibility": 100,
@@ -1386,7 +1530,7 @@
         "wordCount": 266,
         "headings": 2
       },
-      "scrapedAt": "2026-09-19T08:34:47.672Z",
+      "scrapedAt": "2026-09-19T13:43:53.014Z",
       "hash": "2a97a0f9fa0e4a3f73089039b7919be4",
       "scores": {
         "accessibility": 80,
@@ -1434,7 +1578,7 @@
         "wordCount": 110,
         "headings": 3
       },
-      "scrapedAt": "2026-09-19T08:34:49.514Z",
+      "scrapedAt": "2026-09-19T13:43:54.688Z",
       "hash": "220f4b0a44fd1dc4256aa29cf6230e42",
       "scores": {
         "accessibility": 100,
@@ -1482,7 +1626,7 @@
         "wordCount": 15,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:34:51.145Z",
+      "scrapedAt": "2026-09-19T13:43:56.331Z",
       "hash": "97b7769737ae66f2cb82c15b8a5e4c94",
       "scores": {
         "accessibility": 70,
@@ -1527,11 +1671,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1436,
+        "wordCount": 1434,
         "headings": 15
       },
-      "scrapedAt": "2026-09-19T08:34:53.220Z",
-      "hash": "701a560044ee973a66e720d89826a2e8",
+      "scrapedAt": "2026-09-19T13:43:58.337Z",
+      "hash": "d0c961b127f6908e22236e86d241a2f2",
       "scores": {
         "accessibility": 95,
         "seo": 100,
@@ -1551,7 +1695,7 @@
       "seo": {
         "title": "Amnesty InternationalAmnesty International",
         "metaDescription": "We are a global movement of more than 10 million people in over 150 countries who campaign campaign for a world where human rights are enjoyed by all.",
-        "h1Count": 1,
+        "h1Count": 2,
         "h2Count": 8,
         "images": 9,
         "imagesWithoutAlt": 0,
@@ -1575,11 +1719,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1087,
-        "headings": 26
+        "wordCount": 1123,
+        "headings": 27
       },
-      "scrapedAt": "2026-09-19T08:34:55.452Z",
-      "hash": "f8493bdd99ece10c13b0bbfb8304929b",
+      "scrapedAt": "2026-09-19T13:44:01.182Z",
+      "hash": "e2e4f05e79b4c7ecb721612bfce56c3f",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -1601,9 +1745,9 @@
         "metaDescription": "Human Rights Watch defends the rights of people in 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice",
         "h1Count": 0,
         "h2Count": 18,
-        "images": 68,
+        "images": 67,
         "imagesWithoutAlt": 0,
-        "links": 461,
+        "links": 460,
         "canonical": "https://www.hrw.org/",
         "ogTitle": "Human Rights Watch defends the rights of people in 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice",
         "schemaOrg": true
@@ -1623,11 +1767,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 5782,
+        "wordCount": 5780,
         "headings": 143
       },
-      "scrapedAt": "2026-09-19T08:34:57.608Z",
-      "hash": "565fd0eacceb4e21bdcee8b8de8e3508",
+      "scrapedAt": "2026-09-19T13:44:03.390Z",
+      "hash": "7f7978e8c0b6818932f990791a423f05",
       "scores": {
         "accessibility": 100,
         "seo": 85,
@@ -1642,46 +1786,46 @@
       "type": "ngo",
       "region": "international",
       "category": "poverty",
-      "title": "Oxfam - Fighting Inequality to End Poverty & Injustice | OxfamOxfamOxfam",
-      "description": "Oxfam is a global organization that fights inequality to end poverty and injustice. Join us and let’s build a more equal future—together.",
+      "title": "The future is equal | Oxfam InternationalOxfam Internationalicon-searchicon-searchworld-mapsocial-facebooksocial-twittersocial-youtubesocial-instagramOxfam International",
+      "description": "Oxfam is an international confederation of 21 NGOs working with partners in over 90 countries to end the injustices that cause poverty.",
       "seo": {
-        "title": "Oxfam - Fighting Inequality to End Poverty & Injustice | OxfamOxfamOxfam",
-        "metaDescription": "Oxfam is a global organization that fights inequality to end poverty and injustice. Join us and let’s build a more equal future—together.",
-        "h1Count": 1,
-        "h2Count": 8,
-        "images": 22,
-        "imagesWithoutAlt": 1,
-        "links": 246,
-        "canonical": "https://www.oxfamamerica.org/",
-        "ogTitle": "Oxfam America",
+        "title": "The future is equal | Oxfam InternationalOxfam Internationalicon-searchicon-searchworld-mapsocial-facebooksocial-twittersocial-youtubesocial-instagramOxfam International",
+        "metaDescription": "Oxfam is an international confederation of 21 NGOs working with partners in over 90 countries to end the injustices that cause poverty.",
+        "h1Count": 0,
+        "h2Count": 10,
+        "images": 6,
+        "imagesWithoutAlt": 0,
+        "links": 90,
+        "canonical": "https://www.oxfam.org/en",
+        "ogTitle": "Oxfam International",
         "schemaOrg": true
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 5,
-        "ariaLandmarks": 4
+        "formLabels": 4,
+        "ariaLandmarks": 3
       },
       "performance": {
-        "scripts": 74,
+        "scripts": 22,
         "stylesheets": 2,
-        "iframes": 4
+        "iframes": 1
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1791,
-        "headings": 26
+        "wordCount": 907,
+        "headings": 21
       },
-      "scrapedAt": "2026-09-19T08:35:00.579Z",
-      "hash": "5fd81369e8442685e94668c8a9cdc6ef",
+      "scrapedAt": "2026-09-19T13:44:06.328Z",
+      "hash": "243212fcbd38aa8d571383a42f30a669",
       "scores": {
-        "accessibility": 95,
-        "seo": 100,
+        "accessibility": 100,
+        "seo": 85,
         "performance": 80,
         "security": 100,
-        "overall": 94
+        "overall": 91
       }
     },
     {
@@ -1722,7 +1866,7 @@
         "wordCount": 110,
         "headings": 3
       },
-      "scrapedAt": "2026-09-19T08:35:02.440Z",
+      "scrapedAt": "2026-09-19T13:44:08.012Z",
       "hash": "220f4b0a44fd1dc4256aa29cf6230e42",
       "scores": {
         "accessibility": 100,
@@ -1758,7 +1902,7 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 26,
+        "scripts": 24,
         "stylesheets": 4,
         "iframes": 0
       },
@@ -1767,11 +1911,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1419,
+        "wordCount": 1418,
         "headings": 47
       },
-      "scrapedAt": "2026-09-19T08:35:05.667Z",
-      "hash": "475a7f081415f8b9a094c0d31175c685",
+      "scrapedAt": "2026-09-19T13:44:10.657Z",
+      "hash": "d0cc8abc434226955ea029875bc24586",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -1815,11 +1959,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1511,
+        "wordCount": 1515,
         "headings": 16
       },
-      "scrapedAt": "2026-09-19T08:35:08.654Z",
-      "hash": "f58aafd5e54a194df7de9c74f98361f5",
+      "scrapedAt": "2026-09-19T13:44:13.469Z",
+      "hash": "b8b9d6c33908d71c09b2f6a41e1b70c7",
       "scores": {
         "accessibility": 95,
         "seo": 80,
@@ -1834,40 +1978,40 @@
       "type": "ngo",
       "region": "international",
       "category": "environment",
-      "title": "Be a Force for the Future | NRDCClose searchSearchNRDCNRDCNRDCNRDCSearchNRDC LogoBack to topBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
+      "title": "Be a Force for the Future | NRDCClose searchSearchNRDCNRDCNRDCNRDCSearchNRDC LogoBack to topBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
       "description": "",
       "seo": {
-        "title": "Be a Force for the Future | NRDCClose searchSearchNRDCNRDCNRDCNRDCSearchNRDC LogoBack to topBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
+        "title": "Be a Force for the Future | NRDCClose searchSearchNRDCNRDCNRDCNRDCSearchNRDC LogoBack to topBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter IconBack ButtonSearch IconFilter Icon",
         "metaDescription": "",
         "h1Count": 1,
-        "h2Count": 9,
-        "images": 19,
+        "h2Count": 10,
+        "images": 18,
         "imagesWithoutAlt": 0,
-        "links": 136,
+        "links": 134,
         "canonical": "https://www.nrdc.org/",
         "ogTitle": "",
         "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 45,
+        "formLabels": 54,
         "ariaLandmarks": 3
       },
       "performance": {
-        "scripts": 91,
-        "stylesheets": 18,
-        "iframes": 5
+        "scripts": 51,
+        "stylesheets": 17,
+        "iframes": 4
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2221,
-        "headings": 32
+        "wordCount": 2855,
+        "headings": 41
       },
-      "scrapedAt": "2026-09-19T08:35:10.834Z",
-      "hash": "d16a7100642a350b9914b24a7d30eba9",
+      "scrapedAt": "2026-09-19T13:44:15.715Z",
+      "hash": "551f6a6b921ceca31bf4daf9ec388561",
       "scores": {
         "accessibility": 100,
         "seo": 80,
@@ -1891,7 +2035,7 @@
         "h2Count": 13,
         "images": 35,
         "imagesWithoutAlt": 0,
-        "links": 139,
+        "links": 137,
         "canonical": "https://www.nature.org/en-us/",
         "ogTitle": "The Nature Conservancy",
         "schemaOrg": false
@@ -1902,7 +2046,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 65,
+        "scripts": 64,
         "stylesheets": 7,
         "iframes": 4
       },
@@ -1911,11 +2055,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2348,
+        "wordCount": 2330,
         "headings": 40
       },
-      "scrapedAt": "2026-09-19T08:35:13.067Z",
-      "hash": "0fd318614461501fbe8bde4f9cc164c6",
+      "scrapedAt": "2026-09-19T13:44:18.287Z",
+      "hash": "ff5e8e77b20241db3d46ec2c90856286",
       "scores": {
         "accessibility": 100,
         "seo": 95,
@@ -1962,7 +2106,7 @@
         "wordCount": 3783,
         "headings": 15
       },
-      "scrapedAt": "2026-09-19T08:35:15.196Z",
+      "scrapedAt": "2026-09-19T13:44:21.192Z",
       "hash": "c4b77406e8d245a4fea23db9b2f24bcb",
       "scores": {
         "accessibility": 80,
@@ -1978,46 +2122,46 @@
       "type": "ngo",
       "region": "international",
       "category": "environment",
-      "title": "Environmental Defense Fund - Finding the ways that work | EDFMagnifying GlassTwitterLinkedInInstagramFacebookTikTok",
-      "description": "We're a global environmental organization driving game-changing solutions to our biggest environmental issues like climate change, air pollution and more.",
+      "title": "Environmental Defense Fund - Finding the ways that workMagnifying GlassTwitterLinkedInInstagramFacebookTikTok",
+      "description": "We're an environmental organization creating lasting solutions to our biggest environmental issues — climate change, air pollution and more.",
       "seo": {
-        "title": "Environmental Defense Fund - Finding the ways that work | EDFMagnifying GlassTwitterLinkedInInstagramFacebookTikTok",
-        "metaDescription": "We're a global environmental organization driving game-changing solutions to our biggest environmental issues like climate change, air pollution and more.",
+        "title": "Environmental Defense Fund - Finding the ways that workMagnifying GlassTwitterLinkedInInstagramFacebookTikTok",
+        "metaDescription": "We're an environmental organization creating lasting solutions to our biggest environmental issues — climate change, air pollution and more.",
         "h1Count": 1,
-        "h2Count": 8,
-        "images": 29,
-        "imagesWithoutAlt": 0,
-        "links": 126,
+        "h2Count": 6,
+        "images": 65,
+        "imagesWithoutAlt": 2,
+        "links": 132,
         "canonical": "https://www.edf.org/",
         "ogTitle": "Environmental Defense Fund - Finding the ways that work",
         "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 1,
+        "formLabels": 0,
         "ariaLandmarks": 3
       },
       "performance": {
-        "scripts": 27,
-        "stylesheets": 7,
-        "iframes": 1
+        "scripts": 29,
+        "stylesheets": 6,
+        "iframes": 3
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2138,
-        "headings": 28
+        "wordCount": 1983,
+        "headings": 26
       },
-      "scrapedAt": "2026-09-19T08:35:17.394Z",
-      "hash": "12e94ad91e4fcfdf238d3b96acd656ec",
+      "scrapedAt": "2026-09-19T13:44:23.892Z",
+      "hash": "6e6cd913e759671e37d1160ef0dc55c7",
       "scores": {
-        "accessibility": 100,
+        "accessibility": 90,
         "seo": 95,
         "performance": 80,
         "security": 100,
-        "overall": 94
+        "overall": 91
       }
     },
     {
@@ -2048,7 +2192,7 @@
       "performance": {
         "scripts": 105,
         "stylesheets": 17,
-        "iframes": 2
+        "iframes": 3
       },
       "security": {
         "isHttps": true,
@@ -2058,8 +2202,8 @@
         "wordCount": 11422,
         "headings": 26
       },
-      "scrapedAt": "2026-09-19T08:35:20.561Z",
-      "hash": "6a1230d6ee3f7283d34abf8537e70146",
+      "scrapedAt": "2026-09-19T13:44:27.598Z",
+      "hash": "d607e2fc9d83f81d11f0b29f3fa67a63",
       "scores": {
         "accessibility": 75,
         "seo": 100,
@@ -2081,7 +2225,7 @@
         "metaDescription": "Ocean Conservancy is a US-based organization that works globally to protect the ocean. Together, we are securing a healthy ocean and a thriving planet, forever and for everyone.",
         "h1Count": 1,
         "h2Count": 7,
-        "images": 58,
+        "images": 57,
         "imagesWithoutAlt": 9,
         "links": 89,
         "canonical": "https://oceanconservancy.org/",
@@ -2094,7 +2238,7 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 79,
+        "scripts": 77,
         "stylesheets": 11,
         "iframes": 2
       },
@@ -2106,8 +2250,8 @@
         "wordCount": 1093,
         "headings": 24
       },
-      "scrapedAt": "2026-09-19T08:35:22.785Z",
-      "hash": "0d7edd0a85e1d3141f9a7763c1bcf3be",
+      "scrapedAt": "2026-09-19T13:44:29.910Z",
+      "hash": "dcfce4e7129c6738fe300089f34cf128",
       "scores": {
         "accessibility": 50,
         "seo": 100,
@@ -2154,7 +2298,7 @@
         "wordCount": 4625,
         "headings": 17
       },
-      "scrapedAt": "2026-09-19T08:35:25.348Z",
+      "scrapedAt": "2026-09-19T13:44:32.774Z",
       "hash": "d0df7a14a406f29ca0de8c70cae71aa4",
       "scores": {
         "accessibility": 50,
@@ -2202,7 +2346,7 @@
         "wordCount": 359,
         "headings": 6
       },
-      "scrapedAt": "2026-09-19T08:35:27.526Z",
+      "scrapedAt": "2026-09-19T13:44:35.138Z",
       "hash": "ee9dbfb1546ab45d16eaaa7a4c5ce730",
       "scores": {
         "accessibility": 90,
@@ -2250,7 +2394,7 @@
         "wordCount": 2883,
         "headings": 49
       },
-      "scrapedAt": "2026-09-19T08:35:29.979Z",
+      "scrapedAt": "2026-09-19T13:44:38.487Z",
       "hash": "27e94accbe32f8097f6f31374c450ffb",
       "scores": {
         "accessibility": 100,
@@ -2275,7 +2419,7 @@
         "h2Count": 37,
         "images": 22,
         "imagesWithoutAlt": 0,
-        "links": 294,
+        "links": 295,
         "canonical": "https://discussions.apple.com/welcome",
         "ogTitle": "Official Apple Support Community",
         "schemaOrg": false
@@ -2298,14 +2442,62 @@
         "wordCount": 4128,
         "headings": 47
       },
-      "scrapedAt": "2026-09-19T08:35:32.374Z",
-      "hash": "ccc90ddcb904c0e5affe5a124f6b4c58",
+      "scrapedAt": "2026-09-19T13:44:40.885Z",
+      "hash": "95350ee806362a073559a3001b1e8d7f",
       "scores": {
         "accessibility": 100,
         "seo": 95,
         "performance": 100,
         "security": 100,
         "overall": 99
+      }
+    },
+    {
+      "url": "https://checkcoverage.apple.com",
+      "name": "Check Coverage",
+      "type": "enterprise",
+      "region": "international",
+      "category": "general",
+      "title": "View Coverage - AppleCare & Warranty",
+      "description": "Check your Apple warranty status. Enter a serial number to review your eligibility for support and extended coverage.",
+      "seo": {
+        "title": "View Coverage - AppleCare & Warranty",
+        "metaDescription": "Check your Apple warranty status. Enter a serial number to review your eligibility for support and extended coverage.",
+        "h1Count": 1,
+        "h2Count": 35,
+        "images": 2,
+        "imagesWithoutAlt": 0,
+        "links": 225,
+        "canonical": "https://checkcoverage.apple.com",
+        "ogTitle": "",
+        "schemaOrg": false
+      },
+      "accessibility": {
+        "hasLangAttr": true,
+        "formLabels": 0,
+        "ariaLandmarks": 4
+      },
+      "performance": {
+        "scripts": 18,
+        "stylesheets": 16,
+        "iframes": 0
+      },
+      "security": {
+        "isHttps": true,
+        "mixedContent": 0
+      },
+      "content": {
+        "wordCount": 3608,
+        "headings": 36
+      },
+      "scrapedAt": "2026-09-19T13:44:42.925Z",
+      "hash": "54afa750b9b52d128daad7dbc7a5f41f",
+      "scores": {
+        "accessibility": 100,
+        "seo": 95,
+        "performance": 85,
+        "security": 100,
+        "overall": 95
       }
     },
     {
@@ -2346,7 +2538,7 @@
         "wordCount": 30,
         "headings": 0
       },
-      "scrapedAt": "2026-09-19T08:35:54.572Z",
+      "scrapedAt": "2026-09-19T13:44:45.206Z",
       "hash": "52979af8c894cf046ce27bbdb0405435",
       "scores": {
         "accessibility": 100,
@@ -2391,11 +2583,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1961,
+        "wordCount": 1970,
         "headings": 32
       },
-      "scrapedAt": "2026-09-19T08:35:56.588Z",
-      "hash": "756cdb1c8d8fe9f0089fa7aa8d6d2f03",
+      "scrapedAt": "2026-09-19T13:44:47.313Z",
+      "hash": "f4a19d7f6178d737a9ff3ffbbb588e49",
       "scores": {
         "accessibility": 55,
         "seo": 75,
@@ -2439,11 +2631,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1900,
+        "wordCount": 1913,
         "headings": 47
       },
-      "scrapedAt": "2026-09-19T08:36:03.044Z",
-      "hash": "9dd8124ddf4f9032ee73dd4702f53005",
+      "scrapedAt": "2026-09-19T13:44:53.319Z",
+      "hash": "27c6001152542303ddadedf0ca07b1ac",
       "scores": {
         "accessibility": 80,
         "seo": 70,
@@ -2467,7 +2659,7 @@
         "h2Count": 54,
         "images": 198,
         "imagesWithoutAlt": 0,
-        "links": 492,
+        "links": 493,
         "canonical": "https://www.apple.com/apple-fitness-plus/",
         "ogTitle": "Apple Fitness+",
         "schemaOrg": true
@@ -2479,7 +2671,7 @@
       },
       "performance": {
         "scripts": 18,
-        "stylesheets": 7,
+        "stylesheets": 8,
         "iframes": 0
       },
       "security": {
@@ -2487,11 +2679,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 10342,
+        "wordCount": 10368,
         "headings": 91
       },
-      "scrapedAt": "2026-09-19T08:36:05.587Z",
-      "hash": "905411be7ac92f00a2a1a2303e9b7f4b",
+      "scrapedAt": "2026-09-19T13:44:56.172Z",
+      "hash": "fe7ee9cb48f761314ef6f2454bbda1f5",
       "scores": {
         "accessibility": 100,
         "seo": 85,
@@ -2515,7 +2707,7 @@
         "h2Count": 12,
         "images": 152,
         "imagesWithoutAlt": 0,
-        "links": 272,
+        "links": 279,
         "canonical": "",
         "ogTitle": "",
         "schemaOrg": false
@@ -2535,11 +2727,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 949,
+        "wordCount": 894,
         "headings": 13
       },
-      "scrapedAt": "2026-09-19T08:36:07.517Z",
-      "hash": "12e88e810d293fa770289ee442a13320",
+      "scrapedAt": "2026-09-19T13:44:58.327Z",
+      "hash": "35da8f9dabe7c7737cdee31fb99dffb1",
       "scores": {
         "accessibility": 80,
         "seo": 70,
@@ -2586,7 +2778,7 @@
         "wordCount": 7478,
         "headings": 4
       },
-      "scrapedAt": "2026-09-19T08:36:10.222Z",
+      "scrapedAt": "2026-09-19T13:45:01.387Z",
       "hash": "13e53c057e80a314758b87ea2e520633",
       "scores": {
         "accessibility": 100,
@@ -2634,7 +2826,7 @@
         "wordCount": 205,
         "headings": 4
       },
-      "scrapedAt": "2026-09-19T08:36:12.274Z",
+      "scrapedAt": "2026-09-19T13:45:03.487Z",
       "hash": "4276b448f69824163a4b4a7c57ee78b9",
       "scores": {
         "accessibility": 75,
@@ -2657,9 +2849,9 @@
         "metaDescription": "Invent with purpose, realize cost savings, and make your organization more efficient with Microsoft Azure’s open and flexible cloud computing platform.",
         "h1Count": 1,
         "h2Count": 14,
-        "images": 122,
+        "images": 121,
         "imagesWithoutAlt": 0,
-        "links": 350,
+        "links": 352,
         "canonical": "https://azure.microsoft.com/en-us",
         "ogTitle": "Cloud Computing Services | Microsoft Azure",
         "schemaOrg": false
@@ -2670,7 +2862,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 107,
+        "scripts": 83,
         "stylesheets": 32,
         "iframes": 1
       },
@@ -2679,11 +2871,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2718,
+        "wordCount": 2667,
         "headings": 82
       },
-      "scrapedAt": "2026-09-19T08:36:16.518Z",
-      "hash": "e6ab46c2f4e0e074f919f383092d13b1",
+      "scrapedAt": "2026-09-19T13:45:08.428Z",
+      "hash": "f87f63a56a3dbecfbc49601686ca8b9e",
       "scores": {
         "accessibility": 100,
         "seo": 95,
@@ -2730,7 +2922,7 @@
         "wordCount": 127,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:36:18.603Z",
+      "scrapedAt": "2026-09-19T13:45:10.506Z",
       "hash": "76cf111bc91be80c3e3b58491d582047",
       "scores": {
         "accessibility": 80,
@@ -2746,17 +2938,17 @@
       "type": "enterprise",
       "region": "international",
       "category": "general",
-      "title": "XBOX Official Site: Play Games Anywhere | XBOXYour Privacy Choices Opt-Out Icon",
-      "description": "Play with XBOX on PC, console, & more. Explore Game Pass. Discover thousands of games. Shop controllers, handhelds, & consoles. Join players anywhere.",
+      "title": "XBOX Official Site (Canada): Play Games Anywhere | XBOXYour Privacy Choices Opt-Out Icon",
+      "description": "Play with XBOX on PC, console & more. Explore Game Pass. Discover thousands of games. Shop controllers, handhelds & consoles. Join players anywhere.",
       "seo": {
-        "title": "XBOX Official Site: Play Games Anywhere | XBOXYour Privacy Choices Opt-Out Icon",
-        "metaDescription": "Play with XBOX on PC, console, & more. Explore Game Pass. Discover thousands of games. Shop controllers, handhelds, & consoles. Join players anywhere.",
+        "title": "XBOX Official Site (Canada): Play Games Anywhere | XBOXYour Privacy Choices Opt-Out Icon",
+        "metaDescription": "Play with XBOX on PC, console & more. Explore Game Pass. Discover thousands of games. Shop controllers, handhelds & consoles. Join players anywhere.",
         "h1Count": 1,
-        "h2Count": 28,
-        "images": 49,
+        "h2Count": 22,
+        "images": 38,
         "imagesWithoutAlt": 0,
-        "links": 207,
-        "canonical": "https://www.xbox.com/en-US/",
+        "links": 181,
+        "canonical": "https://www.xbox.com/en-CA/",
         "ogTitle": "XBOX Official Site: Consoles, Games, and Community | XBOX",
         "schemaOrg": true
       },
@@ -2766,8 +2958,8 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 61,
-        "stylesheets": 14,
+        "scripts": 51,
+        "stylesheets": 11,
         "iframes": 3
       },
       "security": {
@@ -2775,11 +2967,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2823,
-        "headings": 30
+        "wordCount": 2789,
+        "headings": 23
       },
-      "scrapedAt": "2026-09-19T08:36:21.352Z",
-      "hash": "9f7d0232a389e7bb644a9ea9f5fb529b",
+      "scrapedAt": "2026-09-19T13:45:13.217Z",
+      "hash": "0c85d9d803bcd05d6fa39e3d0872c2bb",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -2826,7 +3018,7 @@
         "wordCount": 1089,
         "headings": 51
       },
-      "scrapedAt": "2026-09-19T08:36:23.250Z",
+      "scrapedAt": "2026-09-19T13:45:15.436Z",
       "hash": "caba80b4afd1aa96f4802a6302efb778",
       "scores": {
         "accessibility": 70,
@@ -2851,8 +3043,8 @@
         "h2Count": 0,
         "images": 0,
         "imagesWithoutAlt": 0,
-        "links": 0,
-        "canonical": "https://apps.microsoft.com/home?hl=en-US&gl=US",
+        "links": 2,
+        "canonical": "https://apps.microsoft.com/home?hl=en-US&gl=CA",
         "ogTitle": "Microsoft Store - Download apps, games & more for your Windows PC",
         "schemaOrg": true
       },
@@ -2871,11 +3063,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 4,
+        "wordCount": 67,
         "headings": 0
       },
-      "scrapedAt": "2026-09-19T08:36:25.481Z",
-      "hash": "ab72a12ac88592b471c004ac633a1018",
+      "scrapedAt": "2026-09-19T13:45:18.797Z",
+      "hash": "2564a5fca93738bb4bf153ca16087cd3",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -2899,7 +3091,7 @@
         "h2Count": 10,
         "images": 75,
         "imagesWithoutAlt": 0,
-        "links": 180,
+        "links": 182,
         "canonical": "https://developer.microsoft.com/en-us/",
         "ogTitle": "Microsoft Developer",
         "schemaOrg": false
@@ -2910,7 +3102,7 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 14,
+        "scripts": 10,
         "stylesheets": 1,
         "iframes": 0
       },
@@ -2919,11 +3111,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2090,
+        "wordCount": 2157,
         "headings": 93
       },
-      "scrapedAt": "2026-09-19T08:36:28.817Z",
-      "hash": "ea86c9f432675f967a02e650679eb889",
+      "scrapedAt": "2026-09-19T13:45:22.725Z",
+      "hash": "f6b949890ea580d461e7502ab47dd0b6",
       "scores": {
         "accessibility": 100,
         "seo": 95,
@@ -2947,7 +3139,7 @@
         "h2Count": 3,
         "images": 10,
         "imagesWithoutAlt": 6,
-        "links": 78,
+        "links": 80,
         "canonical": "",
         "ogTitle": "Microsoft Learn: Build with answers in reach",
         "schemaOrg": true
@@ -2967,11 +3159,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 458,
+        "wordCount": 522,
         "headings": 7
       },
-      "scrapedAt": "2026-09-19T08:36:31.098Z",
-      "hash": "150071aa98cfdf66051a15fd7c1be025",
+      "scrapedAt": "2026-09-19T13:45:25.395Z",
+      "hash": "d6374a5f85b3227050c3904f503b4ff0",
       "scores": {
         "accessibility": 70,
         "seo": 90,
@@ -3006,7 +3198,7 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 85,
+        "scripts": 126,
         "stylesheets": 56,
         "iframes": 1
       },
@@ -3015,11 +3207,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 8264,
+        "wordCount": 8247,
         "headings": 23
       },
-      "scrapedAt": "2026-09-19T08:36:37.408Z",
-      "hash": "daaa9bc322d0fa914842c51d2dcd2ec8",
+      "scrapedAt": "2026-09-19T13:45:31.373Z",
+      "hash": "6402d3ac9ecdfb7ccd27c82a727b7063",
       "scores": {
         "accessibility": 80,
         "seo": 95,
@@ -3041,9 +3233,9 @@
         "metaDescription": "Accelerate your AI transformation with Microsoft Marketplace—your trusted source to find, try, and buy cloud solutions, AI apps, and agents to meet",
         "h1Count": 1,
         "h2Count": 6,
-        "images": 87,
+        "images": 86,
         "imagesWithoutAlt": 0,
-        "links": 68,
+        "links": 70,
         "canonical": "https://marketplace.microsoft.com/en-us/",
         "ogTitle": "Microsoft Marketplace",
         "schemaOrg": false
@@ -3054,20 +3246,20 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 45,
+        "scripts": 23,
         "stylesheets": 2,
-        "iframes": 3
+        "iframes": 0
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 87935,
+        "wordCount": 88014,
         "headings": 12
       },
-      "scrapedAt": "2026-09-19T08:36:40.790Z",
-      "hash": "4fb387d3becb979760e2d58748bc841a",
+      "scrapedAt": "2026-09-19T13:45:34.874Z",
+      "hash": "7717bfd4cf0e08a7faf3029f77ae0337",
       "scores": {
         "accessibility": 80,
         "seo": 95,
@@ -3091,7 +3283,7 @@
         "h2Count": 19,
         "images": 17,
         "imagesWithoutAlt": 0,
-        "links": 138,
+        "links": 140,
         "canonical": "https://visualstudio.microsoft.com",
         "ogTitle": "Visual Studio: IDE and Code Editor for Software Development",
         "schemaOrg": true
@@ -3102,7 +3294,7 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 38,
+        "scripts": 37,
         "stylesheets": 44,
         "iframes": 0
       },
@@ -3111,11 +3303,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 13048,
+        "wordCount": 13111,
         "headings": 27
       },
-      "scrapedAt": "2026-09-19T08:36:43.280Z",
-      "hash": "c05123876ba0ec5759b77bfa77eb5728",
+      "scrapedAt": "2026-09-19T13:45:37.638Z",
+      "hash": "1c83fa049c35918718b75dd545a2c2e3",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -3139,7 +3331,7 @@
         "h2Count": 3,
         "images": 28,
         "imagesWithoutAlt": 0,
-        "links": 193,
+        "links": 194,
         "canonical": "https://blog.google/",
         "ogTitle": "News from Google",
         "schemaOrg": true
@@ -3159,11 +3351,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1645,
+        "wordCount": 1667,
         "headings": 38
       },
-      "scrapedAt": "2026-09-19T08:36:45.120Z",
-      "hash": "d6d7db8c2b766e78654c6b7510d5bda3",
+      "scrapedAt": "2026-09-19T13:45:39.624Z",
+      "hash": "293983a6869a74cd48d744bf4b798264",
       "scores": {
         "accessibility": 80,
         "seo": 100,
@@ -3187,7 +3379,7 @@
         "h2Count": 11,
         "images": 83,
         "imagesWithoutAlt": 0,
-        "links": 202,
+        "links": 203,
         "canonical": "https://deepmind.google/",
         "ogTitle": "Google DeepMind",
         "schemaOrg": true
@@ -3198,7 +3390,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 13,
+        "scripts": 14,
         "stylesheets": 4,
         "iframes": 5
       },
@@ -3207,11 +3399,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1638,
+        "wordCount": 1675,
         "headings": 45
       },
-      "scrapedAt": "2026-09-19T08:36:48.877Z",
-      "hash": "74d594c2360efb1187641de07c04acae",
+      "scrapedAt": "2026-09-19T13:45:42.095Z",
+      "hash": "5c68cb7279a4910e139d21fb427d01ed",
       "scores": {
         "accessibility": 100,
         "seo": 85,
@@ -3235,7 +3427,7 @@
         "h2Count": 18,
         "images": 181,
         "imagesWithoutAlt": 0,
-        "links": 235,
+        "links": 236,
         "canonical": "https://ai.google/",
         "ogTitle": "Google AI - How we're making AI helpful for everyone",
         "schemaOrg": true
@@ -3255,11 +3447,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 4083,
+        "wordCount": 4120,
         "headings": 67
       },
-      "scrapedAt": "2026-09-19T08:36:53.444Z",
-      "hash": "66dd8174ca89f2658d10597fdd96bb62",
+      "scrapedAt": "2026-09-19T13:45:46.184Z",
+      "hash": "7c7437efb0a4bcd956b0393916148f63",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -3275,27 +3467,27 @@
       "region": "international",
       "category": "general",
       "title": "YouTube",
-      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "description": "Enjoy the videos and music that you love, upload original content and share it all with friends, family and the world on YouTube.",
       "seo": {
         "title": "YouTube",
-        "metaDescription": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "metaDescription": "Enjoy the videos and music that you love, upload original content and share it all with friends, family and the world on YouTube.",
         "h1Count": 4,
         "h2Count": 1,
-        "images": 7,
-        "imagesWithoutAlt": 5,
-        "links": 24,
+        "images": 10,
+        "imagesWithoutAlt": 7,
+        "links": 39,
         "canonical": "https://www.youtube.com/",
         "ogTitle": "YouTube",
         "schemaOrg": false
       },
       "accessibility": {
         "hasLangAttr": true,
-        "formLabels": 5,
+        "formLabels": 10,
         "ariaLandmarks": 4
       },
       "performance": {
-        "scripts": 48,
-        "stylesheets": 8,
+        "scripts": 49,
+        "stylesheets": 9,
         "iframes": 2
       },
       "security": {
@@ -3303,17 +3495,17 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 538,
+        "wordCount": 575,
         "headings": 7
       },
-      "scrapedAt": "2026-09-19T08:36:56.483Z",
-      "hash": "d91a9ab6bb40d5c215d4d353dde4228d",
+      "scrapedAt": "2026-09-19T13:45:49.308Z",
+      "hash": "a1bffcc08d05830ccd780839b669a789",
       "scores": {
-        "accessibility": 75,
+        "accessibility": 70,
         "seo": 95,
         "performance": 80,
         "security": 100,
-        "overall": 88
+        "overall": 86
       }
     },
     {
@@ -3331,7 +3523,7 @@
         "h2Count": 3,
         "images": 28,
         "imagesWithoutAlt": 0,
-        "links": 193,
+        "links": 194,
         "canonical": "https://blog.google/",
         "ogTitle": "News from Google",
         "schemaOrg": true
@@ -3351,11 +3543,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1645,
+        "wordCount": 1667,
         "headings": 38
       },
-      "scrapedAt": "2026-09-19T08:36:58.372Z",
-      "hash": "d6d7db8c2b766e78654c6b7510d5bda3",
+      "scrapedAt": "2026-09-19T13:45:51.301Z",
+      "hash": "293983a6869a74cd48d744bf4b798264",
       "scores": {
         "accessibility": 80,
         "seo": 100,
@@ -3379,7 +3571,7 @@
         "h2Count": 7,
         "images": 1,
         "imagesWithoutAlt": 0,
-        "links": 33,
+        "links": 34,
         "canonical": "https://www.google.com/about/careers/applications/",
         "ogTitle": "Search for your career at Google.",
         "schemaOrg": false
@@ -3399,11 +3591,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 8467,
+        "wordCount": 8505,
         "headings": 7
       },
-      "scrapedAt": "2026-09-19T08:37:00.516Z",
-      "hash": "3f649d0015a967b66f9f5bb588ef3f45",
+      "scrapedAt": "2026-09-19T13:45:53.533Z",
+      "hash": "4fe5762b0ea8b500ccce90459fa24856",
       "scores": {
         "accessibility": 100,
         "seo": 80,
@@ -3450,7 +3642,7 @@
         "wordCount": 45781,
         "headings": 165
       },
-      "scrapedAt": "2026-09-19T08:37:03.014Z",
+      "scrapedAt": "2026-09-19T13:45:55.931Z",
       "hash": "8431ea4a247ea8f96c02e4ede5754848",
       "scores": {
         "accessibility": 70,
@@ -3498,7 +3690,7 @@
         "wordCount": 3854,
         "headings": 2
       },
-      "scrapedAt": "2026-09-19T08:37:05.585Z",
+      "scrapedAt": "2026-09-19T13:45:58.732Z",
       "hash": "cf592b6218d3ab9e6818b4a2750cc084",
       "scores": {
         "accessibility": 80,
@@ -3543,11 +3735,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1325,
+        "wordCount": 1652,
         "headings": 0
       },
-      "scrapedAt": "2026-09-19T08:37:07.587Z",
-      "hash": "9ab1a6287560b15ad904246339d6072d",
+      "scrapedAt": "2026-09-19T13:46:00.817Z",
+      "hash": "7425a9ddc923dc7b8b039c05cde2fea4",
       "scores": {
         "accessibility": 100,
         "seo": 55,
@@ -3571,7 +3763,7 @@
         "h2Count": 9,
         "images": 12,
         "imagesWithoutAlt": 0,
-        "links": 18,
+        "links": 19,
         "canonical": "https://crisisresilience.google/",
         "ogTitle": "Crisis Resilience | Google",
         "schemaOrg": true
@@ -3591,11 +3783,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 452,
+        "wordCount": 490,
         "headings": 12
       },
-      "scrapedAt": "2026-09-19T08:37:09.641Z",
-      "hash": "6385682279cf8bcd19a4dc07947bff4d",
+      "scrapedAt": "2026-09-19T13:46:02.959Z",
+      "hash": "86f42347737ba99c213a16a8d7821f10",
       "scores": {
         "accessibility": 80,
         "seo": 100,
@@ -3619,8 +3811,8 @@
         "h2Count": 3,
         "images": 14,
         "imagesWithoutAlt": 0,
-        "links": 39,
-        "canonical": "https://www.google.org/intl/en_us/",
+        "links": 40,
+        "canonical": "https://www.google.org/",
         "ogTitle": "Google.org: Google's philanthropy",
         "schemaOrg": true
       },
@@ -3639,11 +3831,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 280,
+        "wordCount": 318,
         "headings": 15
       },
-      "scrapedAt": "2026-09-19T08:37:11.411Z",
-      "hash": "f4e9ec39c75a5f2704a29104d224bde2",
+      "scrapedAt": "2026-09-19T13:46:05.253Z",
+      "hash": "d1a86a37ee6415cfada6ebd5ca7582d7",
       "scores": {
         "accessibility": 80,
         "seo": 100,
@@ -3690,7 +3882,7 @@
         "wordCount": 14,
         "headings": 0
       },
-      "scrapedAt": "2026-09-19T08:37:13.336Z",
+      "scrapedAt": "2026-09-19T13:46:07.233Z",
       "hash": "15bba9bcda973ff47a6b2489d4e79470",
       "scores": {
         "accessibility": 100,
@@ -3726,7 +3918,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 23,
+        "scripts": 24,
         "stylesheets": 7,
         "iframes": 0
       },
@@ -3738,8 +3930,8 @@
         "wordCount": 1672,
         "headings": 8
       },
-      "scrapedAt": "2026-09-19T08:37:15.720Z",
-      "hash": "c52de3ba27ed31d31b3dd5749184cc3e",
+      "scrapedAt": "2026-09-19T13:46:09.635Z",
+      "hash": "0199688ec92879399ee447bec4256eb2",
       "scores": {
         "accessibility": 70,
         "seo": 95,
@@ -3774,7 +3966,7 @@
         "ariaLandmarks": 1
       },
       "performance": {
-        "scripts": 45,
+        "scripts": 44,
         "stylesheets": 17,
         "iframes": 0
       },
@@ -3786,8 +3978,8 @@
         "wordCount": 2783,
         "headings": 18
       },
-      "scrapedAt": "2026-09-19T08:37:17.975Z",
-      "hash": "055efc9b9a4c239f72a229ed45f6b395",
+      "scrapedAt": "2026-09-19T13:46:11.933Z",
+      "hash": "99a71d651d9fe6cdfb2bb5d32f8cc6dc",
       "scores": {
         "accessibility": 70,
         "seo": 95,
@@ -3811,7 +4003,7 @@
         "h2Count": 6,
         "images": 14,
         "imagesWithoutAlt": 0,
-        "links": 67,
+        "links": 63,
         "canonical": "",
         "ogTitle": "Amazon's global career site",
         "schemaOrg": false
@@ -3822,20 +4014,20 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 34,
+        "scripts": 21,
         "stylesheets": 3,
-        "iframes": 3
+        "iframes": 2
       },
       "security": {
         "isHttps": true,
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 1151,
-        "headings": 11
+        "wordCount": 943,
+        "headings": 10
       },
-      "scrapedAt": "2026-09-19T08:37:20.414Z",
-      "hash": "d4a1311d2ef580f827b7f3acdcc6e04b",
+      "scrapedAt": "2026-09-19T13:46:14.781Z",
+      "hash": "1082281ee74c44b90124cbae34ecec1f",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -3882,7 +4074,7 @@
         "wordCount": 3428,
         "headings": 2
       },
-      "scrapedAt": "2026-09-19T08:37:22.289Z",
+      "scrapedAt": "2026-09-19T13:46:16.750Z",
       "hash": "593bff1ad7dcb3dfc13110772f1934a6",
       "scores": {
         "accessibility": 100,
@@ -3918,7 +4110,7 @@
         "ariaLandmarks": 0
       },
       "performance": {
-        "scripts": 15,
+        "scripts": 16,
         "stylesheets": 3,
         "iframes": 1
       },
@@ -3927,11 +4119,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 2562,
+        "wordCount": 3634,
         "headings": 37
       },
-      "scrapedAt": "2026-09-19T08:37:25.273Z",
-      "hash": "1a4284f85b29799b0bec69620926a282",
+      "scrapedAt": "2026-09-19T13:46:20.309Z",
+      "hash": "8d9417e04aea40b4f2bd9455596c9ebd",
       "scores": {
         "accessibility": 80,
         "seo": 85,
@@ -3978,7 +4170,7 @@
         "wordCount": 2276,
         "headings": 7
       },
-      "scrapedAt": "2026-09-19T08:37:27.893Z",
+      "scrapedAt": "2026-09-19T13:46:23.371Z",
       "hash": "12d5861f7f57cd08a0ae843ae9adbc63",
       "scores": {
         "accessibility": 80,
@@ -4026,7 +4218,7 @@
         "wordCount": 3925,
         "headings": 53
       },
-      "scrapedAt": "2026-09-19T08:37:29.971Z",
+      "scrapedAt": "2026-09-19T13:46:25.657Z",
       "hash": "125e9da2fe5096520a466bd8d7fee265",
       "scores": {
         "accessibility": 50,
@@ -4074,7 +4266,7 @@
         "wordCount": 10785,
         "headings": 13
       },
-      "scrapedAt": "2026-09-19T08:37:32.326Z",
+      "scrapedAt": "2026-09-19T13:46:28.232Z",
       "hash": "08d5ead388c2c61adc0214d2401ade71",
       "scores": {
         "accessibility": 50,
@@ -4122,7 +4314,7 @@
         "wordCount": 392,
         "headings": 2
       },
-      "scrapedAt": "2026-09-19T08:37:34.375Z",
+      "scrapedAt": "2026-09-19T13:46:30.432Z",
       "hash": "ad6835480f37e3a9222d073e649ca954",
       "scores": {
         "accessibility": 70,
@@ -4158,7 +4350,7 @@
         "ariaLandmarks": 2
       },
       "performance": {
-        "scripts": 43,
+        "scripts": 29,
         "stylesheets": 2,
         "iframes": 1
       },
@@ -4167,11 +4359,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 7390,
+        "wordCount": 7427,
         "headings": 30
       },
-      "scrapedAt": "2026-09-19T08:37:37.013Z",
-      "hash": "aab4be552ebd140ded380ea313f72eec",
+      "scrapedAt": "2026-09-19T13:46:33.197Z",
+      "hash": "c1d7c1ea40f2aea81a8c11d8d5b6fe94",
       "scores": {
         "accessibility": 100,
         "seo": 95,
@@ -4218,7 +4410,7 @@
         "wordCount": 393,
         "headings": 9
       },
-      "scrapedAt": "2026-09-19T08:37:39.467Z",
+      "scrapedAt": "2026-09-19T13:46:35.597Z",
       "hash": "e518c800b2d61d16b110ffb8a934d033",
       "scores": {
         "accessibility": 50,
@@ -4266,7 +4458,7 @@
         "wordCount": 794,
         "headings": 14
       },
-      "scrapedAt": "2026-09-19T08:37:42.725Z",
+      "scrapedAt": "2026-09-19T13:46:38.984Z",
       "hash": "eb8a7f6e8d2847beb09d67dbdc7d8db8",
       "scores": {
         "accessibility": 75,
@@ -4314,7 +4506,7 @@
         "wordCount": 726,
         "headings": 1
       },
-      "scrapedAt": "2026-09-19T08:37:44.826Z",
+      "scrapedAt": "2026-09-19T13:46:41.060Z",
       "hash": "cc32848e41e1aa3369ba1b55b7db2043",
       "scores": {
         "accessibility": 90,
@@ -4339,7 +4531,7 @@
         "h2Count": 13,
         "images": 77,
         "imagesWithoutAlt": 0,
-        "links": 55,
+        "links": 56,
         "canonical": "https://health.google/",
         "ogTitle": "Google for Health - What Is Google for Health?",
         "schemaOrg": true
@@ -4359,11 +4551,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 989,
+        "wordCount": 1027,
         "headings": 15
       },
-      "scrapedAt": "2026-09-19T08:37:46.975Z",
-      "hash": "793500925b3faf7fee54e1a0727d9a4b",
+      "scrapedAt": "2026-09-19T13:46:43.178Z",
+      "hash": "51c795d743c87e580eabe540b2914007",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -4387,7 +4579,7 @@
         "h2Count": 3,
         "images": 13,
         "imagesWithoutAlt": 0,
-        "links": 94,
+        "links": 96,
         "canonical": "https://copilot.com",
         "ogTitle": "",
         "schemaOrg": true
@@ -4407,11 +4599,11 @@
         "mixedContent": 0
       },
       "content": {
-        "wordCount": 8481,
+        "wordCount": 8543,
         "headings": 22
       },
-      "scrapedAt": "2026-09-19T08:37:49.175Z",
-      "hash": "d37e654912b73166940c6086b09476de",
+      "scrapedAt": "2026-09-19T13:46:45.588Z",
+      "hash": "40929fa5ab565f8081f23748eb777467",
       "scores": {
         "accessibility": 100,
         "seo": 100,
@@ -4458,7 +4650,7 @@
         "wordCount": 6982,
         "headings": 69
       },
-      "scrapedAt": "2026-09-19T08:37:51.315Z",
+      "scrapedAt": "2026-09-19T13:46:47.849Z",
       "hash": "55c7ff08a4cc7132c8991b527f252389",
       "scores": {
         "accessibility": 100,
@@ -4506,7 +4698,7 @@
         "wordCount": 1124,
         "headings": 49
       },
-      "scrapedAt": "2026-09-19T08:37:53.107Z",
+      "scrapedAt": "2026-09-19T13:46:49.889Z",
       "hash": "f7495228f5caf58e342da6efda7aecb3",
       "scores": {
         "accessibility": 100,
